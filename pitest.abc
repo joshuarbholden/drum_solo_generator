@@ -1,0 +1,14 @@
+%%abc-include percussions-JBH.abh
+
+X: 1
+T: drum voice
+M: 4/4
+L: 1/8
+Q:1/4=80
+K:none clef=perc
+%%flatbeams
+[V:1 clef=perc, stem=up]     % activate abc2xml.py map
+%%voicemap drummap  % activate abcm2ps/abc2svg map
+%%MIDI channel 10   % activate abc2midi map
+%%MIDI program 0
+[F^g][B^g][B^g][B^g] [F^g][f^g][e^g][e^g] |[d^g][G^g][F^g][E^g] [B^g][F^g][A^g][G^g] |[F^g][B^g][F^g][E^g] [e^g][B^g][e^g][F^g] |[F^g][B^g][A^g][F^g] [B^g][G^g][B^g][G^g] |[f^g][E^g][E^g][A^g] [A^g][B^g][E^g][f^g] |[F^g][d^g][E^g][B^g] [d^g][F^g][E^g][F^g] |

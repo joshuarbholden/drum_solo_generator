@@ -1,0 +1,14 @@
+%%abc-include percussions-JBH.abh
+
+X: 1
+T: Computer-generated \'Etude for Solo Drum Kit
+M: 4/4
+L: 1/8
+Q:1/4=80
+K:none clef=perc
+%%flatbeams
+[V:1 clef=perc, stem=up]     % activate abc2xml.py map
+%%voicemap drummap  % activate abcm2ps/abc2svg map
+%%MIDI channel 10   % activate abc2midi map
+%%MIDI program 0
+|:!p!!>![I: volinc 50][^eF]/2[F/2]!anti![I: volinc -20][^e]y!>![I: volinc 50][c^eF]y!anti![I: volinc -20][^e]y !>![I: volinc 50][^eF]y!anti![I: volinc -20][^eF]/2[F/2]!>![I: volinc 50][c^e]y!anti![I: volinc -20][^eF]/2[F/2] |!>![I: volinc 50][^e]y!anti![I: volinc -20][^eF]/2[F/2]!>![I: volinc 50][c^e]y!anti![I: volinc -20][^eF]/2[F/2] !>![I: volinc 50][^e]y!anti![I: volinc -20][^eF]y!>![I: volinc 50][c^e]y!anti![I: volinc -20][^eF]/2[F/2] |!>![I: volinc 50][^e]y!anti![I: volinc -20][^eF]/2[F/2]!>![I: volinc 50][c^e]y!anti![I: volinc -20][^e]y !>![I: volinc 50][^eF]y!anti![I: volinc -20][^eF]/2[F/2]!>![I: volinc 50][c^e]y!anti![I: volinc -20][^eF]/2[F/2] |[1G/2A/2A/2A/2 c/2c/2A/2F/2 c/2A/2A/2G/2 F/2c/2e/2F/2 :|2G/2A/2A/2A/2 c/2c/2A/2F/2 c/2A/2A/2G/2 !<(!F/2c/2!<)!e/2F/2 |:!mp![F]y[gF]y[c]y[gF]y zy[gF]/2[F/2][c]y[gF]y |zy[gF]/2[F/2][c]y[gF]/2[F/2] zy[gF]y[cF]y[gF]/2[F/2] |zy[gF]/2[F/2][c]y[gF]y [F]/2[F/2][g]y[cF]y[g]y |[1e/2z/2F/2F/2 z/2z/2A/2e/2 A/2A/2G/2c/2 G/2c/2F/2F/2 :|2e/2z/2F/2F/2 z/2z/2A/2e/2 A/2A/2G/2c/2 !>(!G/2c/2!>)!F/2F/2 |:!f![^eF]/2[F/2][^e]y[c^eF]y[^eF]/2[F/2] [^e]y[^eF]/2[F/2][c^e]y[_eF]y |[^eF]y[^eF]y[c^eF]y[^e]y [^eF]/2[F/2][^e]y[c^eF]y[_e]y |[^eF]/2[F/2][^e]y[c^eF]/2[F/2][^e]y [^eF]y[^eF]/2[F/2][c^e]y[_eF]/2[F/2] |[1c/2F/2z/2z/2 c/2c/2c/2F/2 F/2G/2A/2e/2 e/2z/2F/2F/2 :|2c/2F/2z/2z/2 c/2c/2c/2F/2 F/2G/2A/2e/2 !>(!e/2z/2!>)!F/2F/2 |:!ff![g^DF]/2[F/2][^D]y[cg^DF]y[^D]y [g^DF]y[^DF]/2[F/2][cg^D]y[^DF]/2[F/2] |[g^D]y[^D]y[cg^DF]/2[F/2][^D]y [g^DF]y[^DF]y[cg^DF]/2[F/2][^D]y |[g^DF]/2[F/2][^D]y[cg^DF]y[^DF]y [g^DF]/2[F/2][^D]y[cg^DF]/2[F/2][^D]y |[1c/2F/2e/2z/2 c/2c/2e/2z/2 e/2z/2e/2c/2 c/2z/2F/2e/2 :|2c/2F/2e/2z/2 c/2c/2e/2z/2 e/2z/2e/2c/2 !>(!c/2z/2!>)!F/2e/2-| e8|]

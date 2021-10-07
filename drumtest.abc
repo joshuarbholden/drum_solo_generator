@@ -1,0 +1,13 @@
+X: 1
+T: drum voice
+M: 4/4
+L: 1/8
+Q:1/4=120
+K:C % 0 sharps
+V:1
+%%MIDI channel 10
+%%MIDI program 0
+[C,,^F,,] [C,,^F,,] [D,,^F,,] [C,,^F,,] ^F,, ^F,, [C,,^F,,] ^F,,| \
+C,,C,, D,,C,, C,,D,, C,,2| \
+C,,C,, D,,C,,z2 C,,2| \
+C,,C,, D,,C,, C,,D,, C,,2| \

@@ -1,7 +1,7 @@
 %%abc-include percussions-JBH.abh
 
 X: 1
-T: Computer-generated \'Etude for Solo Drum Kit
+T: drum voice
 M: 4/4
 L: 1/8
 Q:1/4=80
@@ -11,4 +11,7 @@ K:none clef=perc
 %%voicemap drummap  % activate abcm2ps/abc2svg map
 %%MIDI channel 10   % activate abc2midi map
 %%MIDI program 0
-%%MIDI fermatafixed
+[V:2 clef=perc, merge, stem=down]     % activate abc2xml.py map
+%%voicemap drummap  % activate abcm2ps/abc2svg map
+%%MIDI channel 10   % activate abc2midi map
+%%MIDI program 0

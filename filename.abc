@@ -1,0 +1,11 @@
+X: 1
+T: drum voice
+M: 4/4
+L: 1/8
+Q:1/4=120
+K:C clef=perc
+V: hands, stem=up
+%%flatbeams
+%%MIDI channel 10
+%%MIDI program 0
+[E^g][B^g][B^g][B^g] [E^g][f^g][e^g][e^g] |[d^g][G^g][E^g][D^g] [B^g][E^g][A^g][G^g] |[E^g][B^g][E^g][D^g] [e^g][B^g][e^g][E^g] |[E^g][B^g][A^g][E^g] [B^g][G^g][B^g][G^g] |[f^g][D^g][D^g][A^g] [A^g][B^g][D^g][f^g] |[E^g][d^g][D^g][B^g] [d^g][E^g][D^g][E^g] |

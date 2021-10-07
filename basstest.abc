@@ -1,0 +1,14 @@
+%%abc-include percussions-JBH.abh
+
+X: 1
+T: drum voice
+M: 4/4
+L: 1/8
+Q:1/4=80
+K:none clef=perc
+%%flatbeams
+[V:1 clef=perc, stem=up]     % activate abc2xml.py map
+%%voicemap drummap  % activate abcm2ps/abc2svg map
+%%MIDI channel 10   % activate abc2midi map
+%%MIDI program 0
+!>![I: volinc 50][^eF]y!anti![I: volinc -50][^e]y!>![I: volinc 50][c^eF]/2[F/2]!anti![I: volinc -50][^e]y !>![I: volinc 50][^eF]y!anti![I: volinc -50][^e]/2[F/2]!>![I: volinc 50][c^e]/2[F/2][^eF]y |!>![I: volinc 50][^eF]/2[F/2]!anti![I: volinc -50][^e]/2[F/2]!>![I: volinc 50][c^eF]y!anti![I: volinc -50][^e]/2[F/2] !>![I: volinc 50][^e]/2[F/2]!anti![I: volinc -50][^e]y!>![I: volinc 50][c^eF]y[^e]/2[F/2] |!>![I: volinc 50][^e]/2[F/2]!anti![I: volinc -50][^e]y!>![I: volinc 50][c^eF]/2[F/2]!anti![I: volinc -50][^e]y !>![I: volinc 50][^eF]/2[F/2]!anti![I: volinc -50][^e]/2[F/2]!>![I: volinc 50][c^eF]y[^eF]y |

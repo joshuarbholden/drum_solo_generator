@@ -1,0 +1,5 @@
+abcm2ps.exe -X %1
+abc2midi.exe %1 -o Out.mid
+start Out.mid
+start Out.xhtml
+

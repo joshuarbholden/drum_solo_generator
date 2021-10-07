@@ -11,4 +11,3 @@ K:none clef=perc
 %%voicemap drummap  % activate abcm2ps/abc2svg map
 %%MIDI channel 10   % activate abc2midi map
 %%MIDI program 0
-%%MIDI fermatafixed
