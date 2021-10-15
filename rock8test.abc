@@ -1,0 +1,15 @@
+%%abc-include percussions-JBH.abh
+
+X: 1
+T: Computer-generated \'Etude for Solo Drum Kit
+M: 4/4
+L: 1/8
+Q:1/4=80
+K:none clef=perc
+%%flatbeams
+[V:1 clef=perc, stem=up]     % activate abc2xml.py map
+%%voicemap drummap  % activate abcm2ps/abc2svg map
+%%MIDI channel 10   % activate abc2midi map
+%%MIDI program 0
+%%MIDI fermatafixed
+|:!ff!!>![I: volinc 50][^e]y!anti![I: volinc -20][^eF]y!>![I: volinc 50][c^e]y!anti![I: volinc -20][^eF]y !>![I: volinc 50][^e]y!anti![I: volinc -20][^e]y!>![I: volinc 50][c^eF]y!anti![I: volinc -20][^e]y |!>![I: volinc 50][^e]y!anti![I: volinc -20][^eF]y!>![I: volinc 50][c^e]y!anti![I: volinc -20][^eF]y !>![I: volinc 50][^e]y!anti![I: volinc -20][^e]y!>![I: volinc 50][c^eF]y!anti![I: volinc -20][^e]y |!>![I: volinc 50][^eF]y!anti![I: volinc -20][^e]y!>![I: volinc 50][c^eF]y!anti![I: volinc -20][^e]y !>![I: volinc 50][^e]y!anti![I: volinc -20][^eF]y!>![I: volinc 50][c^eF]y!anti![I: volinc -20][^eF]y |[1e/2G/2F/2z/2 c/2z/2c/2z/2 A/2e/2e/2e/2 e/2z/2A/2z/2 :|2e/2G/2F/2z/2 c/2z/2c/2z/2 A/2e/2e/2e/2 !<(!e/2z/2!<)!A/2z/2 |:!mp![^g]y[F]y[c^g]y[F]y [^g]yzy[c^g]y[F]y |[^gF]yzy[c^g]y[F]y [^gF]yzy[c^g]yzy |[^gF]y[F]y[c^g]y[F]y [^gF]yzy[c^gF]y[F]y |[1G/2c/2z/2z/2 G/2A/2G/2z/2 A/2A/2c/2z/2 c/2c/2e/2z/2 :|2G/2c/2z/2z/2 G/2A/2G/2z/2 A/2A/2c/2z/2 !>(!c/2c/2!>)!e/2z/2 |:!mf!zy[gF]y[c]y[gF]y [F]y[g]y[c]y[gF]y |zy[g]y[cF]y[gF]y zy[g]y[cF]y[gF]y |zy[g]y[c]y[g]y zy[gF]y[c]y[gF]y |[1e/2e/2z/2z/2 e/2c/2e/2z/2 F/2z/2c/2e/2 G/2z/2F/2F/2 :|2e/2e/2z/2z/2 e/2c/2e/2z/2 F/2z/2c/2e/2 !<(!G/2z/2!<)!F/2F/2 |:!pp!!>![I: volinc 50][^e]y!anti![I: volinc -20][^eF]y!>![I: volinc 50][c^e]y!anti![I: volinc -20][^eF]y !>![I: volinc 50][^e]y!anti![I: volinc -20][^e]y!>![I: volinc 50][c^e]y!anti![I: volinc -20][^eF]y |!>![I: volinc 50][^eF]y!anti![I: volinc -20][^e]y!>![I: volinc 50][c^eF]y!anti![I: volinc -20][^e]y !>![I: volinc 50][^eF]y!anti![I: volinc -20][^eF]y!>![I: volinc 50][c^e]y!anti![I: volinc -20][^eF]y |!>![I: volinc 50][^e]y!anti![I: volinc -20][^e]y!>![I: volinc 50][c^eF]y!anti![I: volinc -20][^e]y !>![I: volinc 50][^eF]y!anti![I: volinc -20][^eF]y!>![I: volinc 50][c^e]y!anti![I: volinc -20][^eF]y |[1c/2z/2c/2z/2 G/2z/2G/2c/2 e/2G/2F/2e/2 A/2G/2z/2z/2 :|2c/2z/2c/2z/2 G/2z/2G/2c/2 e/2G/2F/2e/2 !<(!A/2HG/2!<)!z/2z/2 |]
