@@ -1,0 +1,15 @@
+%%abc-include percussions-JBH.abh
+
+X: 1
+T: Computer-generated \'Etude for Solo Drum Kit
+M: 4/4
+L: 1/8
+Q:1/4=80
+K:none clef=perc
+%%flatbeams
+[V:1 clef=perc, stem=up]     % activate abc2xml.py map
+%%voicemap drummap  % activate abcm2ps/abc2svg map
+%%MIDI channel 10   % activate abc2midi map
+%%MIDI program 0
+%%MIDI fermatafixed
+|:!mf![^eF]y[^e]y[c^eF]y[^eF]y [^eF]y[^eF]y[c^e]y[_eF]y |[^eF]y[^e]y[c^eF]y[^e]y [^e]y[^eF]y[c^eF]y[_e]y |[^eF]y[^e]y[c^e]y[^eF]y [^e]y[^e]y[c^eF]y[_eF]y |[1c/2c/2e/2z/2 c/2c/2c/2z/2 c/2z/2A/2z/2 e/2e/2c/2e/2 :|2c/2c/2e/2z/2 c/2c/2c/2z/2 c/2z/2A/2z/2 !>(!e/2e/2!>)!c/2e/2 |:!p![^e]y[^eF]y[c^eF]y[^e]y [^eF]y[^e]y[c^eF]y[^e]y |[^e]y[^e]y[c^eF]y[^eF]y [^eF]y[^e]y[c^e]y[^e]y |[^eF]y[^e]y[c^e]y[^eF]y [^eF]y[^e]y[c^eF]y[^e]y |[1c/2z/2A/2A/2 G/2e/2F/2z/2 G/2z/2G/2z/2 c/2c/2e/2z/2 :|2c/2z/2A/2A/2 G/2e/2F/2z/2 G/2z/2G/2z/2 !<(!c/2c/2!<)!e/2z/2 |:!mp![g^DF]y[^D]y[cg^D]y[^DF]y [g^D]y[^D]y[cg^D]y[^D]y |[g^D]y[^D]y[cg^DF]y[^DF]y [g^DF]y[^DF]y[cg^D]y[^DF]y |[g^DF]y[^DF]y[cg^D]y[^DF]y [g^D]y[^DF]y[cg^DF]y[^DF]y |[1A/2G/2G/2A/2 A/2A/2G/2z/2 G/2z/2A/2c/2 e/2G/2z/2z/2 :|2A/2G/2G/2A/2 A/2A/2G/2z/2 G/2z/2A/2c/2 !>(!e/2G/2!>)!z/2z/2 |:!p![^gF]yzy[c^g]y[F]y [^g]yzy[c^gF]yzy |[^gF]y[F]y[c^gF]yzy [^g]y[F]y[c^g]y[F]y |[^g]y[F]y[c^gF]y[F]y [^g]yzy[c^gF]y[F]y |[1e/2G/2e/2z/2 c/2c/2e/2c/2 z/2z/2G/2z/2 e/2z/2F/2z/2 :|2e/2G/2e/2z/2 c/2c/2e/2c/2 z/2z/2G/2z/2 !>(!e/2z/2!>)!F/2z/2-| z8|]
