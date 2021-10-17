@@ -59,7 +59,7 @@
 %%map drummap d    print=d                % low-mid tom tom
 %%map drummap ^d   print=d heads=triangle % high wood block
 %%map drummap e    print=e                % high-mid tom tom
-%%map drummap ^f   print=f heads=triangle % cowbell
+%%map drummap =g   print=g heads=triangle % cowbell
 %%map drummap f    print=f                % high tom tom
 %%map drummap ^g   print=g heads=x_head   % ride cymbal 1
 %%map drummap g    print=g heads=diamond   % ride bell
@@ -86,7 +86,7 @@
 %%percmap d  low-mi-tom              % low-mid tom
 %%percmap ^d hi-wo-blo     triangle  % high wood block
 %%percmap e  hi-mi-tom               % high-mid tom
-%%percmap ^f cowbell       triangle
+%%percmap =g cowbell       triangle
 %%percmap f  high-tom
 %%percmap ^g ride-cymbal-1 x
 %%percmap g ride-bell   diamond
@@ -113,7 +113,7 @@
 %%MIDI drummap d   47 % low-mid tom tom
 %%MIDI drummap ^d  76 % high wood block
 %%MIDI drummap e   48 % high-mid tom tom
-%%MIDI drummap ^f  56 % cowbell
+%%MIDI drummap =g  56 % cowbell
 %%MIDI drummap f   50 % high tom tom
 %%MIDI drummap ^g  51 % ride cymbal 1
 %%MIDI drummap g   53 % ride bell
@@ -124,5 +124,5 @@
 
 %%propagate-accidentals not
 %%pos ornament up
-%%ornament up
+
 % --- End of file percussions.abh
