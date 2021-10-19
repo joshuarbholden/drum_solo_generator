@@ -122,7 +122,4 @@
 %%MIDI drummap _g   49 % crash cymbal 1
 %%MIDI drummap ^a  81 % open triangle
 
-%%propagate-accidentals not
-%%pos ornament up
-%%ornament up
 % --- End of file percussions.abh

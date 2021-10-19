@@ -1,15 +1,20 @@
 %%abc-include percussions-JBH.abh
 
-X: 1
-T: Computer-generated \'Etude for Solo Drum Kit
-M: 4/4
-L: 1/8
-Q:1/4=80
+X:1
+T:Computer-generated \`Etude for Solo Drum Kit
+C:abcsolo8patinst16bass
+O:2021-10-19T18:55:34.504
+M:4/4
+L:1/8
+Q:"Funk 16th feel" 1/4=80
 K:none clef=perc
-%%flatbeams
 [V:1 clef=perc, stem=up]     % activate abc2xml.py map
 %%voicemap drummap  % activate abcm2ps/abc2svg map
 %%MIDI channel 10   % activate abc2midi map
 %%MIDI program 0
+%%flatbeams
+%%propagate-accidentals not
+%%pos ornament up
+%%ornament up
 %%MIDI fermatafixed
-|:!p!!>![I: volinc 50][^e]/2[F/2]!anti![I: volinc -20][^e]y!>![I: volinc 50][c^e]y!anti![I: volinc -20][^eF]/2[F/2] !>![I: volinc 50][^e]/2[F/2]!anti![I: volinc -20][^e]/2[F/2]!>![I: volinc 50][c^e]y!anti![I: volinc -20][^eF]/2[F/2] |!>![I: volinc 50][^e]y!anti![I: volinc -20][^eF]/2[F/2]!>![I: volinc 50][c^e]/2[F/2]!anti![I: volinc -20][^e]y !>![I: volinc 50][^e]/2[F/2]!anti![I: volinc -20][^e]/2[F/2]!>![I: volinc 50][c^eF]y!anti![I: volinc -20][^eF]y |!>![I: volinc 50][^eF]y!anti![I: volinc -20][^eF]/2[F/2]!>![I: volinc 50][c^e]/2[F/2]!anti![I: volinc -20][^eF]y !>![I: volinc 50][^e]y!anti![I: volinc -20][^e]/2[F/2]!>![I: volinc 50][c^e]/2[F/2]!anti![I: volinc -20][^e]y |[1e/2A/2e/2c/2 c/2F/2c/2z/2 c/2G/2G/2e/2 c/2c/2c/2G/2 :|2e/2A/2e/2c/2 c/2F/2c/2z/2 c/2G/2G/2e/2 !>(!c/2c/2!>)!c/2G/2 |:!f![^gF]yz/2[F/2][c^g]/2[F/2]z/2[F/2] [^g]y[F]/2[F/2][c^g]yz/2[F/2] |[^gF]y[F]y[c^gF]/2[F/2]zy [^gF]y[F]y[c^gF]yz/2[F/2] |[^g]/2[F/2]z/2[F/2][c^gF]yz/2[F/2] [^gF]yz/2[F/2][c^g]yz/2[F/2] |[1c/2F/2e/2e/2 z/2F/2F/2c/2 e/2A/2z/2G/2 G/2A/2e/2z/2 :|2c/2F/2e/2e/2 z/2F/2F/2c/2 e/2A/2z/2G/2 !<(!G/2A/2!<)!e/2z/2 |:!mf!!>![I: volinc 50][^eF]/2[F/2]!anti![I: volinc -20][^e]y!>![I: volinc 50][c^eF]/2[F/2]!anti![I: volinc -20][^e]y !>![I: volinc 50][^eF]y!anti![I: volinc -20][^eF]/2[F/2]!>![I: volinc 50][c^e]y!anti![I: volinc -20][^eF]/2[F/2] |!>![I: volinc 50][^e]/2[F/2]!anti![I: volinc -20][^e]y!>![I: volinc 50][c^eF]/2[F/2]!anti![I: volinc -20][^e]y !>![I: volinc 50][^eF]y!anti![I: volinc -20][^eF]/2[F/2]!>![I: volinc 50][c^e]/2[F/2]!anti![I: volinc -20][^e]/2[F/2] |!>![I: volinc 50][^eF]y!anti![I: volinc -20][^e]y!>![I: volinc 50][c^eF]/2[F/2]!anti![I: volinc -20][^e]/2[F/2] !>![I: volinc 50][^e]/2[F/2]!anti![I: volinc -20][^e]y!>![I: volinc 50][c^e]/2[F/2]!anti![I: volinc -20][^e]/2[F/2] |[1c/2c/2c/2e/2 e/2A/2z/2e/2 e/2G/2c/2F/2 G/2F/2z/2A/2 :|2c/2c/2c/2e/2 e/2A/2z/2e/2 e/2G/2c/2F/2 !>(!G/2F/2!>)!z/2A/2 |:!p![^eF]y[^e]y[c^e]/2[F/2][^eF]y [^e]/2[F/2][_e]y[c^eF]y[_eF]y |[^e]y[^eF]/2[F/2][c^e]y[^eF]y [^e]/2[F/2][_e]/2[F/2][c^e]y[_e]/2[F/2] |[^eF]y[^e]y[c^eF]y[^eF]y [^e]y[_eF]y[c^e]y[_e]/2[F/2] |[1F/2e/2F/2z/2 G/2F/2F/2A/2 c/2z/2c/2F/2 z/2c/2c/2c/2 :|2F/2e/2F/2z/2 G/2F/2F/2A/2 c/2z/2c/2F/2 !>(!z/2c/2!>)!c/2Hc/2 |]
+|:!f![gF]/2[F/2][^g]y[cg]y[^gF]/2[F/2] [g]/2[F/2][^g]y[cg]/2[F/2][^gF]y |[g]/2[F/2][^gF]y[cg]/2[F/2][^g]y [gF]/2[F/2][^g]/2[F/2][cgF]y[^gF]y |[g]/2[F/2][^gF]y[cgF]y[^gF]/2[F/2] [g]y[^g]/2[F/2][cg]y[^g]y |[1F/2A/2e/2F/2 z/2F/2G/2G/2 A/2G/2G/2e/2 c/2A/2c/2F/2 :|2F/2A/2e/2F/2 z/2F/2G/2G/2 A/2G/2G/2e/2 !<(!c/2A/2!<)!c/2F/2 |:!mf![F]y[gF]y[c]y[gF]/2[F/2] z/2[F/2][g]/2[F/2][c]/2[F/2][g]/2[F/2] |zy[gF]y[c]y[gF]y z/2[F/2][g]/2[F/2][cF]y[gF]y |zy[gF]y[cF]/2[F/2][g]y [F]y[g]/2[F/2][c]y[gF]/2[F/2] |[1c/2F/2e/2z/2 c/2e/2e/2A/2 A/2G/2z/2A/2 A/2z/2c/2e/2 :|2c/2F/2e/2z/2 c/2e/2e/2A/2 A/2G/2z/2A/2 !<(!A/2z/2!<)!c/2e/2 |:!mp!"^_"[^eF]/2[F/2]z/2[F/2]"^_"[c^e]yz/2[F/2] "^_"[^e]/2[F/2][F]y"^_"[c^eF]/2[F/2]zy |"^_"[^eF]/2[F/2]z/2[F/2]"^_"[c^eF]yzy "^_"[^e]/2[F/2]zy"^_"[c^eF]yz/2[F/2] |"^_"[^eF]y[F]/2[F/2]"^_"[c^e]/2[F/2]zy "^_"[^eF]y[F]/2[F/2]"^_"[c^e]y[F]/2[F/2] |[1A/2z/2G/2F/2 c/2z/2c/2e/2 c/2e/2e/2c/2 e/2A/2A/2A/2 :|2A/2z/2G/2F/2 c/2z/2c/2e/2 c/2e/2e/2c/2 !<(!e/2A/2!<)!A/2A/2 |:!p![^g^DF]y[^gF]y[c^g^DF]y[^gF]y [^g^DF]y[^gF]/2[F/2][c^g^D]/2[F/2][^gF]y |[^g^D]y[^gF]y[c^g^DF]y[^g]/2[F/2] [^g^DF]y[^gF]y[c^g^D]y[^gF]/2[F/2] |[^g^D]/2[F/2][^gF]y[c^g^D]y[^gF]y [^g^D]y[^gF]/2[F/2][c^g^D]/2[F/2][^g]y |[1e/2c/2c/2z/2 G/2z/2G/2G/2 e/2z/2G/2G/2 G/2e/2e/2A/2 :|2e/2c/2c/2z/2 G/2z/2G/2G/2 e/2z/2G/2G/2 !<(!G/2e/2!<)!e/2HA/2 |]
