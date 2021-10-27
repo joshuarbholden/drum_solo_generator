@@ -1,0 +1,23 @@
+%%abc-include percussions-JBH.abh
+
+%%flatbeams
+%%propagate-accidentals not
+%%pos ornament up
+%%ornament up
+%%MIDI fermatafixed
+U: N = !tenuto!
+U: U = !anti!
+
+X:1
+T:Computer-generated \`Etude for Solo Drum Kit
+C:abcsolo16shuffle16bass
+O:2021-10-26T21:29:02.093
+M:4/4
+L:1/8
+Q:"Rock 16th shuffle feel" 1/4=60
+K:none clef=perc
+[V:1 clef=perc, stem=up]     % activate abc2xml.py map
+%%voicemap drummap  % activate abcm2ps/abc2svg map
+%%MIDI channel 10   % activate abc2midi map
+%%MIDI program 0
+|:!mf!(6:4[^DF]/2z/2z/2z/2z/2z/2 (6:4[c^DF]/2z/2z/2z/2z/2z/2 (6:4[^DF]/2z/2z/2[F]/2z/2[F]/2 (6:4[c^D]/2z/2z/2[F]/2z/2z/2 |(6:4[^D]/2z/2z/2[F]/2z/2[F]/2 (6:4[c^D]/2z/2z/2[F]/2z/2[F]/2 (6:4[^D]/2z/2z/2z/2z/2z/2 (6:4[c^DF]/2z/2z/2[F]/2z/2z/2 |(6:4[^DF]/2z/2z/2[F]/2z/2z/2 (6:4[c^DF]/2z/2z/2[F]/2z/2[F]/2 (6:4[^D]/2z/2z/2[F]/2z/2z/2 (6:4[c^DF]/2z/2[F]/2z/2z/2z/2 |[1(6:4A/2A/2c/2F/2e/2A/2 (6:4e/2A/2A/2c/2c/2c/2 (6:4A/2G/2e/2e/2z/2e/2 (6:4c/2G/2F/2e/2c/2G/2 :|2(6:4A/2A/2c/2F/2e/2A/2 (6:4e/2A/2A/2c/2c/2c/2 (6:4A/2G/2e/2e/2!<(!z/2e/2 (6:4c/2G/2!<)!F/2e/2c/2G/2 |:!f!(6:4[^gF]/2z/2[^g]/2[^g^D]/2z/2[^g]/2 (6:4[c^g]/2z/2[^g]/2[^g^DF]/2z/2[^g]/2 (6:4[^gF]/2z/2[^g]/2[^g^DF]/2z/2[^gF]/2 (6:4[c^g]/2z/2[^g]/2[^g^DF]/2z/2[^g]/2 |(6:4[^gF]/2z/2[^gF]/2[^g^D]/2z/2[^g]/2 (6:4[c^gF]/2z/2[^gF]/2[^g^D]/2z/2[^g]/2 (6:4[^gF]/2z/2[^g]/2[^g^DF]/2z/2[^g]/2 (6:4[c^g]/2z/2[^g]/2[^g^D]/2z/2[^g]/2 |(6:4[^gF]/2z/2[^gF]/2[^g^D]/2z/2[^g]/2 (6:4[c^gF]/2z/2[^gF]/2[^g^D]/2z/2[^g]/2 (6:4[^gF]/2z/2[^g]/2[^g^DF]/2z/2[^g]/2 (6:4[c^gF]/2z/2[^gF]/2[^g^D]/2z/2[^g]/2 |[1(6:4c/2e/2c/2c/2c/2F/2 (6:4c/2c/2F/2e/2F/2e/2 (6:4e/2c/2F/2c/2c/2c/2 (6:4z/2A/2A/2A/2z/2c/2 :|2(6:4c/2e/2c/2c/2c/2F/2 (6:4c/2c/2F/2e/2F/2e/2 (6:4e/2c/2F/2c/2!<(!c/2c/2 (6:4z/2A/2!<)!A/2A/2z/2c/2 |:!p!(6:4"^_"[^e]/2z/2z/2"^_"[^eF]/2z/2[F]/2 (6:4"^_"[c^e]/2z/2z/2"^_"[^eF]/2z/2z/2 (6:4"^_"[^e]/2z/2z/2"^_"[^eF]/2z/2z/2 (6:4"^_"[c^eF]/2z/2[F]/2"^_"[^e]/2z/2z/2 |(6:4"^_"[^eF]/2z/2z/2"^_"[^eF]/2z/2z/2 (6:4"^_"[c^eF]/2z/2z/2"^_"[^e]/2z/2z/2 (6:4"^_"[^eF]/2z/2z/2"^_"[^eF]/2z/2z/2 (6:4"^_"[c^eF]/2z/2z/2"^_"[^e]/2z/2z/2 |(6:4"^_"[^eF]/2z/2[F]/2"^_"[^e]/2z/2z/2 (6:4"^_"[c^eF]/2z/2z/2"^_"[^eF]/2z/2[F]/2 (6:4"^_"[^e]/2z/2z/2"^_"[^eF]/2z/2z/2 (6:4"^_"[c^eF]/2z/2z/2"^_"[^eF]/2z/2z/2 |[1(6:4c/2e/2e/2A/2G/2e/2 (6:4e/2A/2e/2A/2G/2e/2 (6:4c/2e/2c/2e/2z/2F/2 (6:4e/2F/2F/2A/2G/2e/2 :|2(6:4c/2e/2e/2A/2G/2e/2 (6:4e/2A/2e/2A/2G/2e/2 (6:4c/2e/2c/2e/2!<(!z/2F/2 (6:4e/2F/2!<)!F/2A/2G/2e/2 |:!ff!(6:4[^gF]/2z/2[^g]/2[^g]/2z/2[^g]/2 (6:4[c^gF]/2z/2[^g]/2[^g]/2z/2[^g]/2 (6:4[^gF]/2z/2[^gF]/2[^g]/2z/2[^g]/2 (6:4[c^gF]/2z/2[^g]/2[^g]/2z/2[^g]/2 |(6:4[^gF]/2z/2[^gF]/2[^g]/2z/2[^g]/2 (6:4[c^g]/2z/2[^g]/2[^gF]/2z/2[^gF]/2 (6:4[^g]/2z/2[^g]/2[^gF]/2z/2[^g]/2 (6:4[c^g]/2z/2[^g]/2[^gF]/2z/2[^gF]/2 |(6:4[^g]/2z/2[^g]/2[^gF]/2z/2[^g]/2 (6:4[c^gF]/2z/2[^g]/2[^g]/2z/2[^g]/2 (6:4[^gF]/2z/2[^g]/2[^gF]/2z/2[^gF]/2 (6:4[c^g]/2z/2[^g]/2[^gF]/2z/2[^g]/2 |[1(6:4e/2e/2F/2F/2c/2c/2 (6:4c/2c/2c/2e/2c/2A/2 (6:4A/2G/2G/2G/2F/2G/2 (6:4e/2F/2c/2F/2c/2e/2 :|2(6:4e/2e/2F/2F/2c/2c/2 (6:4c/2c/2c/2e/2c/2A/2 (6:4A/2G/2G/2G/2!>(!F/2G/2 (6:4e/2F/2!>)!c/2F/2c/2He/2 |]
