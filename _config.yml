@@ -1,1 +1,4 @@
 theme: jekyll-theme-tactile
+markdown: GFM
+title: Drum Solo Generator homepage
+description: Code to write rock drum solos based on Markov processes 
