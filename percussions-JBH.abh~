@@ -125,9 +125,4 @@
 %%propagate-accidentals not
 %%pos ornament up
 
-% from https://montulli.blogspot.com/2015/07/a-drummers-guide-to-using-abc-notation.html
-
-%%deco (. 0 a 5 1 1 "@-8,-3("
-%%deco ). 0 a 5 1 1 "@4,-3)"
-
 % --- End of file percussions.abh

@@ -1,0 +1,1933 @@
+%!PS-Adobe-2.0
+%%BoundingBox: 0 0 595 842
+%%Title: rocktest.abc
+%%Creator: abcm2ps-8.14.12
+%%CreationDate: Nov 13, 2021 18:05
+%%Pages: (atend)
+%%LanguageLevel: 3
+%%EndComments
+%CommandLine: rocktest.abc
+
+%%BeginSetup
+/!{bind def}bind def
+/bdef{bind def}!
+/T/translate load def
+/M/moveto load def
+/RM/rmoveto load def
+/L/lineto load def
+/RL/rlineto load def
+/C/curveto load def
+/RC/rcurveto load def
+/SLW/setlinewidth load def
+/defl 0 def
+/dlw{0.7 SLW}!
+/creator [(abcm2ps) 8 14 12] def
+/xydef{/y exch def/x exch def}!
+/xymove{/x 2 index def/y 1 index def M}!
+/showc{dup stringwidth pop .5 mul neg 0 RM show}!
+/showr{dup stringwidth pop neg 0 RM show}!
+/showb{	dup currentpoint 3 -1 roll show
+	.6 SLW
+	exch 2 sub exch 3 sub 3 -1 roll
+	stringwidth pop 4 add
+	currentfont/ScaleMatrix get 0 get .8 mul
+	4 add rectstroke}!
+/oct{/Times-Roman 12 selectfont M(8)show}!
+/octu{oct}!
+/octl{oct}!
+/bm{	M 3 copy RL neg 0 exch RL neg exch neg exch RL 0 exch RL fill}!
+/bnum{M/Times-Italic 12 selectfont showc}!
+/bnumb{	currentgray/Times-Italic 12 selectfont
+	3 index stringwidth pop 4 add
+	dup .5 mul neg 4 index add 3 index 3 -1 roll 8
+	1.0 setgray rectfill setgray M showc}!
+/tubr{3 sub M 0 3 RL RL 0 -3 RL dlw stroke}!
+/tubrl{3 add M 0 -3 RL RL 0 3 RL dlw stroke}!
+/dt{x y M RM currentpoint 1.2 0 360 arc fill}!
+/dnb{	dlw M -3.2 2 RM
+	0 7.2 RL
+	6.4 0 RM
+	0 -7.2 RL
+	currentpoint stroke M
+	-6.4 4.8 RM
+	0 2.4 RL
+	6.4 0 RL
+	0 -2.4 RL
+	fill}!
+/upb{	dlw M -2.6 9.4 RM
+	2.6 -8.8 RL
+	2.6 8.8 RL
+	stroke}!
+/grm{	M -5 2.5 RM
+	5 8.5 5.5 -4.5 10 2 RC
+	-5 -8.5 -5.5 4.5 -10 -2 RC fill}!
+/stc{	3 add M currentpoint 1.2 0 360 arc fill}!
+/emb{	1.2 SLW 1 setlinecap M -2.5 3 RM 5 0 RL stroke 0 setlinecap}!
+/cpu{	M -6 0 RM
+	0.4 7.3 11.3 7.3 11.7 0 RC
+	-1.3 6 -10.4 6 -11.7 0 RC fill}!
+/sld{	M -7.2 -4.8 RM
+	1.8 -0.7 4.5 0.2 7.2 4.8 RC
+	-2.1 -5 -5.4 -6.8 -7.6 -6 RC fill}!
+/trl{	/Times-BoldItalic 16 selectfont M -4 2 RM(tr)show}!
+/fng{/Bookman-Demi 8 selectfont M -3 1 RM show}!
+/dacs{/Times-Roman 16 selectfont 3 add M showc}!
+/crdc{/Times-Italic 14 selectfont 5 add M show}!
+/brth{/Times-BoldItalic 30 selectfont 6 add M(,)show}!
+/pf{/Times-BoldItalic 16 selectfont 5 add M show}!
+/sfz{	M -7 5 RM pop
+	/Times-Italic 14 selectfont(s)show
+	/Times-BoldItalic 16 selectfont(f)show
+	/Times-Italic 14 selectfont(z)show}!
+/cresc{	1 SLW M dup 5 RM
+	defl 1 and 0 eq
+	{dup neg 4 RL 4 RL}
+	{dup neg 2.2 RL 0 3.6 RM 2.2 RL}
+	ifelse stroke}!
+/dim{	1 SLW 5 add M
+	defl 2 and 0 eq
+	{dup 4 RL neg 4 RL}
+	{dup 2.2 RL 0 3.6 RM neg 2.2 RL}
+	ifelse stroke}!
+/o8va{	M
+	defl 1 and 0 eq
+	{14 sub currentpoint
+	-5 0 RM /Times-BoldItalic 12 selectfont(8)show
+	0 4 RM /Times-BoldItalic 10 selectfont(va)show
+	M 14 0 RM}if 0 6 RM
+	[6] 0 setdash 5 sub 0 RL currentpoint stroke [] 0 setdash
+	M defl 2 and 0 eq
+	{0 -6 RL stroke}if}!
+/o8vb{	M
+	defl 1 and 0 eq
+	{8 sub currentpoint
+	-5 0 RM /Times-BoldItalic 12 selectfont(8)show
+	0 4 RM /Times-BoldItalic 10 selectfont(vb)show
+	M 8 0 RM}if
+	[6] 0 setdash 5 sub 0 RL currentpoint stroke [] 0 setdash
+	M defl 2 and 0 eq
+	{0 6 RL stroke}if}!
+/dplus{	1.2 SLW 0.5 add M 0 6 RL -3 -3 RM 6 0 RL stroke}!
+/turnx{	2 copy turn .6 SLW 1.5 add M 0 9 RL stroke}!
+/lphr{1.2 SLW M 0 -18 RL stroke}!
+/mphr{1.2 SLW M 0 -12 RL stroke}!
+/sphr{1.2 SLW M 0 -6 RL stroke}!
+/ltr{	gsave 4 add T
+	0 6 3 -1 roll{
+		2{
+			0 0.4 M
+			2 1.9 3.4 2.3 3.9 0 C
+			2.1 0 L
+			1.9 0.8 1.4 0.7 0 -0.4 C
+			fill
+			180 rotate -6 0 T
+		}repeat
+		pop 6 0 T
+	}for
+	grestore}!
+/arp{gsave 90 rotate exch neg ltr grestore}!
+/gliss{	gsave 2 copy T
+exch 4 -1 roll exch sub 3 1 roll sub
+2 copy exch atan dup rotate
+exch pop cos div
+8 0 M 14 sub 0 RL stroke grestore}!
+/glisq{	gsave 2 copy T
+exch 4 -1 roll exch sub 3 1 roll sub
+2 copy exch atan dup rotate
+exch pop cos div
+17 sub 8 -4 ltr grestore}!
+/wedge{1 add M -1.5 5 RL 3 0 RL -1.5 -5 RL fill}!
+/opend{dlw M currentpoint 3 add 2.5 -90 270 arc stroke}!
+/snap{	dlw 2 copy M -3 6 RM
+	0 5 6 5 6 0 RC
+	0 -5 -6 -5 -6 0 RC
+	5 add M 0 -6 RL stroke}!
+/thumb{	dlw 2 copy M -2.5 7 RM
+	0 6 5 6 5 0 RC
+	0 -6 -5 -6 -5 0 RC
+	2 add M 0 -4 RL stroke}!
+/trem{	M -4.5 0 RM{
+		currentpoint
+		9 3 RL 0 -3 RL -9 -3 RL 0 3 RL
+		fill 5.4 sub M
+	}repeat}!
+/hl{	.8 SLW M -6 0 RM 12 0 RL stroke}!
+/hl1{	.8 SLW M -7 0 RM 14 0 RL stroke}!
+/hl2{	.7 SLW M -9 0 RM 18 0 RL stroke}!
+/gsc{gsave y T .8 dup scale 0 0}!
+/uflat{<95200028
+	0064000001b802ee
+	006402ea
+	008402ea
+	0084000c
+	00640008
+	00840154
+	00b2019c011c01ae01540168
+	01b800fa00dc00220084000c
+	00840028
+	00ba0028014c00f60106014a
+	00d401860084014e00840128
+	><0b00010303030a0105050105050a>}cvlit def
+/unat{<95200022
+	003cff42013602ee
+	006002ee
+	004002ee
+	00400022
+	0060002a
+	01160060
+	0116ff46
+	0136ff46
+	01360208
+	011401fe
+	006001cc
+	006002ee
+	0060009e
+	0060015c
+	01160190
+	011600d4
+	><0b00012a030a0123030a>}cvlit def
+/usharp{<95200024
+	003cff42019a02ee
+	008802be
+	0088ff44
+	00a8ff44
+	00a802be
+	0128ff76
+	0148ff76
+	014802ee
+	012802ee
+	004001d0
+	0040015c
+	019201bc
+	01920230
+	00400076
+	00400002
+	01920064
+	019200d6
+	><0b000123030a0123030a0123030a0123030a>}cvlit def
+/udblesharp{<95200046
+	003c006e019001c2
+	00f0011a
+	01180140013a015e018e015e
+	018e01be
+	012e01be
+	012e016a0110014800ea0122
+	00c2014800a4016a00a401be
+	004401be
+	0044015e
+	009a015e00bc014000e2011a
+	00bc00f4009a00d6004400d6
+	00440076
+	00a40076
+	00a400ca00c200ec00ea0112
+	011000ec012e00ca012e0076
+	018e0076
+	018e00d6
+	013a00d6011800f400f0011a
+	><0b0001050303050503030505030305050303050a>}cvlit def
+/udbleflat{<9520004c
+	00140000022602ee
+	001402ea
+	002c02ea
+	002c000c
+	00140008
+	002c0154
+	004e019c009e01ae00c80168
+	011300fa00660022002c000c
+	002c0028
+	0054002800c200f6008d014a
+	00680186002c014e002c0128
+	010e02ea
+	012602ea
+	0126000c
+	010e0008
+	01260154
+	0148019c019801ae01c20168
+	020d00fa016000220126000c
+	01260028
+	014e002801bc00f60187014a
+	016201860126014e01260128
+	><0b000123030a0105050105050a0123030a0105050105050a>}cvlit def
+/sh1{	gsave T .9 SLW
+	0 -7.8 M 0 15.4 RL stroke
+	-1.8 -2.7 M 3.6 1.1 RL 0 -2.2 RL -3.6 -1.1 RL 0 2.2 RL fill
+	-1.8 3.7 M 3.6 1.1 RL 0 -2.2 RL -3.6 -1.1 RL 0 2.2 RL fill
+	grestore}!
+/sh513{	gsave T .8 SLW
+	-2.5 -8.7 M 0 15.4 RL
+	0 -7.8 M 0 15.4 RL
+	2.5 -6.9 M 0 15.4 RL stroke
+	-3.7 -3.1 M 7.4 2.2 RL 0 -2.2 RL -7.4 -2.2 RL 0 2.2 RL fill
+	-3.7 3.2 M 7.4 2.2 RL 0 -2.2 RL -7.4 -2.2 RL 0 2.2 RL fill
+	grestore}!
+/ft1{gsave -1 1 scale exch neg exch ft0 grestore}!
+/ftx{	-1.4 2.7 RM
+	5.7 3.1 5.7 -3.6 0 -6.7 RC
+	3.9 4 4 7.6 0 5.8 RC
+	currentpoint fill 7.1 add M
+	dlw 0 -12.4 RL stroke}!
+/ft513{2 copy gsave -1 1 scale exch neg 3 add exch M ftx grestore
+	M 1.5 0 RM ftx}!
+/sh4tb[/.notdef/sh1/sh0/sh513/dsh0]def
+/sh4{sh4tb exch get cvx exec}!
+/ft4tb[/.notdef/ft1/ft0/ft513/dft0]def
+/ft4{ft4tb exch get cvx exec}!
+/bar{M 1 SLW 0 exch RL stroke}!
+/dotbar{[5] 0 setdash bar [] 0 setdash}!
+/thbar{3 -1 roll 3 exch rectfill}!
+/rdots{	2 copy 9 add M currentpoint 1.2 0 360 arc
+	15 add M currentpoint 1.2 0 360 arc fill}!
+/pmsig{0.3 SLW 12 add M currentpoint 5 0 360 arc stroke}!
+/pMsig{2 copy pmsig 12 add M currentpoint 1.3 0 360 arc fill}!
+/imsig{0.3 SLW 12 add 2 copy 5 add M 5 60 300 arc stroke}!
+/iMsig{2 copy imsig 12 add M currentpoint 1.3 0 360 arc fill}!
+/tsig{	1 add M gsave/Times-Bold 16 selectfont 1.2 1 scale
+	currentpoint 3 -1 roll showc
+	12 add M showc grestore}!
+/stsig{	7 add M gsave/Times-Bold 18 selectfont 1.2 1 scale
+	showc grestore}!
+/sep0{	dlw 0 M 0 RL stroke}!
+/bracket{M -5 2 RM currentpoint
+	-1.7 2 RM 10.5 -1 12 4.5 12 3.5 RC
+	0 -1 -3.5 -5.5 -8.5 -5.5 RC fill
+	3 SLW 2 add M
+	0 exch neg 8 sub RL currentpoint stroke
+	M -1.7 0 RM
+	10.5 1 12 -4.5 12 -3.5 RC
+	0 1 -3.5 5.5 -8.5 5.5 RC fill}!
+/srep{	M -1 -6 RM 11 12 RL 3 0 RL -11 -12 RL -3 0 RL fill}!
+/repbra{gsave dlw T 0 -20 M
+	0 20 3 index 1 and 1 eq{RL}{RM}ifelse 0
+	RL 2 and 2 eq{0 -20 RL}if stroke
+	4 exch M show grestore}!
+/SL{M RC RL RC closepath fill}!
+/dSL{	M [4] 0 setdash .8 SLW RC stroke [] 0 setdash}!
+/strw{	gsave 0 -2000 M/strop/show load def 1 setgray str
+	0 setgray currentpoint pop/w exch def grestore}!
+/jshow{w 0 32 4 -1 roll widthshow}!
+/strop/show load def
+/arrayshow{{dup type/stringtype eq{strop}{glyphshow}ifelse}forall}def
+/gcshow{show}!
+/agcshow{arrayshow}!
+/box{.6 SLW rectstroke}!
+/boxend{currentpoint pop/x exch def}!
+/boxmark{currentpoint pop dup x gt
+	{/x exch def}{pop}ifelse}!
+/boxdraw{x 3 index sub 2 add exch box}!
+/gxshow{0 9 3 -1 roll widthshow}!
+/anshow{show}!
+/aanshow{arrayshow}!
+/wln{M .8 SLW 0 RL stroke}!
+/hyph{	.8 SLW 3 add M
+	dup cvi 20 idiv 3 mul 25 add
+	1 index cvi exch idiv 1 add exch 1 index div
+	dup 4 sub 3 1 roll .5 mul 2 sub 0 RM
+	{4 0 RL dup 0 RM}repeat stroke pop}!
+/lyshow{show}!
+/alyshow{arrayshow}!
+/pfthd{/x 2 index def/y 1 index def dsh0
+	.7 SLW x y M x y 4 0 360 arc stroke}!
+/pdshhd{pshhd}!
+/pdfthd{pfthd}!
+/ghd{	xymove
+	1.7 1.5 RM
+	-1.32 2.31 -5.94 -0.33 -4.62 -2.64 RC
+	1.32 -2.31 5.94 0.33 4.62 2.64 RC fill}!
+/gua{x y M -1 4 RM RL stroke}!
+/gda{x y M -5 -4 RM RL stroke}!
+/ghl{	.6 SLW M -3.5 0 RM 7 0 RL stroke}!
+/gsl{dlw M RC stroke}!
+/custos{2 copy M -4 0 RM 2 2.5 RL 2 -2.5 RL 2 2.5 RL 2 -2.5 RL
+	-2 -2.5 RL -2 2.5 RL -2 -2.5 RL -2 2.5 RL fill
+	M 3.5 0 RM 5 7 RL dlw stroke}!
+/showerror{gsave 1 0.7 0.7 setrgbcolor 2.5 SLW newpath
+	30 0 360 arc stroke grestore}!
+/pdfmark where{pop}{userdict/pdfmark/cleartomark load put}ifelse
+0 setlinecap 0 setlinejoin
+/hbrce{	-2.5 1 RM
+	-4.5 -4.6 -7.5 -12.2 -4.4 -26.8 RC
+	3.5 -14.3 3.2 -21.7 -2.1 -24.2 RC
+	7.4 2.4 7.3 14.2 3.5 29.5 RC
+	-2.7 9.5 -1.5 16.2 3 21.5 RC
+	fill}!
+/brace{	gsave T 0 0 M .01 mul 1 exch scale hbrce
+	0 -100 M 1 -1 scale hbrce grestore}!
+/sgno{	3 add M currentpoint currentpoint currentpoint
+	1.5 -1.7 6.4 0.3 3 3.7 RC
+	-10.4 7.8 -8 10.6 -6.5 11.9 RC
+	4 1.9 5.9 -1.7 4.2 -2.6 RC
+	-1.3 -0.7 -2.9 1.3 -0.7 2 RC
+	-1.5 1.7 -6.4 -0.3 -3 -3.7 RC
+	10.4 -7.8 8 -10.6 6.5 -11.9 RC
+	-4 -1.9 -5.9 1.7 -4.2 2.6 RC
+	1.3 0.7 2.9 -1.3 0.7 -2 RC
+	fill
+	M 0.8 SLW -6 1.2 RM 12.6 12.6 RL stroke
+	7 add exch 6 sub exch 1.2 0 360 arc fill
+	8 add exch 6 add exch 1.2 0 360 arc fill}!
+/dacoda{2 1 roll 10 add 2 1 roll dup 3 -1 roll dup 3 1 roll -23 add 4 1 roll
+	1 SLW 2 add 2 copy M 0 20 RL
+	2 copy M -10 10 RM 20 0 RL stroke
+	10 add 6 0 360 arc 1.7 SLW stroke
+	/Times-Roman 16 selectfont 7 add M (Da) showc}!
+/coda{	1 SLW 2 add 2 copy M 0 20 RL
+	2 copy M -10 10 RM 20 0 RL 1.1 SLW stroke
+	exch -7 add exch (O) 3 1 roll /Times-Bold 18 selectfont 4 add M show}!
+/utclef{<95200072
+	0000ff2e01c2030c
+	00ac0056
+	0064007f006400f400e00112
+	0176011c01bc0056013a0012
+	00c8ffde002700120015009a
+	0006014f0072017f00f101e8
+	0149023f0140026d012f02ba
+	00fc029900d1025100d60200
+	00e700f500fa008a0107ffc2
+	010dff6200f4ff3c00baff3b
+	006aff3a003cff98007dffc0
+	00d2ffe90102ff5b009cff57
+	00b3ff4600f8ff3200f6ffb3
+	00ec009200cf010900c4021c
+	00c4027600c402be01240304
+	015c02bc0163021e013a01e3
+	00f001790039013b003b00a7
+	0044000e00cfffee01370022
+	018d0063015400e200e700d2
+	00a000c6007e008f00ac0056
+	><0b000132050a>}cvlit def
+/tclef{gsave T -10 -6 T .045 dup scale utclef ufill grestore}!
+/ucclef{<95200066
+	006effbe01e70256
+	00d10108
+	00d10002
+	00c40002
+	00c40213
+	00d10213
+	00d10113
+	00ea012700fa013701100180
+	011e0161011d014d0148013a
+	01a2011801a80244011f01f3
+	015301e0013a01a3011401a6
+	00ba01cc01350256019f01eb
+	01e7019c01a000fa01190131
+	0109010a
+	011900e4
+	01a0011b01e70079019f002a
+	0135ffbe00ba00490114006f
+	013a007201530035011f0022
+	01a8ffd101a200fd014800db
+	011d00c8011b00bd0110009b
+	00fa00e400ea00f400d10108
+	006e0213
+	00a70213
+	00a70002
+	006e0002
+	006e0213
+	><0b000125032605220326050a0124030a>}cvlit def
+/cclef{gsave T -12 -12 T .045 dup scale ucclef ufill grestore}!
+/ubclef{<95200046
+	00000050019a0244
+	00010057
+	007d007a00df00a500ff0143
+	012a022700580239003f01aa
+	007a01fa00dc0194009b015c
+	005d012d00280172003101b4
+	00460241013f023c01430180
+	014200d100d9007800010057
+	01660151
+	016601750199017301990151
+	0199012c0166012d01660151
+	016401d2
+	016401f6019701f4019701d2
+	019701ac016401ad016401d2
+	><0b000126050a0122050a0122050a>}cvlit def
+/bclef{gsave T -10 -18 T .045 dup scale ubclef ufill grestore}!
+/pclef{	exch 2.7 sub exch -9 add 5.4 18 1.4 SLW rectstroke}!
+/spclef{pclef}!
+/stclef{gsave T -10 -6 T .037 dup scale utclef ufill grestore}!
+/scclef{gsave T -12 -10 T .037 dup scale ucclef ufill grestore}!
+/sbclef{gsave T -10 -15 T .037 dup scale ubclef ufill grestore}!
+/csig{	M
+	6 5.3 RM
+	0.9 0 2.3 -0.7 2.4 -2.2 RC
+	-1.2 2 -3.6 -0.1 -1.6 -1.7 RC
+	2 -1 3.8 3.5 -0.8 4.7 RC
+	-2 0.4 -6.4 -1.3 -5.8 -7 RC
+	0.4 -6.4 7.9 -6.8 9.1 -0.7 RC
+	-2.3 -5.6 -6.7 -5.1 -6.8 0 RC
+	-0.5 4.4 0.7 7.5 3.5 6.9 RC
+	fill}!
+/ctsig{dlw 2 copy csig M 5 -8 RM 0 16 RL stroke}!
+/HDD{	dlw HD
+	x y M -6 -4 RM 0 8 RL
+	12 0 RM 0 -8 RL stroke}!
+/breve{	xymove
+	2.5 SLW -6 -2.7 RM 12 0 RL
+	0 5.4 RM -12 0 RL stroke
+	dlw x y M -6 -5 RM 0 10 RL
+	12 0 RM 0 -10 RL stroke}!
+/HD{	xymove
+	-2.7 1.4 RM
+	1.5 2.8 6.9 0 5.3 -2.7 RC
+	-1.5 -2.8 -6.9 0 -5.3 2.7 RC
+	8.3 -1.4 RM
+	0 1.5 -2.2 3 -5.6 3 RC
+	-3.4 0 -5.6 -1.5 -5.6 -3 RC
+	0 -1.5 2.2 -3 5.6 -3 RC
+	3.4 0 5.6 1.5 5.6 3 RC fill}!
+/Hd{	xymove
+	3 1.6 RM
+	-1 1.8 -7 -1.4 -6 -3.2 RC
+	1 -1.8 7 1.4 6 3.2 RC
+	0.5 0.3 RM
+	2 -3.8 -5 -7.6 -7 -3.8 RC
+	-2 3.8 5 7.6 7 3.8 RC fill}!
+/uhd{{	100 -270 640 280
+	560 82
+	474 267 105 105 186 -80
+	267 -265 636 -102 555 82
+	}<0b000122050a>}cvlit def
+/hd{	/x 2 index def/y 1 index def
+	gsave T -7.4 0 T .02 dup scale uhd ufill grestore}!
+/ft0{	gsave T -3.5 -3.5 T .018 dup scale uflat ufill grestore}!
+/nt0{	gsave T -3 -5 T .018 dup scale unat ufill grestore}!
+/sh0{	gsave T -4 -5 T .018 dup scale usharp ufill grestore}!
+/dsh0{	gsave T -4 -5 T .018 dup scale udblesharp ufill grestore}!
+/pshhd{/x 2 index def/y 1 index def dsh0}!
+/dft0{	gsave T -4 -3.5 T .018 dup scale udbleflat ufill grestore}!
+/accent{1.2 SLW M -4 1 RM 8 2 RL -8 2 RL stroke}!
+/marcato{M -3 0 RM 3 7 RL 3 -7 RL -1.5 0 RL -1.8 4.2 RL -1.7 -4.2 RL fill}!
+/hld{	1.5 add 2 copy 1.5 add M currentpoint 1.3 0 360 arc
+	M -7.5 0 RM
+	0 11.5 15 11.5 15 0 RC
+	-0.25 0 RL
+	-1.25 9 -13.25 9 -14.5 0 RC
+	fill}!
+/r00{	xymove -1.5 -6 RM currentpoint 3 12 rectfill}!
+/r0{	xymove -1.5 0 RM currentpoint 3 6 rectfill}!
+/r1{	xymove -3.5 3 RM currentpoint 7 3 rectfill}!
+/r2{	xymove -3.5 0 RM currentpoint 7 3 rectfill}!
+/r4{	xymove
+	-1 8.5 RM
+	3.6 -5.1 RL
+	-2.1 -5.2 RL
+	2.2 -4.3 RL
+	-2.6 2.3 -5.1 0 -2.4 -2.6 RC
+	-4.8 3 -1.5 6.9 1.4 4.1 RC
+	-3.1 4.5 RL
+	1.9 5.1 RL
+	-1.5 3.5 RL
+	fill}!
+/r8e{	-1.5 -1.5 -2.4 -2 -3.6 -2 RC
+	2.4 2.8 -2.8 4 -2.8 1.2 RC
+	0 -2.7 4.3 -2.4 5.9 -0.6 RC
+	fill}!
+/r8{	xymove
+	.5 SLW 3.3 4 RM
+	-3.4 -9.6 RL stroke
+	x y M 3.4 4 RM r8e}!
+/r16{	xymove
+	.5 SLW 3.3 4 RM
+	-4 -15.6 RL stroke
+	x y M 3.4 4 RM r8e
+	x y M 1.9 -2 RM r8e}!
+/r32{	xymove
+	.5 SLW 4.8 10 RM
+	-5.5 -21.6 RL stroke
+	x y M 4.9 10 RM r8e
+	x y M 3.4 4 RM r8e
+	x y M 1.9 -2 RM r8e}!
+/r64{	xymove
+	.5 SLW 4.8 10 RM
+	-7 -27.6 RL stroke
+	x y M 4.9 10 RM r8e
+	x y M 3.4 4 RM r8e
+	x y M 1.9 -2 RM r8e
+	x y M 0.4 -8 RM r8e}!
+/r128{	xymove
+	.5 SLW 5.8 16 RM
+	-8.5 -33.6 RL stroke
+	x y M 5.9 16 RM r8e
+	x y M 4.4 10 RM r8e
+	x y M 2.9 4 RM r8e
+	x y M 1.4 -2 RM r8e
+	x y M -0.1 -8 RM r8e}!
+/mrest{	M currentpoint 1 SLW
+	-20 -6 RM 0 12 RL 40 0 RM 0 -12 RL stroke
+	M 5 SLW -20 0 RM 40 0 RL stroke}!
+/mrep{	2 copy 2 copy
+	M -5 3 RM currentpoint 1.4 0 360 arc
+	M 5 -3 RM currentpoint 1.4 0 360 arc
+	M -7 -6 RM 11 12 RL 3 0 RL -11 -12 RL -3 0 RL fill}!
+/mrep2{	2 copy 2 copy
+	M -5 6 RM currentpoint 1.4 0 360 arc
+	M 5 -6 RM currentpoint 1.4 0 360 arc fill
+	M 1.8 SLW
+	-7 -8 RM 14 10 RL -14 -4 RM 14 10 RL stroke}!
+/turn{	M 5.2 8 RM
+	1.4 -0.5 0.9 -4.8 -2.2 -2.8 RC
+	-4.8 3.5 RL
+	-3 2 -5.8 -1.8 -3.6 -4.4 RC
+	1 -1.1 2 -0.8 2.1 0.1 RC
+	0.1 0.9 -0.7 1.2 -1.9 0.6 RC
+	-1.4 0.5 -0.9 4.8 2.2 2.8 RC
+	4.8 -3.5 RL
+	3 -2 5.8 1.8 3.6 4.4 RC
+	-1 1.1 -2 0.8 -2.1 -0.1 RC
+	-0.1 -0.9 0.7 -1.2 1.9 -0.6 RC
+	fill}!
+/umrd{	4 add M
+	2.2 2.2 RL 2.1 -2.9 RL 0.7 0.7 RL
+	-2.2 -2.2 RL -2.1 2.9 RL -0.7 -0.7 RL
+	-2.2 -2.2 RL -2.1 2.9 RL -0.7 -0.7 RL
+	2.2 2.2 RL 2.1 -2.9 RL 0.7 0.7 RL fill}!
+/lmrd{	2 copy umrd M .6 SLW 0 8 RL stroke}!
+/ped{	/Times-BoldItalic 16 selectfont M -10 2 RM(Ped)show}!
+/pedoff{	/Times-BoldItalic 16 selectfont M -4 2 RM(*)show}!
+/longa{	xymove
+	2.5 SLW -6 -2.7 RM 12 0 RL
+	0 5.4 RM -12 0 RL stroke
+	dlw x y M -6 -5 RM 0 10 RL
+	12 0 RM 0 -16 RL stroke}!
+/su{dlw x y M 3.5 1.0 RM 1.0 sub 0 exch RL stroke}!
+/sd{dlw x y M -3.5 -1.0 RM 1.0 add 0 exch RL stroke}!
+/sfu{	dlw x y M 3.5 1.0 RM
+	1.0 sub 0 exch RL currentpoint stroke
+	M dup 1 eq{
+		pop
+		0.6 -5.6 9.6 -9 5.6 -18.4 RC
+		1.6 6 -1.3 11.6 -5.6 12.8 RC fill
+	  }{
+		1 sub{	currentpoint
+			0.9 -3.7 9.1 -6.4 6 -12.4 RC
+			1 5.4 -4.2 8.4 -6 8.4 RC
+			fill 5.4 sub M
+		}repeat
+		1.2 -3.2 9.6 -5.7 5.6 -14.6 RC
+		1.6 5.4 -1 10.2 -5.6 11.4 RC fill
+	  }ifelse}!
+/sfd{	dlw x y M -3.5 -1.0 RM
+	1.0 add 0 exch RL currentpoint stroke
+	M dup 1 eq{
+		pop
+		0.6 5.6 9.6 9 5.6 18.4 RC
+		1.6 -6 -1.3 -11.6 -5.6 -12.8 RC fill
+	  }{
+		1 sub{	currentpoint
+			0.9 3.7 9.1 6.4 6 12.4 RC
+			1 -5.4 -4.2 -8.4 -6 -8.4 RC
+			fill 5.4 add M
+		}repeat
+		1.2 3.2 9.6 5.7 5.6 14.6 RC
+		1.6 -5.4 -1 -10.2 -5.6 -11.4 RC fill
+	  }ifelse}!
+/sfs{	dup 0 lt{
+		dlw x y M -3.5 -1.0 RM
+		1.0 add 0 exch RL currentpoint stroke
+		M{	currentpoint
+			7 3.2 RL
+			0 3.2 RL
+			-7 -3.2 RL
+			fill 5.4 add M
+		}repeat
+	}{
+		dlw x y M 3.5 1.0 RM
+		1.0 sub 0 exch RL currentpoint stroke
+		M{	currentpoint
+			7 -3.2 RL
+			0 -3.2 RL
+			-7 3.2 RL
+			fill 5.4 sub M
+		}repeat
+	}ifelse}!
+/gu{	.6 SLW x y M
+	2.3 0 RM 0 exch RL stroke}!
+/gd{	.6 SLW x y M
+	-2.3 0 RM 0 exch RL stroke}!
+/sgu{	.6 SLW x y M 2.3 0 RM
+	0 exch RL currentpoint stroke
+	M dup 1 eq{
+		pop
+		0.6 -3.4 5.6 -3.8 3 -10 RC
+		1.2 4.4 -1.4 7 -3 7 RC fill
+	  }{
+		{	currentpoint
+			1 -3.2 5.6 -2.8 3.2 -8 RC
+			1.4 4.8 -2.4 5.4 -3.2 5.2 RC
+			fill 3.5 sub M
+		}repeat
+	  }ifelse}!
+/sgd{	.6 SLW x y M -2.3 0 RM
+	0 exch RL currentpoint stroke
+	M dup 1 eq{
+		pop
+		0.6 3.4 5.6 3.8 3 10 RC
+		1.2 -4.4 -1.4 -7 -3 -7 RC fill
+	  }{
+		{	currentpoint
+			1 3.2 5.6 2.8 3.2 8 RC
+			1.4 -4.8 -2.4 -5.4 -3.2 -5.2 RC
+			fill 3.5 add M
+		}repeat
+	  }ifelse}!
+/sgs{	.6 SLW x y M 2.3 0 RM
+	0 exch RL currentpoint stroke
+	M{	currentpoint
+		3 -1.5 RL 0 -2 RL -3 1.5 RL
+		closepath fill 3 sub M
+	}repeat}!
+/x_head{gsave T 0 0 M
+ 1.2 SLW -3 3 RM 6 -6 RL 0 6 RM -6 -6 RL stroke
+grestore}!
+/triangle{gsave T 0 0 M
+ -3.5 -3.5 RM 3.5 7 RL 3.5 -7 RL -7 -0 RL fill
+grestore}!
+/diamond{gsave T 0 0 M
+ 0 3.5 RM -3.5 -3.5 RL 3.5 -3.5 RL 3.5 3.5 RL -3.5 3.5 RL fill
+grestore}!
+/antiaccent {  newpath
+7.5 add
+5 180 360 arc
+stroke
+} def
+/mkfont{findfont dup length 1 add dict begin
+	{1 index/FID ne{def}{pop pop}ifelse}forall
+	CharStrings/double_sharp known not{
+	    /CharStrings CharStrings dup length dict copy def
+	    FontMatrix 0 get 1 eq{
+		CharStrings/sharp{pop .46 0 setcharwidth .001 dup scale usharp ufill}bind put
+		CharStrings/flat{pop .46 0 setcharwidth .001 dup scale uflat ufill}bind put
+		CharStrings/natural{pop .40 0 setcharwidth .001 dup scale unat ufill}bind put
+		CharStrings/double_sharp{pop .46 0 setcharwidth .001 dup scale udblesharp ufill}bind put
+		CharStrings/double_flat{pop .50 0 setcharwidth .001 dup scale udbleflat ufill}bind put
+	    }{
+		CharStrings/sharp{pop 460 0 setcharwidth usharp ufill}bind put
+		CharStrings/flat{pop 460 0 setcharwidth uflat ufill}bind put
+		CharStrings/natural{pop 400 0 setcharwidth unat ufill}bind put
+		CharStrings/double_sharp{pop 460 0 setcharwidth udblesharp ufill}bind put
+		CharStrings/double_flat{pop 500 0 setcharwidth udbleflat ufill}bind put
+	    }ifelse
+	}if currentdict definefont pop end}!
+/Helvetica-utf8/Helvetica mkfont
+/F0{/Helvetica-utf8 exch selectfont}!
+/Times-Italic-utf8/Times-Italic mkfont
+/F1{/Times-Italic-utf8 exch selectfont}!
+/Times-Roman-utf8/Times-Roman mkfont
+/F2{/Times-Roman-utf8 exch selectfont}!
+/Times-Bold-utf8/Times-Bold mkfont
+/F3{/Times-Bold-utf8 exch selectfont}!
+/setpagedevice where{pop
+	<</PageSize[595 842]>>setpagedevice}if
+%%EndSetup
+%%Page: 1 1
+gsave 0.75 dup scale 0 1084.9 T
+% --- width 657.7
+68.04 0 T
+0 -22.00 T
+% --- xref 1
+0 -26.00 T
+% --- title Computer-generated Ètude for Solo Drum Kit
+328.9 4.0 M /str{ 20.0 F2 [(Computer-generated )/Egrave(tude for Solo Drum Kit)]arrayshow}def
+strw w 0.5 mul neg 0 RM str
+0 -6.00 T
+0 -14.00 T
+657.7 0 M  14.0 F1 (abcsolo16shuffle16ghost \(2021-11-11T20:26:35.508\))showr
+0 -6.00 T
+% --- font 20.0 F2 
+55.0 -17.0 M  15.0 F3 (Rock 16th shuffle feel)show
+gsave 0.70 dup scale 8 3 RM currentpoint hd 21 su grestore 13.3 0 RM
+(= )show
+(60)show
+/y0{-83.0 add}!
+/yns0{-83.0 add}!
+59.0 -83.0 rdots 24.0 55.0 -83.0 bar 24.0 49.0 -83.0 thbar 
+24.0 177.3 -83.0 thbar 
+24.0 351.3 -83.0 bar 
+24.0 468.6 -83.0 thbar 
+24.0 654.7 -83.0 thbar 
+dlw 657.7 0.0 -83.0 M 0 RL 657.7 0.0 -77.0 M 0 RL 657.7 0.0 -71.0 M 0 RL 657.7 0.0 -65.0 M 0 RL 657.7 0.0 -59.0 M 0 RL stroke
+59.2 0.0 71.5 55.0 y0 tubr(6)101.1 51.0 y0 bnumb
+77.2 0.0 133.2 51.0 y0 tubr(6)171.8 47.0 y0 bnumb
+(6)254.1 53.0 y0 bnum
+59.2 0.0 287.1 55.0 y0 tubr(6)316.7 51.0 y0 bnumb
+59.2 0.0 362.8 55.0 y0 tubr(6)392.4 51.0 y0 bnumb
+77.2 0.0 424.5 55.0 y0 tubr(6)463.1 51.0 y0 bnumb
+59.2 0.0 516.8 55.0 y0 tubr(6)546.4 51.0 y0 bnumb
+55.5 0.0 578.5 51.0 y0 tubr(6)606.2 47.0 y0 bnumb
+12.0 -71.0  pclef
+(4)(4) 30.5 -83.0 tsig
+3.2 41.2 -0.0 75.7 -35.8 bm
+3.2 40.5 -0.0 76.0 -40.8 bm
+72.5 -80.0 hd 43.2 su 72.5 -56.0 2 copy xydef x_head
+82.6 -68.0 hd 31.2 su
+92.8 -80.0 hd 43.2 su
+102.9 -56.0 2 copy xydef x_head 19.2 su
+113.0 -68.0 hd 31.2 su
+123.2 -71.0 r16 
+3.2 34.3 -0.0 137.3 -39.8 bm
+3.2 10.1 -0.0 137.7 -44.8 bm
+134.2 -80.0 hd 39.2 su 134.2 -68.0 hd 134.2 -56.0 2 copy xydef x_head
+144.3 -68.0 hd 27.2 su
+154.4 -68.0 hd
+167.8 -68.0 hd 27.2 su
+3.2 21.0 -0.0 195.9 -39.8 bm
+3.2 20.3 -0.0 196.3 -44.8 bm
+192.8 -80.0 hd 39.2 su 192.8 -56.0 2 copy xydef x_head
+202.9 -68.0 hd 27.2 su
+213.1 -80.0 hd 39.2 su
+3.2 51.4 -0.0 229.6 -35.8 bm
+3.2 50.7 -0.0 230.0 -40.8 bm
+226.5 -56.0 2 copy xydef x_head 19.2 su
+236.6 -68.0 hd 31.2 su
+246.7 -71.0 r16 
+256.9 -80.0 hd 43.2 su 256.9 -56.0 2 copy xydef x_head
+267.0 -68.0 hd 31.2 su
+277.1 -80.0 hd 43.2 su
+3.2 41.2 -0.0 291.3 -35.8 bm
+3.2 40.5 -0.0 291.6 -40.8 bm
+288.1 -68.0 hd 31.2 su 288.1 -56.0 2 copy xydef x_head
+298.3 -68.0 hd 31.2 su
+308.4 -71.0 r16 
+318.6 -56.0 2 copy xydef x_head 19.2 su
+328.7 -68.0 hd 31.2 su
+338.8 -71.0 r16 
+3.2 41.2 -0.0 367.0 -35.8 bm
+3.2 40.5 -0.0 367.3 -40.8 bm
+363.8 -56.0 2 copy xydef x_head 19.2 su
+374.0 -68.0 hd 31.2 su
+384.1 -71.0 r16 
+394.2 -80.0 hd 43.2 su 394.2 -56.0 2 copy xydef x_head
+404.4 -68.0 hd 31.2 su
+414.5 -71.0 r16 
+3.2 34.3 -0.0 428.7 -39.8 bm
+3.2 10.1 -0.0 429.0 -44.8 bm
+425.5 -80.0 hd 39.2 su 425.5 -68.0 hd 425.5 -56.0 2 copy xydef x_head
+435.6 -68.0 hd 27.2 su
+445.8 -68.0 hd
+459.1 -68.0 hd 27.2 su
+3.2 10.8 -0.0 487.3 -35.8 bm
+3.2 10.1 -0.0 487.6 -40.8 bm
+484.1 -56.0 2 copy xydef x_head 19.2 su
+494.2 -68.0 hd 31.2 su
+504.4 -71.0 r16 
+3.2 41.2 -0.0 520.9 -35.8 bm
+3.2 40.5 -0.0 521.3 -40.8 bm
+517.8 -80.0 hd 43.2 su 517.8 -56.0 2 copy xydef x_head
+527.9 -68.0 hd 31.2 su
+538.1 -80.0 hd 43.2 su
+548.2 -56.0 2 copy xydef x_head 19.2 su
+558.3 -68.0 hd 31.2 su
+568.5 -71.0 r16 
+3.2 64.7 -0.0 582.6 -39.8 bm
+3.2 40.5 -0.0 583.0 -44.8 bm
+579.5 -80.0 hd 39.2 su 579.5 -68.0 hd 579.5 -56.0 2 copy xydef x_head
+589.6 -68.0 hd 27.2 su
+599.7 -71.0 r16 
+609.9 -80.0 hd 39.2 su 609.9 -56.0 2 copy xydef x_head
+620.0 -68.0 hd 27.2 su
+630.1 -68.0 hd
+643.5 -68.0 hd 27.2 su
+(mf)66.5 -101.4 pf
+74.6 -70.0 M 12.0 F0 (\()show
+86.6 -70.0 M 12.0 F0 (\))show
+105.0 -70.0 M 12.0 F0 (\()show
+117.0 -70.0 M 12.0 F0 (\))show
+136.3 -70.0 M 12.0 F0 (\()show
+148.3 -70.0 M 12.0 F0 (\))show
+146.4 -70.0 M 12.0 F0 (\()show
+158.4 -70.0 M 12.0 F0 (\))show
+154.4 -68.0 dnb
+194.9 -70.0 M 12.0 F0 (\()show
+206.9 -70.0 M 12.0 F0 (\))show
+228.6 -70.0 M 12.0 F0 (\()show
+240.6 -70.0 M 12.0 F0 (\))show
+259.0 -70.0 M 12.0 F0 (\()show
+271.0 -70.0 M 12.0 F0 (\))show
+290.3 -70.0 M 12.0 F0 (\()show
+302.3 -70.0 M 12.0 F0 (\))show
+320.7 -70.0 M 12.0 F0 (\()show
+332.7 -70.0 M 12.0 F0 (\))show
+366.0 -70.0 M 12.0 F0 (\()show
+378.0 -70.0 M 12.0 F0 (\))show
+396.4 -70.0 M 12.0 F0 (\()show
+408.4 -70.0 M 12.0 F0 (\))show
+427.6 -70.0 M 12.0 F0 (\()show
+439.6 -70.0 M 12.0 F0 (\))show
+437.8 -70.0 M 12.0 F0 (\()show
+449.8 -70.0 M 12.0 F0 (\))show
+445.8 -68.0 dnb
+486.2 -70.0 M 12.0 F0 (\()show
+498.2 -70.0 M 12.0 F0 (\))show
+519.9 -70.0 M 12.0 F0 (\()show
+531.9 -70.0 M 12.0 F0 (\))show
+550.3 -70.0 M 12.0 F0 (\()show
+562.3 -70.0 M 12.0 F0 (\))show
+581.6 -70.0 M 12.0 F0 (\()show
+593.6 -70.0 M 12.0 F0 (\))show
+612.0 -70.0 M 12.0 F0 (\()show
+624.0 -70.0 M 12.0 F0 (\))show
+622.1 -70.0 M 12.0 F0 (\()show
+634.1 -70.0 M 12.0 F0 (\))show
+630.1 -68.0 dnb
+0 -106.00 T
+/y0{-64.0 add}!
+/yns0{-64.0 add}!
+24.0 32.0 -64.0 bar 
+24.0 94.4 -64.0 thbar 
+24.0 238.4 -64.0 thbar 
+24.0 303.7 -64.0 thbar 
+24.0 430.3 -64.0 bar 
+dlw 657.7 0.0 -64.0 M 0 RL 657.7 0.0 -58.0 M 0 RL 657.7 0.0 -52.0 M 0 RL 657.7 0.0 -46.0 M 0 RL 657.7 0.0 -40.0 M 0 RL stroke
+85.6 0.0 43.5 51.0 y0 tubr(6)86.3 47.0 y0 bnumb
+66.5 0.0 148.8 51.0 y0 tubr(6)182.1 47.0 y0 bnumb
+85.6 0.0 252.9 51.0 y0 tubr(6)295.7 47.0 y0 bnumb
+67.2 0.0 358.2 55.0 y0 tubr(6)391.7 51.0 y0 bnumb
+(6)474.5 49.0 y0 bnum
+(6)546.1 49.0 y0 bnum
+(6)617.7 49.0 y0 bnum
+13.0 F2 (1)-11.4 1 223.4 430.3 62.0 yns0 repbra
+12.0 -52.0  pclef
+3.2 40.5 -0.0 47.7 -20.8 bm
+3.2 11.7 -0.0 48.0 -25.8 bm
+44.5 -61.0 hd 39.2 su 44.5 -37.0 2 copy xydef x_head
+56.2 -49.0 hd 27.2 su
+68.0 -49.0 hd
+84.3 -49.0 hd 27.2 su
+3.2 24.1 -0.0 113.0 -20.8 bm
+3.2 23.5 -0.0 113.4 -25.8 bm
+109.9 -61.0 hd 39.2 su 109.9 -37.0 2 copy xydef x_head
+121.6 -49.0 hd 27.2 su
+133.3 -61.0 hd 39.2 su
+3.2 75.7 -0.0 153.0 -20.8 bm
+3.2 46.9 -0.0 153.3 -25.8 bm
+149.8 -49.0 hd 27.2 su 149.8 -37.0 2 copy xydef x_head
+161.5 -49.0 hd 27.2 su
+173.3 -52.0 r16 
+185.0 -61.0 hd 39.2 su 185.0 -37.0 2 copy xydef x_head
+196.7 -49.0 hd 27.2 su
+208.5 -49.0 hd
+224.8 -49.0 hd 27.2 su
+3.2 40.5 -0.0 257.0 -20.8 bm
+3.2 11.7 -0.0 257.4 -25.8 bm
+253.9 -61.0 hd 39.2 su 253.9 -37.0 2 copy xydef x_head
+265.6 -49.0 hd 27.2 su
+277.3 -49.0 hd
+293.7 -49.0 hd 27.2 su
+3.2 12.4 -0.0 322.4 -20.8 bm
+3.2 11.7 -0.0 322.7 -25.8 bm
+319.2 -61.0 hd 39.2 su 319.2 -37.0 2 copy xydef x_head
+331.0 -49.0 hd 27.2 su
+342.7 -52.0 r16 
+3.2 47.6 -0.0 362.3 -16.8 bm
+3.2 46.9 -0.0 362.7 -21.8 bm
+359.2 -61.0 hd 43.2 su 359.2 -49.0 hd 359.2 -37.0 2 copy xydef x_head
+370.9 -49.0 hd 31.2 su
+382.6 -61.0 hd 43.2 su
+394.4 -37.0 2 copy xydef x_head 19.2 su
+406.1 -49.0 hd 31.2 su
+417.8 -52.0 r16 
+3.2 59.3 -0.0 446.0 -20.8 bm
+3.2 58.7 -0.0 446.3 -25.8 bm
+442.8 -49.0 hd 27.2 su
+454.6 -49.0 hd 27.2 su
+466.3 -61.0 hd 39.2 su
+478.0 -49.0 hd 27.2 su
+489.8 -43.0 hd 21.2 su
+501.5 -61.0 hd 39.2 su
+3.2 59.3 -0.0 517.6 -20.8 bm
+3.2 58.7 -0.0 518.0 -25.8 bm
+514.5 -49.0 hd 27.2 su
+526.2 -49.0 hd 27.2 su
+537.9 -61.0 hd 39.2 su
+549.7 -43.0 hd 21.2 su
+561.4 -58.0 hd 36.2 su
+573.1 -43.0 hd 21.2 su
+3.2 59.3 -0.0 589.2 -20.8 bm
+3.2 58.7 -0.0 589.6 -25.8 bm
+586.1 -49.0 hd 27.2 su
+597.8 -43.0 hd 21.2 su
+609.6 -49.0 hd 27.2 su
+621.3 -43.0 hd 21.2 su
+633.0 -43.0 hd 21.2 su
+644.7 -61.0 hd 39.2 su
+48.2 -51.0 M 12.0 F0 (\()show
+60.2 -51.0 M 12.0 F0 (\))show
+60.0 -51.0 M 12.0 F0 (\()show
+72.0 -51.0 M 12.0 F0 (\))show
+68.0 -49.0 dnb
+113.6 -51.0 M 12.0 F0 (\()show
+125.6 -51.0 M 12.0 F0 (\))show
+153.5 -51.0 M 12.0 F0 (\()show
+165.5 -51.0 M 12.0 F0 (\))show
+188.7 -51.0 M 12.0 F0 (\()show
+200.7 -51.0 M 12.0 F0 (\))show
+200.5 -51.0 M 12.0 F0 (\()show
+212.5 -51.0 M 12.0 F0 (\))show
+208.5 -49.0 dnb
+257.6 -51.0 M 12.0 F0 (\()show
+269.6 -51.0 M 12.0 F0 (\))show
+269.3 -51.0 M 12.0 F0 (\()show
+281.3 -51.0 M 12.0 F0 (\))show
+277.3 -49.0 dnb
+323.0 -51.0 M 12.0 F0 (\()show
+335.0 -51.0 M 12.0 F0 (\))show
+362.9 -51.0 M 12.0 F0 (\()show
+374.9 -51.0 M 12.0 F0 (\))show
+398.1 -51.0 M 12.0 F0 (\()show
+410.1 -51.0 M 12.0 F0 (\))show
+0 -87.00 T
+/y0{-64.0 add}!
+/yns0{-64.0 add}!
+24.0 133.2 -64.0 thbar 24.0 130.2 -64.0 bar 126.2 -64.0 rdots 
+494.7 -64.0 rdots 24.0 490.7 -64.0 bar 24.0 484.7 -64.0 thbar 
+24.0 654.7 -64.0 thbar 
+dlw 657.7 0.0 -64.0 M 0 RL 657.7 0.0 -58.0 M 0 RL 657.7 0.0 -52.0 M 0 RL 657.7 0.0 -46.0 M 0 RL 657.7 0.0 -40.0 M 0 RL stroke
+(6)83.2 49.0 y0 bnum
+(6)187.3 49.0 y0 bnum
+(6)272.5 49.0 y0 bnum
+(6)357.6 49.0 y0 bnum
+(6)442.7 49.0 y0 bnum
+(6)546.9 53.0 y0 bnum
+13.0 F2 ()-11.4 2 96.2 32.0 62.0 yns0 repbra
+(2)-11.4 3 347.5 136.2 62.0 yns0 repbra
+12.0 -52.0  pclef
+3.2 70.3 -0.0 49.2 -20.8 bm
+3.2 69.6 -0.0 49.5 -25.8 bm
+46.0 -43.0 hd 21.2 su
+60.0 -55.0 hd 33.2 su
+73.9 -55.0 hd 33.2 su
+87.8 -49.0 hd 27.2 su
+101.7 -43.0 hd 21.2 su
+115.7 -43.0 hd 21.2 su
+3.2 70.3 -0.0 153.4 -20.8 bm
+3.2 69.6 -0.0 153.7 -25.8 bm
+150.2 -49.0 hd 27.2 su
+164.1 -49.0 hd 27.2 su
+178.1 -61.0 hd 39.2 su
+192.0 -49.0 hd 27.2 su
+205.9 -43.0 hd 21.2 su
+219.9 -61.0 hd 39.2 su
+3.2 70.3 -0.0 238.5 -20.8 bm
+3.2 69.6 -0.0 238.8 -25.8 bm
+235.3 -49.0 hd 27.2 su
+249.3 -49.0 hd 27.2 su
+263.2 -61.0 hd 39.2 su
+277.1 -43.0 hd 21.2 su
+291.0 -58.0 hd 36.2 su
+305.0 -43.0 hd 21.2 su
+3.2 70.3 -0.0 323.6 -20.8 bm
+3.2 69.6 -0.0 323.9 -25.8 bm
+320.4 -49.0 hd 27.2 su
+334.4 -43.0 hd 21.2 su
+348.3 -49.0 hd 27.2 su
+362.2 -43.0 hd 21.2 su
+376.2 -43.0 hd 21.2 su
+390.1 -61.0 hd 39.2 su
+3.2 70.3 -0.0 408.7 -20.8 bm
+3.2 69.6 -0.0 409.1 -25.8 bm
+405.6 -43.0 hd 21.2 su
+419.5 -55.0 hd 33.2 su
+433.4 -55.0 hd 33.2 su
+447.3 -49.0 hd 27.2 su
+461.3 -43.0 hd 21.2 su
+475.2 -43.0 hd 21.2 su
+3.2 70.3 -0.0 512.9 -16.8 bm
+3.2 69.6 -0.0 513.2 -21.8 bm
+509.7 -61.0 hd 43.2 su 509.7 -37.0 2 copy xydef x_head
+523.7 -49.0 hd 31.2 su
+537.6 -61.0 hd 43.2 su 537.6 -37.0 2 copy xydef x_head
+551.5 -67.0 2 copy xydef x_head 49.2 su 551.5 -37.0 2 copy xydef x_head
+565.5 -49.0 hd 31.2 su
+579.4 -37.0 2 copy xydef x_head 19.2 su
+3.2 48.2 -0.0 598.0 -20.8 bm
+3.2 13.9 -0.0 598.4 -25.8 bm
+594.9 -61.0 hd 39.2 su 594.9 -49.0 hd 594.9 -37.0 2 copy xydef x_head
+608.8 -49.0 hd 27.2 su
+622.7 -49.0 hd 622.7 -37.0 2 copy xydef x_head
+642.4 -49.0 hd 27.2 su
+50.3 379.2 -86.0 cresc
+(mp)503.7 -82.4 pf
+515.7 -51.0 M 12.0 F0 (\()show
+527.7 -51.0 M 12.0 F0 (\))show
+557.5 -51.0 M 12.0 F0 (\()show
+569.5 -51.0 M 12.0 F0 (\))show
+600.8 -51.0 M 12.0 F0 (\()show
+612.8 -51.0 M 12.0 F0 (\))show
+614.7 -51.0 M 12.0 F0 (\()show
+626.7 -51.0 M 12.0 F0 (\))show
+622.7 -49.0 dnb
+0 -87.00 T
+/y0{-62.0 add}!
+/yns0{-62.0 add}!
+24.0 117.3 -62.0 thbar 
+24.0 205.8 -62.0 thbar 
+24.0 372.7 -62.0 bar 
+24.0 458.2 -62.0 thbar 
+24.0 654.7 -62.0 thbar 
+dlw 657.7 0.0 -62.0 M 0 RL 657.7 0.0 -56.0 M 0 RL 657.7 0.0 -50.0 M 0 RL 657.7 0.0 -44.0 M 0 RL 657.7 0.0 -38.0 M 0 RL stroke
+113.1 0.0 135.4 55.0 y0 tubr(6)191.9 51.0 y0 bnumb
+(6)322.2 53.0 y0 bnum
+113.1 0.0 387.8 55.0 y0 tubr(6)444.3 51.0 y0 bnumb
+94.4 0.0 531.2 55.0 y0 tubr(6)578.4 51.0 y0 bnumb
+12.0 -50.0  pclef
+3.2 61.8 -0.0 39.7 -18.8 bm
+3.2 16.0 -0.0 40.0 -23.8 bm
+36.5 -65.0 2 copy xydef x_head 45.2 su 36.5 -59.0 hd 36.5 -35.0 2 copy xydef x_head
+52.5 -47.0 hd 27.2 su
+68.6 -47.0 hd 68.6 -35.0 2 copy xydef x_head
+97.6 -47.0 hd 27.2 su
+3.2 55.4 -0.0 139.6 -18.8 bm
+3.2 16.0 -0.0 139.9 -23.8 bm
+136.4 -59.0 hd 39.2 su 136.4 -35.0 2 copy xydef x_head
+152.4 -47.0 hd 27.2 su
+168.5 -47.0 hd 168.5 -35.0 2 copy xydef x_head
+191.2 -47.0 hd 27.2 su
+3.2 32.8 -0.0 228.1 -14.8 bm
+3.2 32.1 -0.0 228.4 -19.8 bm
+224.9 -65.0 2 copy xydef x_head 49.2 su 224.9 -35.0 2 copy xydef x_head
+241.0 -47.0 hd 31.2 su
+257.0 -35.0 2 copy xydef x_head 19.2 su
+3.2 80.9 -0.0 283.0 -14.8 bm
+3.2 80.2 -0.0 283.3 -19.8 bm
+279.8 -59.0 hd 43.2 su 279.8 -47.0 hd 279.8 -35.0 2 copy xydef x_head
+295.9 -47.0 hd 31.2 su
+311.9 -59.0 hd 43.2 su 311.9 -35.0 2 copy xydef x_head
+328.0 -65.0 2 copy xydef x_head 49.2 su 328.0 -35.0 2 copy xydef x_head
+344.0 -47.0 hd 31.2 su
+360.0 -35.0 2 copy xydef x_head 19.2 su
+3.2 55.4 -0.0 392.0 -18.8 bm
+3.2 16.0 -0.0 392.3 -23.8 bm
+388.8 -59.0 hd 39.2 su 388.8 -35.0 2 copy xydef x_head
+404.8 -47.0 hd 27.2 su
+420.9 -47.0 hd 420.9 -35.0 2 copy xydef x_head
+443.6 -47.0 hd 27.2 su
+3.2 32.8 -0.0 480.5 -14.8 bm
+3.2 32.1 -0.0 480.8 -19.8 bm
+477.3 -65.0 2 copy xydef x_head 49.2 su 477.3 -59.0 hd 477.3 -35.0 2 copy xydef x_head
+493.4 -47.0 hd 31.2 su
+509.4 -35.0 2 copy xydef x_head 19.2 su
+3.2 103.5 -0.0 535.4 -14.8 bm
+3.2 64.1 -0.0 535.7 -19.8 bm
+532.2 -59.0 hd 43.2 su 532.2 -47.0 hd 532.2 -35.0 2 copy xydef x_head
+548.3 -47.0 hd 31.2 su
+564.3 -35.0 2 copy xydef x_head 19.2 su
+580.4 -65.0 2 copy xydef x_head 49.2 su 580.4 -59.0 hd 580.4 -35.0 2 copy xydef x_head
+596.4 -47.0 hd 31.2 su
+612.4 -47.0 hd 612.4 -35.0 2 copy xydef x_head
+635.1 -47.0 hd 31.2 su
+44.5 -49.0 M 12.0 F0 (\()show
+56.5 -49.0 M 12.0 F0 (\))show
+60.6 -49.0 M 12.0 F0 (\()show
+72.6 -49.0 M 12.0 F0 (\))show
+68.6 -47.0 dnb
+144.4 -49.0 M 12.0 F0 (\()show
+156.4 -49.0 M 12.0 F0 (\))show
+160.5 -49.0 M 12.0 F0 (\()show
+172.5 -49.0 M 12.0 F0 (\))show
+168.5 -47.0 dnb
+233.0 -49.0 M 12.0 F0 (\()show
+245.0 -49.0 M 12.0 F0 (\))show
+287.9 -49.0 M 12.0 F0 (\()show
+299.9 -49.0 M 12.0 F0 (\))show
+336.0 -49.0 M 12.0 F0 (\()show
+348.0 -49.0 M 12.0 F0 (\))show
+396.8 -49.0 M 12.0 F0 (\()show
+408.8 -49.0 M 12.0 F0 (\))show
+412.9 -49.0 M 12.0 F0 (\()show
+424.9 -49.0 M 12.0 F0 (\))show
+420.9 -47.0 dnb
+485.4 -49.0 M 12.0 F0 (\()show
+497.4 -49.0 M 12.0 F0 (\))show
+540.3 -49.0 M 12.0 F0 (\()show
+552.3 -49.0 M 12.0 F0 (\))show
+588.4 -49.0 M 12.0 F0 (\()show
+600.4 -49.0 M 12.0 F0 (\))show
+604.4 -49.0 M 12.0 F0 (\()show
+616.4 -49.0 M 12.0 F0 (\))show
+612.4 -47.0 dnb
+0 -85.00 T
+/y0{-62.0 add}!
+/yns0{-62.0 add}!
+24.0 147.6 -62.0 thbar 
+24.0 250.7 -62.0 bar 
+24.0 554.6 -62.0 thbar 
+24.0 657.7 -62.0 bar 
+dlw 657.7 0.0 -62.0 M 0 RL 657.7 0.0 -56.0 M 0 RL 657.7 0.0 -50.0 M 0 RL 657.7 0.0 -44.0 M 0 RL 657.7 0.0 -38.0 M 0 RL stroke
+85.0 0.0 35.5 55.0 y0 tubr(6)78.0 51.0 y0 bnumb
+(6)204.0 53.0 y0 bnum
+(6)304.1 53.0 y0 bnum
+(6)393.2 53.0 y0 bnum
+85.0 0.0 442.5 55.0 y0 tubr(6)485.0 51.0 y0 bnumb
+(6)611.0 53.0 y0 bnum
+12.0 -50.0  pclef
+3.2 94.2 -0.0 39.7 -14.8 bm
+3.2 58.3 -0.0 40.0 -19.8 bm
+36.5 -59.0 hd 43.2 su 36.5 -35.0 2 copy xydef x_head
+51.1 -47.0 hd 31.2 su
+65.7 -35.0 2 copy xydef x_head 19.2 su
+80.2 -65.0 2 copy xydef x_head 49.2 su 80.2 -59.0 hd 80.2 -35.0 2 copy xydef x_head
+94.8 -47.0 hd 31.2 su
+109.4 -47.0 hd 109.4 -35.0 2 copy xydef x_head
+130.0 -47.0 hd 31.2 su
+3.2 73.6 -0.0 168.4 -14.8 bm
+3.2 72.9 -0.0 168.7 -19.8 bm
+165.2 -59.0 hd 43.2 su 165.2 -47.0 hd 165.2 -35.0 2 copy xydef x_head
+179.8 -47.0 hd 31.2 su
+194.4 -35.0 2 copy xydef x_head 19.2 su
+209.0 -65.0 2 copy xydef x_head 49.2 su 209.0 -59.0 hd 209.0 -35.0 2 copy xydef x_head
+223.6 -47.0 hd 31.2 su
+238.1 -35.0 2 copy xydef x_head 19.2 su
+3.2 73.6 -0.0 268.5 -14.8 bm
+3.2 72.9 -0.0 268.9 -19.8 bm
+265.4 -59.0 hd 43.2 su 265.4 -35.0 2 copy xydef x_head
+279.9 -47.0 hd 31.2 su
+294.5 -35.0 2 copy xydef x_head 19.2 su
+309.1 -65.0 2 copy xydef x_head 49.2 su 309.1 -59.0 hd 309.1 -35.0 2 copy xydef x_head
+323.7 -47.0 hd 31.2 su
+338.3 -59.0 hd 43.2 su 338.3 -35.0 2 copy xydef x_head
+3.2 73.6 -0.0 357.6 -14.8 bm
+3.2 72.9 -0.0 358.0 -19.8 bm
+354.5 -47.0 hd 31.2 su 354.5 -35.0 2 copy xydef x_head
+369.0 -47.0 hd 31.2 su
+383.6 -35.0 2 copy xydef x_head 19.2 su
+398.2 -65.0 2 copy xydef x_head 49.2 su 398.2 -59.0 hd 398.2 -35.0 2 copy xydef x_head
+412.8 -47.0 hd 31.2 su
+427.3 -59.0 hd 43.2 su 427.3 -35.0 2 copy xydef x_head
+3.2 94.2 -0.0 446.7 -14.8 bm
+3.2 58.3 -0.0 447.0 -19.8 bm
+443.5 -35.0 2 copy xydef x_head 19.2 su
+458.1 -47.0 hd 31.2 su
+472.7 -35.0 2 copy xydef x_head 19.2 su
+487.3 -65.0 2 copy xydef x_head 49.2 su 487.3 -59.0 hd 487.3 -35.0 2 copy xydef x_head
+501.9 -47.0 hd 31.2 su
+516.4 -47.0 hd 516.4 -35.0 2 copy xydef x_head
+537.1 -47.0 hd 31.2 su
+3.2 73.6 -0.0 575.4 -14.8 bm
+3.2 72.9 -0.0 575.8 -19.8 bm
+572.3 -59.0 hd 43.2 su 572.3 -47.0 hd 572.3 -35.0 2 copy xydef x_head
+586.9 -47.0 hd 31.2 su
+601.4 -35.0 2 copy xydef x_head 19.2 su
+616.0 -65.0 2 copy xydef x_head 49.2 su 616.0 -59.0 hd 616.0 -35.0 2 copy xydef x_head
+630.6 -47.0 hd 31.2 su
+645.2 -35.0 2 copy xydef x_head 19.2 su
+43.1 -49.0 M 12.0 F0 (\()show
+55.1 -49.0 M 12.0 F0 (\))show
+86.8 -49.0 M 12.0 F0 (\()show
+98.8 -49.0 M 12.0 F0 (\))show
+101.4 -49.0 M 12.0 F0 (\()show
+113.4 -49.0 M 12.0 F0 (\))show
+109.4 -47.0 dnb
+171.8 -49.0 M 12.0 F0 (\()show
+183.8 -49.0 M 12.0 F0 (\))show
+215.6 -49.0 M 12.0 F0 (\()show
+227.6 -49.0 M 12.0 F0 (\))show
+271.9 -49.0 M 12.0 F0 (\()show
+283.9 -49.0 M 12.0 F0 (\))show
+315.7 -49.0 M 12.0 F0 (\()show
+327.7 -49.0 M 12.0 F0 (\))show
+361.0 -49.0 M 12.0 F0 (\()show
+373.0 -49.0 M 12.0 F0 (\))show
+404.8 -49.0 M 12.0 F0 (\()show
+416.8 -49.0 M 12.0 F0 (\))show
+450.1 -49.0 M 12.0 F0 (\()show
+462.1 -49.0 M 12.0 F0 (\))show
+493.9 -49.0 M 12.0 F0 (\()show
+505.9 -49.0 M 12.0 F0 (\))show
+508.4 -49.0 M 12.0 F0 (\()show
+520.4 -49.0 M 12.0 F0 (\))show
+516.4 -47.0 dnb
+578.9 -49.0 M 12.0 F0 (\()show
+590.9 -49.0 M 12.0 F0 (\))show
+622.6 -49.0 M 12.0 F0 (\()show
+634.6 -49.0 M 12.0 F0 (\))show
+0 -85.00 T
+/y0{-64.0 add}!
+/yns0{-64.0 add}!
+24.0 341.9 -64.0 thbar 24.0 338.9 -64.0 bar 334.9 -64.0 rdots 
+24.0 657.7 -64.0 bar 
+dlw 657.7 0.0 -64.0 M 0 RL 657.7 0.0 -58.0 M 0 RL 657.7 0.0 -52.0 M 0 RL 657.7 0.0 -46.0 M 0 RL 657.7 0.0 -40.0 M 0 RL stroke
+(6)76.8 49.0 y0 bnum
+(6)150.1 43.0 y0 bnum
+(6)223.4 42.0 y0 bnum
+(6)296.7 49.0 y0 bnum
+(6)389.7 49.0 y0 bnum
+(6)462.9 43.0 y0 bnum
+(6)536.2 42.0 y0 bnum
+(6)609.5 49.0 y0 bnum
+13.0 F2 (1)-11.4 3 304.9 32.0 62.0 yns0 repbra
+(2)-11.4 3 312.9 344.9 62.0 yns0 repbra
+12.0 -52.0  pclef
+3.2 60.7 -0.0 47.7 -20.8 bm
+3.2 60.0 -0.0 48.0 -25.8 bm
+44.5 -43.0 hd 21.2 su
+56.5 -43.0 hd 21.2 su
+68.5 -43.0 hd 21.2 su
+80.5 -55.0 hd 33.2 su
+92.5 -55.0 hd 33.2 su
+104.5 -58.0 hd 36.2 su
+3.2 60.7 -0.0 120.9 -26.8 bm
+3.2 60.0 -0.0 121.3 -31.8 bm
+117.8 -55.0 hd 27.2 su
+129.8 -61.0 hd 33.2 su
+141.8 -49.0 hd 21.2 su
+153.8 -49.0 hd 21.2 su
+165.8 -52.0 r16 
+177.8 -61.0 hd 33.2 su
+3.2 60.7 -0.0 194.2 -27.8 bm
+3.2 60.0 -0.0 194.6 -32.8 bm
+191.1 -58.0 hd 29.3 su
+203.1 -52.0 r16 
+215.1 -52.0 r16 
+227.1 -58.0 hd 29.3 su
+239.1 -52.0 r16 
+251.1 -55.0 hd 26.3 su
+3.2 60.7 -0.0 267.5 -20.8 bm
+3.2 60.0 -0.0 267.8 -25.8 bm
+264.3 -43.0 hd 21.2 su
+276.4 -55.0 hd 33.2 su
+288.4 -55.0 hd 33.2 su
+300.4 -61.0 hd 39.2 su
+312.4 -61.0 hd 39.2 su
+324.4 -43.0 hd 21.2 su
+3.2 60.7 -0.0 360.5 -20.8 bm
+3.2 60.0 -0.0 360.9 -25.8 bm
+357.4 -43.0 hd 21.2 su
+369.4 -43.0 hd 21.2 su
+381.4 -43.0 hd 21.2 su
+393.4 -55.0 hd 33.2 su
+405.4 -55.0 hd 33.2 su
+417.4 -58.0 hd 36.2 su
+3.2 60.7 -0.0 433.8 -26.8 bm
+3.2 60.0 -0.0 434.1 -31.8 bm
+430.6 -55.0 hd 27.2 su
+442.6 -61.0 hd 33.2 su
+454.6 -49.0 hd 21.2 su
+466.6 -49.0 hd 21.2 su
+478.7 -52.0 r16 
+490.7 -61.0 hd 33.2 su
+3.2 60.7 -0.0 507.1 -27.8 bm
+3.2 60.0 -0.0 507.4 -32.8 bm
+503.9 -58.0 hd 29.3 su
+515.9 -52.0 r16 
+527.9 -52.0 r16 
+539.9 -58.0 hd 29.3 su
+551.9 -52.0 r16 
+563.9 -55.0 hd 26.3 su
+3.2 60.7 -0.0 580.4 -20.8 bm
+3.2 60.0 -0.0 580.7 -25.8 bm
+577.2 -43.0 hd 21.2 su
+589.2 -55.0 hd 33.2 su
+601.2 -55.0 hd 33.2 su
+613.2 -61.0 hd 39.2 su
+625.2 -61.0 hd 39.2 su
+637.2 -43.0 hd 21.2 su
+42.3 554.9 -84.0 dim
+0 -87.00 T
+/y0{-62.0 add}!
+/yns0{-62.0 add}!
+39.0 -62.0 rdots 24.0 35.0 -62.0 bar 24.0 29.0 -62.0 thbar 
+24.0 157.1 -62.0 thbar 
+24.0 443.5 -62.0 thbar 
+24.0 462.5 -62.0 bar 
+24.0 579.6 -62.0 thbar 
+24.0 654.7 -62.0 thbar 
+dlw 657.7 0.0 -62.0 M 0 RL 657.7 0.0 -56.0 M 0 RL 657.7 0.0 -50.0 M 0 RL 657.7 0.0 -44.0 M 0 RL 657.7 0.0 -38.0 M 0 RL stroke
+78.7 0.0 52.7 55.0 y0 tubr(6)92.1 51.0 y0 bnumb
+(6)210.2 53.0 y0 bnum
+(6)293.3 53.0 y0 bnum
+78.7 0.0 339.1 55.0 y0 tubr(6)378.4 51.0 y0 bnumb
+78.7 0.0 475.2 55.0 y0 tubr(6)514.6 51.0 y0 bnumb
+12.0 -50.0  pclef
+3.2 87.9 -0.0 56.9 -14.8 bm
+3.2 54.4 -0.0 57.2 -19.8 bm
+53.7 -65.0 2 copy xydef x_head 49.2 su 53.7 -59.0 hd 53.7 -35.0 2 copy xydef x_head
+67.3 -47.0 hd 31.2 su
+80.9 -35.0 2 copy xydef x_head 19.2 su
+94.5 -59.0 hd 43.2 su 94.5 -35.0 2 copy xydef x_head
+108.1 -47.0 hd 31.2 su
+121.7 -47.0 hd 121.7 -35.0 2 copy xydef x_head
+140.9 -47.0 hd 31.2 su
+3.2 68.7 -0.0 177.0 -14.8 bm
+3.2 68.0 -0.0 177.3 -19.8 bm
+173.8 -65.0 2 copy xydef x_head 49.2 su 173.8 -59.0 hd 173.8 -47.0 hd 173.8 -35.0 2 copy xydef x_head
+187.4 -47.0 hd 31.2 su
+201.1 -59.0 hd 43.2 su 201.1 -35.0 2 copy xydef x_head
+214.7 -35.0 2 copy xydef x_head 19.2 su
+228.3 -47.0 hd 31.2 su
+241.9 -35.0 2 copy xydef x_head 19.2 su
+3.2 68.7 -0.0 260.1 -14.8 bm
+3.2 68.0 -0.0 260.5 -19.8 bm
+257.0 -65.0 2 copy xydef x_head 49.2 su 257.0 -59.0 hd 257.0 -35.0 2 copy xydef x_head
+270.6 -47.0 hd 31.2 su
+284.2 -59.0 hd 43.2 su 284.2 -35.0 2 copy xydef x_head
+297.8 -35.0 2 copy xydef x_head 19.2 su
+311.4 -47.0 hd 31.2 su
+325.0 -35.0 2 copy xydef x_head 19.2 su
+3.2 87.9 -0.0 343.2 -14.8 bm
+3.2 54.4 -0.0 343.6 -19.8 bm
+340.1 -65.0 2 copy xydef x_head 49.2 su 340.1 -59.0 hd 340.1 -47.0 hd 340.1 -35.0 2 copy xydef x_head
+353.7 -47.0 hd 31.2 su
+367.3 -35.0 2 copy xydef x_head 19.2 su
+380.9 -59.0 hd 43.2 su 380.9 -35.0 2 copy xydef x_head
+394.5 -47.0 hd 31.2 su
+408.1 -47.0 hd 408.1 -35.0 2 copy xydef x_head
+427.3 -47.0 hd 31.2 su
+3.2 87.9 -0.0 479.4 -14.8 bm
+3.2 54.4 -0.0 479.7 -19.8 bm
+476.2 -65.0 2 copy xydef x_head 49.2 su 476.2 -59.0 hd 476.2 -35.0 2 copy xydef x_head
+489.8 -47.0 hd 31.2 su
+503.4 -35.0 2 copy xydef x_head 19.2 su
+517.0 -59.0 hd 43.2 su 517.0 -35.0 2 copy xydef x_head
+530.6 -47.0 hd 31.2 su
+544.2 -47.0 hd 544.2 -35.0 2 copy xydef x_head
+563.4 -47.0 hd 31.2 su
+3.2 47.1 -0.0 599.5 -18.8 bm
+3.2 13.6 -0.0 599.8 -23.8 bm
+596.3 -65.0 2 copy xydef x_head 45.2 su 596.3 -59.0 hd 596.3 -47.0 hd 596.3 -35.0 2 copy xydef x_head
+609.9 -47.0 hd 27.2 su
+623.5 -47.0 hd 623.5 -35.0 2 copy xydef x_head
+642.7 -47.0 hd 27.2 su
+(f)52.7 -85.4 pf
+59.3 -49.0 M 12.0 F0 (\()show
+71.3 -49.0 M 12.0 F0 (\))show
+100.1 -49.0 M 12.0 F0 (\()show
+112.1 -49.0 M 12.0 F0 (\))show
+113.7 -49.0 M 12.0 F0 (\()show
+125.7 -49.0 M 12.0 F0 (\))show
+121.7 -47.0 dnb
+179.4 -49.0 M 12.0 F0 (\()show
+191.4 -49.0 M 12.0 F0 (\))show
+220.3 -49.0 M 12.0 F0 (\()show
+232.3 -49.0 M 12.0 F0 (\))show
+262.6 -49.0 M 12.0 F0 (\()show
+274.6 -49.0 M 12.0 F0 (\))show
+303.4 -49.0 M 12.0 F0 (\()show
+315.4 -49.0 M 12.0 F0 (\))show
+345.7 -49.0 M 12.0 F0 (\()show
+357.7 -49.0 M 12.0 F0 (\))show
+386.5 -49.0 M 12.0 F0 (\()show
+398.5 -49.0 M 12.0 F0 (\))show
+400.1 -49.0 M 12.0 F0 (\()show
+412.1 -49.0 M 12.0 F0 (\))show
+408.1 -47.0 dnb
+481.8 -49.0 M 12.0 F0 (\()show
+493.8 -49.0 M 12.0 F0 (\))show
+522.6 -49.0 M 12.0 F0 (\()show
+534.6 -49.0 M 12.0 F0 (\))show
+536.2 -49.0 M 12.0 F0 (\()show
+548.2 -49.0 M 12.0 F0 (\))show
+544.2 -47.0 dnb
+601.9 -49.0 M 12.0 F0 (\()show
+613.9 -49.0 M 12.0 F0 (\))show
+615.5 -49.0 M 12.0 F0 (\()show
+627.5 -49.0 M 12.0 F0 (\))show
+623.5 -47.0 dnb
+0 -89.00 T
+/y0{-62.0 add}!
+/yns0{-62.0 add}!
+24.0 277.9 -62.0 thbar 
+24.0 350.5 -62.0 bar 
+24.0 501.1 -62.0 thbar 
+24.0 654.7 -62.0 thbar 
+dlw 657.7 0.0 -62.0 M 0 RL 657.7 0.0 -56.0 M 0 RL 657.7 0.0 -50.0 M 0 RL 657.7 0.0 -44.0 M 0 RL 657.7 0.0 -38.0 M 0 RL stroke
+(6)141.8 53.0 y0 bnum
+121.9 0.0 201.3 51.0 y0 tubr(6)262.3 47.0 y0 bnumb
+103.1 0.0 367.0 55.0 y0 tubr(6)418.6 51.0 y0 bnumb
+103.1 0.0 520.6 55.0 y0 tubr(6)572.2 51.0 y0 bnumb
+12.0 -50.0  pclef
+3.2 35.5 -0.0 39.7 -14.8 bm
+3.2 34.8 -0.0 40.0 -19.8 bm
+36.5 -59.0 hd 43.2 su 36.5 -35.0 2 copy xydef x_head
+53.9 -47.0 hd 31.2 su
+71.3 -35.0 2 copy xydef x_head 19.2 su
+3.2 87.7 -0.0 99.2 -14.8 bm
+3.2 87.0 -0.0 99.5 -19.8 bm
+96.0 -65.0 2 copy xydef x_head 49.2 su 96.0 -59.0 hd 96.0 -35.0 2 copy xydef x_head
+113.4 -47.0 hd 31.2 su
+130.8 -35.0 2 copy xydef x_head 19.2 su
+148.2 -35.0 2 copy xydef x_head 19.2 su
+165.6 -47.0 hd 31.2 su
+183.0 -35.0 2 copy xydef x_head 19.2 su
+3.2 60.1 -0.0 205.5 -18.8 bm
+3.2 17.4 -0.0 205.8 -23.8 bm
+202.3 -65.0 2 copy xydef x_head 45.2 su 202.3 -59.0 hd 202.3 -47.0 hd 202.3 -35.0 2 copy xydef x_head
+219.7 -47.0 hd 27.2 su
+237.1 -47.0 hd 237.1 -35.0 2 copy xydef x_head
+261.7 -47.0 hd 27.2 su
+3.2 35.5 -0.0 301.5 -18.8 bm
+3.2 34.8 -0.0 301.9 -23.8 bm
+298.4 -59.0 hd 39.2 su 298.4 -35.0 2 copy xydef x_head
+315.8 -47.0 hd 27.2 su
+333.2 -59.0 hd 39.2 su 333.2 -35.0 2 copy xydef x_head
+3.2 112.2 -0.0 371.2 -14.8 bm
+3.2 69.6 -0.0 371.5 -19.8 bm
+368.0 -65.0 2 copy xydef x_head 49.2 su 368.0 -35.0 2 copy xydef x_head
+385.4 -47.0 hd 31.2 su
+402.8 -35.0 2 copy xydef x_head 19.2 su
+420.2 -59.0 hd 43.2 su 420.2 -35.0 2 copy xydef x_head
+437.6 -47.0 hd 31.2 su
+455.0 -47.0 hd 455.0 -35.0 2 copy xydef x_head
+479.6 -47.0 hd 31.2 su
+3.2 112.2 -0.0 524.8 -14.8 bm
+3.2 69.6 -0.0 525.1 -19.8 bm
+521.6 -65.0 2 copy xydef x_head 49.2 su 521.6 -47.0 hd 521.6 -35.0 2 copy xydef x_head
+539.0 -47.0 hd 31.2 su
+556.4 -35.0 2 copy xydef x_head 19.2 su
+573.8 -59.0 hd 43.2 su 573.8 -35.0 2 copy xydef x_head
+591.2 -47.0 hd 31.2 su
+608.6 -47.0 hd 608.6 -35.0 2 copy xydef x_head
+633.2 -47.0 hd 31.2 su
+45.9 -49.0 M 12.0 F0 (\()show
+57.9 -49.0 M 12.0 F0 (\))show
+105.4 -49.0 M 12.0 F0 (\()show
+117.4 -49.0 M 12.0 F0 (\))show
+157.6 -49.0 M 12.0 F0 (\()show
+169.6 -49.0 M 12.0 F0 (\))show
+211.7 -49.0 M 12.0 F0 (\()show
+223.7 -49.0 M 12.0 F0 (\))show
+229.1 -49.0 M 12.0 F0 (\()show
+241.1 -49.0 M 12.0 F0 (\))show
+237.1 -47.0 dnb
+307.8 -49.0 M 12.0 F0 (\()show
+319.8 -49.0 M 12.0 F0 (\))show
+377.4 -49.0 M 12.0 F0 (\()show
+389.4 -49.0 M 12.0 F0 (\))show
+429.6 -49.0 M 12.0 F0 (\()show
+441.6 -49.0 M 12.0 F0 (\))show
+447.0 -49.0 M 12.0 F0 (\()show
+459.0 -49.0 M 12.0 F0 (\))show
+455.0 -47.0 dnb
+531.0 -49.0 M 12.0 F0 (\()show
+543.0 -49.0 M 12.0 F0 (\))show
+583.2 -49.0 M 12.0 F0 (\()show
+595.2 -49.0 M 12.0 F0 (\))show
+600.6 -49.0 M 12.0 F0 (\()show
+612.6 -49.0 M 12.0 F0 (\))show
+608.6 -47.0 dnb
+0 -85.00 T
+/y0{-64.0 add}!
+/yns0{-64.0 add}!
+24.0 246.3 -64.0 thbar 
+24.0 265.3 -64.0 bar 
+24.0 654.7 -64.0 thbar 24.0 651.7 -64.0 bar 647.7 -64.0 rdots 
+dlw 657.7 0.0 -64.0 M 0 RL 657.7 0.0 -58.0 M 0 RL 657.7 0.0 -52.0 M 0 RL 657.7 0.0 -46.0 M 0 RL 657.7 0.0 -40.0 M 0 RL stroke
+(6)77.0 53.0 y0 bnum
+89.5 0.0 128.8 55.0 y0 tubr(6)173.6 51.0 y0 bnumb
+(6)321.2 49.0 y0 bnum
+(6)414.5 49.0 y0 bnum
+(6)507.9 49.0 y0 bnum
+(6)601.2 49.0 y0 bnum
+13.0 F2 (1)-11.4 3 384.4 265.3 62.0 yns0 repbra
+12.0 -52.0  pclef
+3.2 77.0 -0.0 39.7 -16.8 bm
+3.2 76.4 -0.0 40.0 -21.8 bm
+36.5 -67.0 2 copy xydef x_head 49.2 su 36.5 -37.0 2 copy xydef x_head
+51.8 -49.0 hd 31.2 su
+67.0 -37.0 2 copy xydef x_head 19.2 su
+82.3 -61.0 hd 43.2 su 82.3 -37.0 2 copy xydef x_head
+97.6 -49.0 hd 31.2 su
+112.9 -61.0 hd 43.2 su 112.9 -37.0 2 copy xydef x_head
+3.2 98.6 -0.0 133.0 -16.8 bm
+3.2 61.1 -0.0 133.3 -21.8 bm
+129.8 -67.0 2 copy xydef x_head 49.2 su 129.8 -49.0 hd 129.8 -37.0 2 copy xydef x_head
+145.1 -49.0 hd 31.2 su
+160.4 -37.0 2 copy xydef x_head 19.2 su
+175.7 -61.0 hd 43.2 su 175.7 -37.0 2 copy xydef x_head
+190.9 -49.0 hd 31.2 su
+206.2 -49.0 hd 206.2 -37.0 2 copy xydef x_head
+227.8 -49.0 hd 31.2 su
+3.2 77.0 -0.0 283.9 -20.8 bm
+3.2 76.4 -0.0 284.2 -25.8 bm
+280.7 -43.0 hd 21.2 su
+296.0 -43.0 hd 21.2 su
+311.3 -43.0 hd 21.2 su
+326.5 -43.0 hd 21.2 su
+341.8 -52.0 r16 
+357.1 -61.0 hd 39.2 su
+3.2 77.0 -0.0 377.2 -20.8 bm
+3.2 76.4 -0.0 377.6 -25.8 bm
+374.1 -61.0 hd 39.2 su
+389.3 -58.0 hd 36.2 su
+404.6 -43.0 hd 21.2 su
+419.9 -55.0 hd 33.2 su
+435.1 -55.0 hd 33.2 su
+450.4 -58.0 hd 36.2 su
+3.2 77.0 -0.0 470.5 -20.8 bm
+3.2 76.4 -0.0 470.9 -25.8 bm
+467.4 -49.0 hd 27.2 su
+482.7 -43.0 hd 21.2 su
+497.9 -43.0 hd 21.2 su
+513.2 -52.0 r16 
+528.5 -52.0 r16 
+543.8 -55.0 hd 33.2 su
+3.2 77.0 -0.0 563.9 -20.8 bm
+3.2 76.4 -0.0 564.2 -25.8 bm
+560.7 -55.0 hd 33.2 su
+576.0 -49.0 hd 27.2 su
+591.3 -52.0 r16 
+606.5 -49.0 hd 27.2 su
+621.8 -43.0 hd 21.2 su
+637.1 -55.0 hd 33.2 su
+43.8 -51.0 M 12.0 F0 (\()show
+55.8 -51.0 M 12.0 F0 (\))show
+89.6 -51.0 M 12.0 F0 (\()show
+101.6 -51.0 M 12.0 F0 (\))show
+137.1 -51.0 M 12.0 F0 (\()show
+149.1 -51.0 M 12.0 F0 (\))show
+182.9 -51.0 M 12.0 F0 (\()show
+194.9 -51.0 M 12.0 F0 (\))show
+198.2 -51.0 M 12.0 F0 (\()show
+210.2 -51.0 M 12.0 F0 (\))show
+206.2 -49.0 dnb
+0 -87.00 T
+/y0{-65.6 add}!
+/yns0{-65.6 add}!
+426.5 -65.6 rdots 24.0 422.5 -65.6 bar 24.0 416.5 -65.6 thbar 
+24.0 654.7 -65.6 thbar 
+dlw 657.7 0.0 -65.6 M 0 RL 657.7 0.0 -59.6 M 0 RL 657.7 0.0 -53.6 M 0 RL 657.7 0.0 -47.6 M 0 RL 657.7 0.0 -41.6 M 0 RL stroke
+(6)88.3 49.0 y0 bnum
+(6)182.5 49.0 y0 bnum
+(6)276.6 49.0 y0 bnum
+(6)370.7 49.0 y0 bnum
+(6)483.9 45.0 y0 bnum
+90.3 0.0 536.2 47.0 y0 tubr(6)581.4 43.0 y0 bnumb
+12.0 F0 440.4 45.4 yns0 M (_)anshow
+486.6 55.4 yns0 M (_)anshow
+534.6 53.4 yns0 M (_)anshow
+580.8 56.4 yns0 M (_)anshow
+13.0 F2 (2)-11.4 3 383.5 32.0 62.0 yns0 repbra
+12.0 -53.6  pclef
+3.2 77.7 -0.0 50.7 -22.4 bm
+3.2 77.0 -0.0 51.0 -27.4 bm
+47.5 -44.6 hd 21.2 su
+62.9 -44.6 hd 21.2 su
+78.3 -44.6 hd 21.2 su
+93.7 -44.6 hd 21.2 su
+109.1 -53.6 r16 
+124.5 -62.6 hd 39.2 su
+3.2 77.7 -0.0 144.8 -22.4 bm
+3.2 77.0 -0.0 145.2 -27.4 bm
+141.7 -62.6 hd 39.2 su
+157.1 -59.6 hd 36.2 su
+172.5 -44.6 hd 21.2 su
+187.9 -56.6 hd 33.2 su
+203.3 -56.6 hd 33.2 su
+218.7 -59.6 hd 36.2 su
+3.2 77.7 -0.0 238.9 -22.4 bm
+3.2 77.0 -0.0 239.3 -27.4 bm
+235.8 -50.6 hd 27.2 su
+251.2 -44.6 hd 21.2 su
+266.6 -44.6 hd 21.2 su
+282.0 -53.6 r16 
+297.4 -53.6 r16 
+312.8 -56.6 hd 33.2 su
+3.2 77.7 -0.0 333.1 -22.4 bm
+3.2 77.0 -0.0 333.4 -27.4 bm
+329.9 -56.6 hd 33.2 su
+345.3 -50.6 hd 27.2 su
+360.7 -53.6 r16 
+376.1 -50.6 hd 27.2 su
+391.5 -44.6 hd 21.2 su
+406.9 -56.6 hd 33.2 su
+3.2 77.7 -0.0 446.2 -26.4 bm
+3.2 77.0 -0.0 446.6 -31.4 bm
+443.1 -62.6 hd 35.2 su 443.1 -44.6 2 copy xydef x_head
+458.5 -50.6 hd 23.2 su
+473.9 -53.6 r16 
+489.3 -62.6 hd 35.2 su 489.3 -44.6 2 copy xydef x_head
+504.7 -50.6 hd 23.2 su
+520.1 -62.6 hd 35.2 su
+3.2 99.5 -0.0 540.4 -26.4 bm
+3.2 61.6 -0.0 540.7 -31.4 bm
+537.2 -50.6 hd 23.2 su 537.2 -44.6 2 copy xydef x_head
+552.6 -50.6 hd 23.2 su
+568.0 -53.6 r16 
+583.4 -62.6 hd 35.2 su 583.4 -44.6 2 copy xydef x_head
+598.8 -50.6 hd 23.2 su
+614.2 -50.6 hd
+636.0 -50.6 hd 23.2 su
+56.3 300.4 -86.6 dim
+(pp)438.1 -83.0 pf
+450.5 -52.6 M 12.0 F0 (\()show
+462.5 -52.6 M 12.0 F0 (\))show
+496.7 -52.6 M 12.0 F0 (\()show
+508.7 -52.6 M 12.0 F0 (\))show
+544.6 -52.6 M 12.0 F0 (\()show
+556.6 -52.6 M 12.0 F0 (\))show
+590.8 -52.6 M 12.0 F0 (\()show
+602.8 -52.6 M 12.0 F0 (\))show
+606.2 -52.6 M 12.0 F0 (\()show
+618.2 -52.6 M 12.0 F0 (\))show
+614.2 -50.6 dnb
+0 -88.60 T
+grestore
+showpage
+%%EndPage: 1 1
+%%Page: 2 2
+gsave 0.75 dup scale 0 1084.9 T
+% --- width 657.7
+12.0 F0
+68.04 0 T
+0 -22.00 T
+/y0{-69.6 add}!
+/yns0{-69.6 add}!
+24.0 236.1 -69.6 bar 
+24.0 657.7 -69.6 bar 
+dlw 657.7 0.0 -69.6 M 0 RL 657.7 0.0 -63.6 M 0 RL 657.7 0.0 -57.6 M 0 RL 657.7 0.0 -51.6 M 0 RL 657.7 0.0 -45.6 M 0 RL stroke
+(6)80.8 45.2 y0 bnum
+(6)183.4 45.0 y0 bnum
+92.4 0.0 252.0 51.0 y0 tubr(6)298.2 47.0 y0 bnumb
+(6)399.8 41.2 y0 bnum
+(6)502.4 45.2 y0 bnum
+(6)605.0 41.2 y0 bnum
+12.0 F0 33.9 49.4 yns0 M (_)anshow
+84.2 55.6 yns0 M (_)anshow
+136.4 45.4 yns0 M (_)anshow
+186.8 55.4 yns0 M (_)anshow
+250.3 57.4 yns0 M (_)anshow
+300.7 60.4 yns0 M (_)anshow
+352.9 45.4 yns0 M (_)anshow
+403.3 51.6 yns0 M (_)anshow
+455.5 49.4 yns0 M (_)anshow
+505.9 55.6 yns0 M (_)anshow
+558.1 45.4 yns0 M (_)anshow
+608.5 51.6 yns0 M (_)anshow
+12.0 -57.6  pclef
+3.2 84.6 -0.0 39.7 -26.4 bm
+3.2 83.9 -0.0 40.0 -31.4 bm
+36.5 -48.6 2 copy xydef x_head 21.2 su
+53.3 -54.6 hd 27.2 su
+70.1 -57.6 r16 
+86.9 -66.6 hd 39.2 su 86.9 -48.6 2 copy xydef x_head
+103.6 -54.6 hd 27.2 su
+120.4 -66.6 hd 39.2 su
+3.2 84.6 -0.0 142.2 -30.4 bm
+3.2 83.9 -0.0 142.6 -35.4 bm
+139.1 -54.6 hd 23.2 su 139.1 -48.6 2 copy xydef x_head
+155.9 -54.6 hd 23.2 su
+172.7 -57.6 r16 
+189.4 -66.6 hd 35.2 su 189.4 -48.6 2 copy xydef x_head
+206.2 -54.6 hd 23.2 su
+223.0 -66.6 hd 35.2 su
+3.2 67.8 -0.0 256.1 -26.4 bm
+3.2 67.1 -0.0 256.5 -31.4 bm
+253.0 -48.6 2 copy xydef x_head 21.2 su
+269.8 -54.6 hd 27.2 su
+286.6 -57.6 r16 
+303.3 -66.6 hd 39.2 su 303.3 -48.6 2 copy xydef x_head
+320.1 -54.6 hd 27.2 su
+336.9 -57.6 r16 
+3.2 84.6 -0.0 358.7 -30.4 bm
+3.2 83.9 -0.0 359.1 -35.4 bm
+355.6 -66.6 hd 35.2 su 355.6 -54.6 hd 355.6 -48.6 2 copy xydef x_head
+372.3 -54.6 hd 23.2 su
+389.1 -57.6 r16 
+405.9 -66.6 hd 35.2 su 405.9 -48.6 2 copy xydef x_head
+422.7 -54.6 hd 23.2 su
+439.5 -66.6 hd 35.2 su
+3.2 84.6 -0.0 461.3 -26.4 bm
+3.2 83.9 -0.0 461.6 -31.4 bm
+458.1 -48.6 2 copy xydef x_head 21.2 su
+474.9 -54.6 hd 27.2 su
+491.7 -57.6 r16 
+508.5 -66.6 hd 39.2 su 508.5 -48.6 2 copy xydef x_head
+525.3 -54.6 hd 27.2 su
+542.1 -66.6 hd 39.2 su
+3.2 84.6 -0.0 563.9 -30.4 bm
+3.2 83.9 -0.0 564.2 -35.4 bm
+560.7 -54.6 hd 23.2 su 560.7 -48.6 2 copy xydef x_head
+577.5 -54.6 hd 23.2 su
+594.3 -57.6 r16 
+611.1 -66.6 hd 35.2 su 611.1 -48.6 2 copy xydef x_head
+627.9 -54.6 hd 23.2 su
+644.7 -66.6 hd 35.2 su
+45.3 -56.6 M 12.0 F0 (\()show
+57.3 -56.6 M 12.0 F0 (\))show
+95.6 -56.6 M 12.0 F0 (\()show
+107.6 -56.6 M 12.0 F0 (\))show
+147.9 -56.6 M 12.0 F0 (\()show
+159.9 -56.6 M 12.0 F0 (\))show
+198.2 -56.6 M 12.0 F0 (\()show
+210.2 -56.6 M 12.0 F0 (\))show
+261.8 -56.6 M 12.0 F0 (\()show
+273.8 -56.6 M 12.0 F0 (\))show
+312.1 -56.6 M 12.0 F0 (\()show
+324.1 -56.6 M 12.0 F0 (\))show
+364.3 -56.6 M 12.0 F0 (\()show
+376.3 -56.6 M 12.0 F0 (\))show
+414.7 -56.6 M 12.0 F0 (\()show
+426.7 -56.6 M 12.0 F0 (\))show
+466.9 -56.6 M 12.0 F0 (\()show
+478.9 -56.6 M 12.0 F0 (\))show
+517.3 -56.6 M 12.0 F0 (\()show
+529.3 -56.6 M 12.0 F0 (\))show
+569.5 -56.6 M 12.0 F0 (\()show
+581.5 -56.6 M 12.0 F0 (\))show
+619.9 -56.6 M 12.0 F0 (\()show
+631.9 -56.6 M 12.0 F0 (\))show
+0 -92.60 T
+/y0{-69.6 add}!
+/yns0{-69.6 add}!
+24.0 198.0 -69.6 thbar 
+24.0 383.6 -69.6 thbar 
+24.0 657.7 -69.6 bar 
+dlw 657.7 0.0 -69.6 M 0 RL 657.7 0.0 -63.6 M 0 RL 657.7 0.0 -57.6 M 0 RL 657.7 0.0 -51.6 M 0 RL 657.7 0.0 -45.6 M 0 RL stroke
+126.3 0.0 35.5 51.0 y0 tubr(6)98.7 47.0 y0 bnumb
+126.3 0.0 221.1 47.0 y0 tubr(6)284.3 43.0 y0 bnumb
+113.6 0.0 406.8 47.0 y0 tubr(6)463.6 43.0 y0 bnumb
+113.6 0.0 535.3 51.0 y0 tubr(6)592.1 47.0 y0 bnumb
+12.0 F0 33.9 57.4 yns0 M (_)anshow
+96.9 60.4 yns0 M (_)anshow
+219.5 53.4 yns0 M (_)anshow
+282.6 56.4 yns0 M (_)anshow
+405.1 53.4 yns0 M (_)anshow
+468.2 53.4 yns0 M (_)anshow
+533.6 57.4 yns0 M (_)anshow
+596.7 57.4 yns0 M (_)anshow
+12.0 -57.6  pclef
+3.2 135.5 -0.0 39.7 -26.4 bm
+3.2 84.1 -0.0 40.0 -31.4 bm
+36.5 -48.6 2 copy xydef x_head 21.2 su
+57.5 -54.6 hd 27.2 su
+78.5 -57.6 r16 
+99.6 -66.6 hd 39.2 su 99.6 -48.6 2 copy xydef x_head
+120.6 -54.6 hd 27.2 su
+141.6 -54.6 hd
+171.3 -54.6 hd 27.2 su
+3.2 135.5 -0.0 225.3 -30.4 bm
+3.2 84.1 -0.0 225.6 -35.4 bm
+222.1 -66.6 hd 35.2 su 222.1 -54.6 hd 222.1 -48.6 2 copy xydef x_head
+243.2 -54.6 hd 23.2 su
+264.2 -57.6 r16 
+285.2 -66.6 hd 35.2 su 285.2 -48.6 2 copy xydef x_head
+306.2 -54.6 hd 23.2 su
+327.3 -54.6 hd
+357.0 -54.6 hd 23.2 su
+3.2 84.8 -0.0 410.9 -30.4 bm
+3.2 84.1 -0.0 411.3 -35.4 bm
+407.8 -66.6 hd 35.2 su 407.8 -48.6 2 copy xydef x_head
+428.8 -54.6 hd 23.2 su
+449.8 -57.6 r16 
+470.9 -66.6 hd 35.2 su 470.9 -48.6 2 copy xydef x_head
+491.9 -54.6 hd 23.2 su
+512.9 -57.6 r16 
+3.2 84.8 -0.0 539.4 -26.4 bm
+3.2 84.1 -0.0 539.8 -31.4 bm
+536.3 -66.6 hd 39.2 su 536.3 -54.6 hd 536.3 -48.6 2 copy xydef x_head
+557.3 -54.6 hd 27.2 su
+578.3 -66.6 hd 39.2 su
+599.3 -48.6 2 copy xydef x_head 21.2 su
+620.3 -54.6 hd 27.2 su
+641.4 -57.6 r16 
+49.5 -56.6 M 12.0 F0 (\()show
+61.5 -56.6 M 12.0 F0 (\))show
+112.6 -56.6 M 12.0 F0 (\()show
+124.6 -56.6 M 12.0 F0 (\))show
+133.6 -56.6 M 12.0 F0 (\()show
+145.6 -56.6 M 12.0 F0 (\))show
+141.6 -54.6 dnb
+235.2 -56.6 M 12.0 F0 (\()show
+247.2 -56.6 M 12.0 F0 (\))show
+298.2 -56.6 M 12.0 F0 (\()show
+310.2 -56.6 M 12.0 F0 (\))show
+319.3 -56.6 M 12.0 F0 (\()show
+331.3 -56.6 M 12.0 F0 (\))show
+327.3 -54.6 dnb
+420.8 -56.6 M 12.0 F0 (\()show
+432.8 -56.6 M 12.0 F0 (\))show
+483.9 -56.6 M 12.0 F0 (\()show
+495.9 -56.6 M 12.0 F0 (\))show
+549.3 -56.6 M 12.0 F0 (\()show
+561.3 -56.6 M 12.0 F0 (\))show
+612.3 -56.6 M 12.0 F0 (\()show
+624.3 -56.6 M 12.0 F0 (\))show
+0 -92.60 T
+/y0{-67.3 add}!
+/yns0{-67.3 add}!
+24.0 344.4 -67.3 thbar 24.0 341.4 -67.3 bar 337.4 -67.3 rdots 
+24.0 654.7 -67.3 thbar 24.0 651.7 -67.3 bar 
+dlw 657.7 0.0 -67.3 M 0 RL 657.7 0.0 -61.3 M 0 RL 657.7 0.0 -55.3 M 0 RL 657.7 0.0 -49.3 M 0 RL 657.7 0.0 -43.3 M 0 RL stroke
+(6)77.1 49.0 y0 bnum
+(6)151.0 49.0 y0 bnum
+(6)224.9 49.0 y0 bnum
+70.3 0.0 264.0 51.0 y0 tubr(6)299.2 47.0 y0 bnumb
+(6)392.4 49.0 y0 bnum
+(6)466.4 49.0 y0 bnum
+(6)540.3 49.0 y0 bnum
+70.3 12.0 579.4 52.3 y0 tubr(6)614.6 54.3 y0 bnumb
+13.0 F2 (1)-11.4 3 307.4 32.0 65.3 yns0 repbra
+(2)-11.4 3 310.4 347.4 65.3 yns0 repbra
+12.0 -55.3  pclef
+3.2 61.2 -0.0 47.7 -24.1 bm
+3.2 60.5 -0.0 48.0 -29.1 bm
+44.5 -58.3 hd 33.2 su
+56.6 -52.3 hd 27.2 su
+68.7 -64.3 hd 39.2 su
+80.8 -46.3 hd 21.2 su
+92.9 -46.3 hd 21.2 su
+105.0 -61.3 hd 36.2 su
+3.2 61.2 -0.0 121.6 -24.1 bm
+3.2 60.5 -0.0 121.9 -29.1 bm
+118.4 -61.3 hd 36.2 su
+130.5 -55.3 r16 
+142.7 -55.3 r16 
+154.8 -58.3 hd 33.2 su
+166.9 -46.3 hd 21.2 su
+179.0 -61.3 hd 36.2 su
+3.2 61.2 -0.0 195.5 -24.1 bm
+3.2 60.5 -0.0 195.9 -29.1 bm
+192.4 -61.3 hd 36.2 su
+204.5 -61.3 hd 36.2 su
+216.6 -55.3 r16 
+228.7 -46.3 hd 21.2 su
+240.8 -46.3 hd 21.2 su
+252.9 -58.3 hd 33.2 su
+265.0 -55.3 r16 
+3.2 49.1 -0.0 281.6 -24.1 bm
+3.2 48.4 -0.0 281.9 -29.1 bm
+278.4 -64.3 hd 39.2 su
+290.5 -55.3 r16 
+302.6 -46.3 hd 21.2 su
+314.8 -46.3 hd 21.2 su
+326.9 -46.3 hd 21.2 su
+3.2 61.2 -0.0 363.0 -24.1 bm
+3.2 60.5 -0.0 363.4 -29.1 bm
+359.9 -58.3 hd 33.2 su
+372.0 -52.3 hd 27.2 su
+384.1 -64.3 hd 39.2 su
+396.2 -46.3 hd 21.2 su
+408.3 -46.3 hd 21.2 su
+420.4 -61.3 hd 36.2 su
+3.2 61.2 -0.0 437.0 -24.1 bm
+3.2 60.5 -0.0 437.3 -29.1 bm
+433.8 -61.3 hd 36.2 su
+445.9 -55.3 r16 
+458.0 -55.3 r16 
+470.1 -58.3 hd 33.2 su
+482.2 -46.3 hd 21.2 su
+494.3 -61.3 hd 36.2 su
+3.2 61.2 -0.0 510.9 -24.1 bm
+3.2 60.5 -0.0 511.2 -29.1 bm
+507.7 -61.3 hd 36.2 su
+519.8 -61.3 hd 36.2 su
+532.0 -55.3 r16 
+544.1 -46.3 hd 21.2 su
+556.2 -46.3 hd 21.2 su
+568.3 -58.3 hd 33.2 su
+580.4 -55.3 r16 
+3.2 49.1 -0.0 596.9 -24.1 bm
+3.2 48.4 -0.0 597.3 -29.1 bm
+593.8 -64.3 hd 39.2 su
+605.9 -55.3 r16 
+618.0 -46.3 hd 21.2 su
+630.1 -46.3 hd 21.2 su
+642.2 -46.3 hd 21.2 su
+42.7 559.2 -88.3 cresc
+642.2 -20.3 hld
+0 -90.28 T
+grestore
+showpage
+%%EndPage: 2 2
+%%Trailer
+%%Pages: 2
+%EOF
