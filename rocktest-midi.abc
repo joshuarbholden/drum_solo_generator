@@ -7,27 +7,35 @@ I:linebreak $
 %%ornament up
 %%MIDI fermatafixed
 
-%%%ghost
-%%%unaccent
+                %%%ghost
+                %%%unaccent
 
 X:1
 T:Computer-generated \`Etude for Solo Drum Kit
-C:abcsolo16shuffle16ghost
-O:2021-11-13T18:39:44.080
+C:abcsolo16patinst16ghost
+O:2021-11-13T22:41:46.846
 M:4/4
 L:1/8
-Q:"Rock 16th shuffle feel" 1/4=60
+Q:"Rock 16th feel" 1/4=80
 K:none clef=perc
 [V:1 clef=perc, stem=up]     % activate abc2xml.py map
 %%voicemap drummap  % activate abcm2ps/abc2svg map
 %%MIDI channel 10   % activate abc2midi map
 %%MIDI program 0
-|:!p!(6:4[^gF]/2[I:volinc -50]c/2z/2[^gF]/2[I:volinc -50]c/2[F]/2 (6:4[c^g]/2[I:volinc -50]c/2z/2[^gF]/2[I:volinc -50]c/2z/2 (6:4[^g]/2[I:volinc -50]c/2z/2[^gF]/2[I:volinc -50]c/2[[I:volinc -50]c]/2 (6:4[c^g]/2[I:volinc -50]c/2z/2[^gF]/2[I:volinc -50]c/2z/2 |(6:4[^gF]/2[I:volinc -50]c/2[F]/2[^g]/2[I:volinc -50]c/2z/2 (6:4[c^gF]/2[I:volinc -50]c/2[F]/2[^g]/2[I:volinc -50]c/2z/2 (6:4[^gF]/2[I:volinc -50]c/2[[I:volinc -50]c]/2[^g]/2[I:volinc -50]c/2z/2 (6:4[c^gF]/2[I:volinc -50]c/2[F]/2[^g]/2[I:volinc -50]c/2z/2 |(6:4[^gF]/2[I:volinc -50]c/2[[I:volinc -50]c]/2[^gF]/2[I:volinc -50]c/2z/2 (6:4[c^gF]/2[I:volinc -50]c/2z/2[^g]/2[I:volinc -50]c/2z/2 (6:4[^gF]/2[I:volinc -50]c/2[F]/2[^g]/2[I:volinc -50]c/2z/2 (6:4[c^gF]/2[I:volinc -50]c/2[[I:volinc -50]c]/2[^g]/2[I:volinc -50]c/2z/2 |
-[1(6:4c/2e/2F/2A/2A/2G/2 (6:4z/2c/2F/2c/2z/2F/2 (6:4c/2c/2c/2e/2z/2c/2 (6:4z/2c/2F/2z/2z/2A/2 :|2(6:4c/2e/2F/2A/2A/2G/2 (6:4z/2c/2F/2c/2z/2F/2 (6:4c/2c/2c/2e/2!<(!z/2c/2 (6:4z/2c/2!<)!F/2z/2z/2A/2 
-|:!f!(6:4[^eF]/2[I:volinc -50]c/2[^e]/2[^eF]/2[I:volinc -50]c/2[^eF]/2 (6:4[c^e]/2[I:volinc -50]c/2[^e]/2[^eF]/2[I:volinc -50]c/2[^e[I:volinc -50]c]/2 (6:4[^e]/2[I:volinc -50]c/2[^e]/2[^eF]/2[I:volinc -50]c/2[^e]/2 (6:4[c^eF]/2[I:volinc -50]c/2[^e]/2[^e]/2[I:volinc -50]c/2[_e]/2 |(6:4[^eF]/2[I:volinc -50]c/2[^eF]/2[^e]/2[I:volinc -50]c/2[^e]/2 (6:4[c^e]/2[I:volinc -50]c/2[^e]/2[^eF]/2[I:volinc -50]c/2[^e[I:volinc -50]c]/2 (6:4[^eF]/2[I:volinc -50]c/2[^e[I:volinc -50]c]/2[^eF]/2[I:volinc -50]c/2[^eF]/2 (6:4[c^e]/2[I:volinc -50]c/2[^e]/2[^eF]/2[I:volinc -50]c/2[_e[I:volinc -50]c]/2 |(6:4[^eF]/2[I:volinc -50]c/2[^e[I:volinc -50]c]/2[^eF]/2[I:volinc -50]c/2[^e]/2 (6:4[c^eF]/2[I:volinc -50]c/2[^eF]/2[^e]/2[I:volinc -50]c/2[^e]/2 (6:4[^eF]/2[I:volinc -50]c/2[^e]/2[^eF]/2[I:volinc -50]c/2[^e]/2 (6:4[c^eF]/2[I:volinc -50]c/2[^e]/2[^eF]/2[I:volinc -50]c/2[_e]/2 |
-[1(6:4e/2G/2A/2c/2e/2G/2 (6:4G/2e/2z/2A/2G/2e/2 (6:4c/2e/2e/2e/2e/2A/2 (6:4A/2c/2c/2e/2z/2A/2 :|2(6:4e/2G/2A/2c/2e/2G/2 (6:4G/2e/2z/2A/2G/2e/2 (6:4c/2e/2e/2e/2!>(!e/2A/2 (6:4A/2c/2!>)!c/2e/2z/2A/2 
-|:!p!(6:4[^gF]/2[I:volinc -50]c/2z/2[^gF]/2[I:volinc -50]c/2z/2 (6:4[c^gF]/2[I:volinc -50]c/2z/2[^gF]/2[I:volinc -50]c/2[[I:volinc -50]c]/2 (6:4[^gF]/2[I:volinc -50]c/2[F]/2[^g]/2[I:volinc -50]c/2z/2 (6:4[c^gF]/2[I:volinc -50]c/2[[I:volinc -50]c]/2[^gF]/2[I:volinc -50]c/2[F]/2 |(6:4[^g]/2[I:volinc -50]c/2z/2[^gF]/2[I:volinc -50]c/2z/2 (6:4[c^gF]/2[I:volinc -50]c/2[F]/2[^g]/2[I:volinc -50]c/2z/2 (6:4[^gF]/2[I:volinc -50]c/2[F]/2[^g]/2[I:volinc -50]c/2z/2 (6:4[c^gF]/2[I:volinc -50]c/2[F]/2[^g]/2[I:volinc -50]c/2z/2 |(6:4[^gF]/2[I:volinc -50]c/2z/2[^g]/2[I:volinc -50]c/2z/2 (6:4[c^gF]/2[I:volinc -50]c/2[[I:volinc -50]c]/2[^g]/2[I:volinc -50]c/2z/2 (6:4[^gF]/2[I:volinc -50]c/2[F]/2[^g]/2[I:volinc -50]c/2z/2 (6:4[c^gF]/2[I:volinc -50]c/2[F]/2[^g]/2[I:volinc -50]c/2z/2 |
-[1(6:4e/2G/2A/2A/2A/2F/2 (6:4e/2A/2F/2e/2e/2G/2 (6:4e/2A/2A/2G/2e/2c/2 (6:4z/2e/2e/2F/2c/2c/2 :|2(6:4e/2G/2A/2A/2A/2F/2 (6:4e/2A/2F/2e/2e/2G/2 (6:4e/2A/2A/2G/2!<(!e/2c/2 (6:4z/2e/2!<)!e/2F/2c/2c/2 
-|:!pp!(6:4[^eF]/2[I:volinc -50]c/2[^e]/2[^eF]/2[I:volinc -50]c/2[^eF]/2 (6:4[c^e]/2[I:volinc -50]c/2[^e]/2[^eF]/2[I:volinc -50]c/2[^e]/2 (6:4[^eF]/2[I:volinc -50]c/2[^eF]/2[^e]/2[I:volinc -50]c/2[^e]/2 (6:4[c^eF]/2[I:volinc -50]c/2[^e]/2[^eF]/2[I:volinc -50]c/2[_e[I:volinc -50]c]/2 |(6:4[^eF]/2[I:volinc -50]c/2[^eF]/2[^e]/2[I:volinc -50]c/2[^e]/2 (6:4[c^eF]/2[I:volinc -50]c/2[^eF]/2[^e]/2[I:volinc -50]c/2[^e]/2 (6:4[^eF]/2[I:volinc -50]c/2[^eF]/2[^e]/2[I:volinc -50]c/2[^e]/2 (6:4[c^e]/2[I:volinc -50]c/2[^e]/2[^eF]/2[I:volinc -50]c/2[_eF]/2 |(6:4[^e]/2[I:volinc -50]c/2[^e]/2[^eF]/2[I:volinc -50]c/2[^e]/2 (6:4[c^eF]/2[I:volinc -50]c/2[^eF]/2[^e]/2[I:volinc -50]c/2[^e]/2 (6:4[^eF]/2[I:volinc -50]c/2[^e[I:volinc -50]c]/2[^e]/2[I:volinc -50]c/2[^e]/2 (6:4[c^eF]/2[I:volinc -50]c/2[^eF]/2[^e]/2[I:volinc -50]c/2[_e]/2 |
-[1(6:4e/2c/2e/2G/2G/2e/2 (6:4e/2G/2c/2F/2c/2c/2 (6:4c/2F/2c/2e/2c/2e/2 (6:4c/2F/2e/2e/2F/2F/2 :|2(6:4e/2c/2e/2G/2G/2e/2 (6:4e/2G/2c/2F/2c/2c/2 (6:4c/2F/2c/2e/2!<(!c/2e/2 (6:4c/2F/2!<)!e/2e/2F/2HF/2 
+|:!mp![^g^DF]/2[^g]/2[^gF]/2[^g]/2 [c^g^DF]/2[^gF]/2[^g]/2[^g]/2 [^g^DF]/2[^g[I:volinc -30]c]/2[^gF]/2[^gF]/2 [c^g^D]/2[^g]/2[^gF]/2[^g[I:volinc -30]c]/2 |
+[^g^DF]/2[^g]/2[^gF]/2[^g[I:volinc -30]c]/2 [c^g^DF]/2[^g]/2[^g]/2[^g]/2 [^g^DF]/2[^g[I:volinc -30]c]/2[^gF]/2[^gF]/2 [c^g^D]/2[^g]/2[^gF]/2[^gF]/2 |
+[^g^D]/2[^g]/2[^gF]/2[^g]/2 [c^g^DF]/2[^gF]/2[^g]/2[^g]/2 [^g^DF]/2[^g]/2[^g]/2[^g]/2 [c^g^DF]/2[^g[I:volinc -30]c]/2[^g]/2[^g]/2 |
+[1e/2G/2G/2e/2 z/2F/2G/2G/2 A/2c/2c/2c/2 e/2A/2z/2c/2 :|2e/2G/2G/2e/2 z/2F/2G/2G/2 A/2c/2c/2c/2 !<(!e/2A/2!<)!z/2c/2 
+|:!pp![^g]/2z/2[^gF]/2[F]/2 [c^g]/2z/2[^gF]/2[[I:volinc -30]c]/2 [^gF]/2[F]/2[^g]/2z/2 [c^gF]/2[F]/2[^g]/2z/2 |
+[^gF]/2z/2[^gF]/2[[I:volinc -30]c]/2 [c^gF]/2[F]/2[^g]/2z/2 [^gF]/2[[I:volinc -30]c]/2[^gF]/2[F]/2 [c^g]/2z/2[^g]/2z/2 |
+[^gF]/2z/2[^g]/2z/2 [c^gF]/2[[I:volinc -30]c]/2[^g]/2z/2 [^g]/2z/2[^gF]/2z/2 [c^gF]/2[F]/2[^g]/2z/2 |
+[1e/2F/2c/2e/2 e/2A/2z/2c/2 e/2z/2z/2A/2 A/2G/2G/2e/2 :|2e/2F/2c/2e/2 e/2A/2z/2c/2 e/2z/2z/2A/2 !<(!A/2G/2!<)!G/2e/2 
+|:!mf![^gF]/2[^g]/2[^gF]/2[^g[I:volinc -30]c]/2 [c^gF]/2[^g]/2[^gF]/2[^g[I:volinc -30]c]/2 [^gF]/2[^g[I:volinc -30]c]/2[^gF]/2[^g[I:volinc -30]c]/2 [c^gF]/2[^g[I:volinc -30]c]/2[^g]/2[^g]/2 |
+[^gF]/2[^g]/2[^g]/2[^g]/2 [c^gF]/2[^g]/2[^g]/2[^g]/2 [^gF]/2[^gF]/2[^g]/2[^g]/2 [c^gF]/2[^g[I:volinc -30]c]/2[^gF]/2[^g[I:volinc -30]c]/2 |
+[^gF]/2[^g]/2[^g]/2[^g]/2 [c^gF]/2[^g[I:volinc -30]c]/2[^gF]/2[^gF]/2 [^g]/2[^g]/2[^gF]/2[^g]/2 [c^gF]/2[^g[I:volinc -30]c]/2[^gF]/2[^gF]/2 |
+[1A/2A/2c/2G/2 G/2e/2e/2A/2 A/2F/2c/2z/2 z/2A/2c/2e/2 :|2A/2A/2c/2G/2 G/2e/2e/2A/2 A/2F/2c/2z/2 !>(!z/2A/2!>)!c/2e/2 
+|:!p![^DF]/2z/2[g^DF]/2[gF]/2 [c^D]/2z/2[g^DF]/2[g[I:volinc -30]c]/2 [^DF]/2z/2[g^D]/2[g]/2 [c^DF]/2[[I:volinc -30]c]/2[g^D]/2[g]/2 |
+[^DF]/2z/2[g^DF]/2[gF]/2 [c^D]/2z/2[g^DF]/2[g]/2 [^DF]/2[F]/2[g^D]/2[g]/2 [c^DF]/2z/2[g^DF]/2[gF]/2 |
+[^D]/2z/2[g^DF]/2[g]/2 [c^DF]/2[F]/2[g^D]/2[g]/2 [^DF]/2[F]/2[g^D]/2[g]/2 [c^DF]/2z/2[g^D]/2[g]/2 |
+[1e/2c/2z/2F/2 e/2A/2A/2G/2 F/2e/2F/2e/2 F/2e/2c/2e/2 :|2e/2c/2z/2F/2 e/2A/2A/2G/2 F/2e/2F/2e/2 !>(!F/2e/2!>)!c/2He/2 
 |]
