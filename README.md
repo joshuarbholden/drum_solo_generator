@@ -4,7 +4,7 @@
 
 What you will need:
 * A way of running [Jupyter]()/iPython notebooks
-* A way of running [Julia]() code embedded in such notebooks
+* A way of running [Julia](https://julialang.org/) code embedded in such notebooks
 * A way of doing something useful with ABP (ABC with pre-processing directives) files.  For example:
      * [abcpp](http://abcplus.sourceforge.net/#abcpp) for converting ABP files to ABC files 
      * [abcm2ps](https://github.com/leesavide/abcm2ps/) or [abc2svg](https://github.com/leesavide/abcm2ps/) for producing scores from ABC files
