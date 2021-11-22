@@ -2,6 +2,12 @@
  
 ~~Currently a messy bunch of Maple files.~~  Now a messy bunch of Julia files!
 
+What you will need:
+
+* A way of doing something useful with ABP (ABC with pre-processing directives) files.  For example:
+     * [abcpp]() for converting ABP files to ABC files 
+     * [abcm2ps](https://github.com/leesavide/abcm2ps/) or [abc2svg] for producing scores from ABC files
+
 TO DO:  
 * clean up
      * especially, delete stuff that is not being used
