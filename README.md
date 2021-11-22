@@ -8,7 +8,7 @@ What you will need:
 * A way of doing something useful with ABP (ABC with pre-processing directives) files.  For example:
      * [abcpp](http://abcplus.sourceforge.net/#abcpp) for converting ABP files to ABC files 
      * [abcm2ps](https://github.com/leesavide/abcm2ps/) or [abc2svg](https://github.com/leesavide/abcm2ps/) for producing scores from ABC files
-     * [abc2midi]() for producing MIDI files from ABC files
+     * [abc2midi](https://ifdo.ca/~seymour/runabc/top.html) for producing MIDI files from ABC files
 
 TO DO:  
 * clean up
