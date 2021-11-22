@@ -4,10 +4,10 @@
 
 What you will need:
 * A way of running [Jupyter]()/iPython notebooks
-* A way of running [Julia]() code embedding in such notebooks
+* A way of running [Julia]() code embedded in such notebooks
 * A way of doing something useful with ABP (ABC with pre-processing directives) files.  For example:
-     * [abcpp]() for converting ABP files to ABC files 
-     * [abcm2ps](https://github.com/leesavide/abcm2ps/) or [abc2svg]() for producing scores from ABC files
+     * [abcpp](http://abcplus.sourceforge.net/#abcpp) for converting ABP files to ABC files 
+     * [abcm2ps](https://github.com/leesavide/abcm2ps/) or [abc2svg](https://github.com/leesavide/abcm2ps/) for producing scores from ABC files
      * [abc2midi]() for producing MIDI files from ABC files
 
 TO DO:  
