@@ -10,11 +10,16 @@ What you will need:
      * [abcm2ps](https://github.com/leesavide/abcm2ps/) or [abc2svg](https://github.com/leesavide/abcm2ps/) for producing scores from ABC files
      * [abc2midi](https://ifdo.ca/~seymour/runabc/top.html) for producing MIDI files from ABC files
 
+Once you have all that:
+* Download the abptest.bat file.  (It's only a few lines; writing one for Mac/Linux should be trivial but I haven't done it yet.  Or I could just make a Julia function that does the same thing.  I should probably do that.)
+* Pick a Jupyter notebook 
+
 TO DO:  
 * clean up
      * especially, delete stuff that is not being used
 * translate into an open source language, like Julia  (mostly done now)
      * I'd be more than happy to have help from anyone!
+* Change the batch file into a Julia function?
 * separate 8th note from 16th note styles (done?)
 * re-organize ride patterns based on rhythm and on instrumentation (done?)
 * shuffle beats
