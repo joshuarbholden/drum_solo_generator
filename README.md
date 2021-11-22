@@ -3,7 +3,7 @@
 ~~Currently a messy bunch of Maple files.~~  Now a messy bunch of Julia files!
 
 What you will need:
-* A way of running [Jupyter]()/iPython notebooks
+* A way of running [Jupyter](https://jupyter.org/)/iPython notebooks
 * A way of running [Julia](https://julialang.org/) code embedded in such notebooks
 * A way of doing something useful with ABP (ABC with pre-processing directives) files.  For example:
      * [abcpp](http://abcplus.sourceforge.net/#abcpp) for converting ABP files to ABC files 
