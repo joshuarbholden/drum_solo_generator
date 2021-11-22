@@ -12,11 +12,13 @@ What you will need:
 
 Once you have all that:
 * Download the abptest.bat file.  (It's only a few lines; writing one for Mac/Linux should be trivial but I haven't done it yet.  Or I could just make a Julia function that does the same thing.  I should probably do that.)
-* Pick a Jupyter notebook 
+* Pick a Jupyter notebook from the main repo directory.
+* Execute cells until things start happening.  :)
 
 TO DO:  
 * clean up
      * especially, delete stuff that is not being used
+     * also improve the notebook documentation!
 * translate into an open source language, like Julia  (mostly done now)
      * I'd be more than happy to have help from anyone!
 * Change the batch file into a Julia function?
