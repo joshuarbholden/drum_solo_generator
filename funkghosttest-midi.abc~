@@ -1,0 +1,41 @@
+%%abc-include percussions-JBH.abh
+
+I:linebreak $
+%%flatbeams
+%%propagate-accidentals not
+%%pos ornament up
+%%ornament up
+%%MIDI fermatafixed
+
+                %%%ghost
+                %%%unaccent
+
+X:1
+T:Computer-generated \`Etude for Solo Drum Kit
+C:abcsolo8patinst16ghost
+O:2021-11-21T19:43:48.644
+M:4/4
+L:1/8
+Q:"Funk 16th feel" 1/4=80
+K:none clef=perc
+[V:1 clef=perc, stem=up]     % activate abc2xml.py map
+%%voicemap drummap  % activate abcm2ps/abc2svg map
+%%MIDI channel 10   % activate abc2midi map
+%%MIDI program 0
+|:!f![^g]/2[F/2][^gF]y[c^g]/2[[I:vol 20]c/2][^gF]/2[F/2] [^g]/2[[I:vol 20]c/2][^g]/2[[I:vol 20]c/2][c^g]/2[F/2][^gF]/2[[I:vol 20]c/2] |
+[^gF]y[^g]y[c^gF]y[^g]y [^g]y[^g]y[c^g]/2[F/2][^g]y |
+[^gF]/2[F/2][^g]y[c^gF]y[^g]/2[[I:vol 20]c/2] [^gF]/2[F/2][^g]/2[F/2][c^gF]/2[[I:vol 20]c/2][^g]/2[F/2] |
+[1c/2e/2e/2e/2 z/2A/2z/2c/2 z/2c/2F/2G/2 G/2z/2G/2G/2 :|2c/2e/2e/2e/2 z/2A/2z/2c/2 z/2c/2F/2G/2 !<(!G/2z/2!<)!G/2G/2 
+|:!ff!!N![^eF]/2[F/2]z/2[[I:vol 20]c/2]!N![c^eF]/2[[I:vol 20]c/2][F]y !N![^e]/2[[I:vol 20]c/2]z/2[F/2]!N![c^e]/2[F/2]z/2[F/2] |
+!N![^e]/2[F/2]z/2[[I:vol 20]c/2]!N![c^e]/2[F/2]z/2[[I:vol 20]c/2] !N![^eF]yz/2[F/2]!N![c^eF]y[F]/2[[I:vol 20]c/2] |
+!N![^eF]y[F]/2[F/2]!N![c^e]/2[[I:vol 20]c/2][F]y !N![^eF]/2[[I:vol 20]c/2][F]/2[[I:vol 20]c/2]!N![c^e]/2[F/2][F]y |
+[1c/2z/2G/2z/2 c/2z/2A/2G/2 G/2G/2A/2c/2 c/2G/2F/2e/2 :|2c/2z/2G/2z/2 c/2z/2A/2G/2 G/2G/2A/2c/2 !<(!c/2G/2!<)!F/2e/2 
+|:!f![F]/2[F/2][g]/2[[I:vol 20]c/2][cF]/2[[I:vol 20]c/2][gF]/2[F/2] z/2[F/2][gF]y[cF]/2[[I:vol 20]c/2][gF]/2[F/2] |
+z/2[[I:vol 20]c/2][g]/2[[I:vol 20]c/2][cF]/2[F/2][g]/2[F/2] [F]/2[[I:vol 20]c/2][gF]y[c]/2[F/2][gF]/2[[I:vol 20]c/2] |
+[F]/2[[I:vol 20]c/2][gF]y[c]y[gF]/2[[I:vol 20]c/2] z/2[[I:vol 20]c/2][g]/2[F/2][c]/2[F/2][g]y |
+[1A/2c/2e/2c/2 c/2e/2z/2G/2 G/2e/2e/2A/2 A/2A/2e/2F/2 :|2A/2c/2e/2c/2 c/2e/2z/2G/2 G/2e/2e/2A/2 !<(!A/2A/2!<)!e/2F/2 
+|:!p![g]y[^gF]/2[[I:vol 20]c/2][cgF]/2[[I:vol 20]c/2][^gF]y [g]/2[F/2][^g]y[cgF]/2[[I:vol 20]c/2][^gF]/2[[I:vol 20]c/2] |
+[gF]/2[F/2][^g]y[cgF]/2[F/2][^g]/2[[I:vol 20]c/2] [g]/2[[I:vol 20]c/2][^gF]y[cgF]y[^gF]y |
+[g]/2[F/2][^g]/2[F/2][cg]y[^gF]/2[[I:vol 20]c/2] [g]/2[F/2][^g]/2[F/2][cgF]/2[[I:vol 20]c/2][^g]/2[F/2] |
+[1F/2c/2F/2c/2 A/2z/2F/2F/2 e/2A/2A/2A/2 A/2F/2z/2e/2 :|2F/2c/2F/2c/2 A/2z/2F/2F/2 e/2A/2A/2A/2 !>(!A/2F/2!>)!z/2!fermata!e/2 
+|]
