@@ -35,3 +35,45 @@ function abptest(fname)
     run(`cmd /C start $shortname.mid`)
     run(`cmd /C start $shortname.xhtml`)
 end
+
+# constructs header for abp file
+function makeppheader(title::String, composer::String, date::String, meter::String, feel::String, tempo::Int)
+    s = """%%abc-include percussions-JBH.abh
+    
+    I:linebreak \$
+    
+    #ifdef MIDI
+    #define !>! \"[I:volinc 50]\"
+    #define !Q! \"[I:vol 20]\" 
+                    %%%ghost
+    #define !U! \"[I:volinc -20]\" 
+                    %%%unaccent
+    #else
+    #define !N! "\\\"^_\\\"" 
+                    %%%tenuto
+    #define !Q! !(.!!).! 
+                    %%%ghost
+    #define !U! !anti!  
+                    %%%unaccent
+    #endif
+    
+    X:1
+    T:$title
+    C:$composer
+    O:$date
+    M:$meter
+    L:1/8
+    Q:\"$feel\" 1/4=$tempo
+    K:none clef=perc
+    [V:1 clef=perc, stem=up]     % activate abc2xml.py map
+    %%voicemap drummap  % activate abcm2ps/abc2svg map
+    %%MIDI channel 10   % activate abc2midi map
+    %%MIDI program 0
+    %%flatbeams
+    %%propagate-accidentals not
+    %%pos ornament up
+    %%ornament up
+    %%MIDI fermatafixed
+    """
+    return(s)
+end
