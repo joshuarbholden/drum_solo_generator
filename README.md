@@ -22,6 +22,7 @@ Once you have all that:
         * markov8shuffle.ipnyb (6/8 shuffle)
         * markov16shuffle16bass.ipnyb (half-time shuffle)
     * In progress:    
+        * markov16latin16ghost-unisonfill.ipnyb ("Latin" feel, with unison fills instead of linear.  Ghost snares not implemented yet.)
         * markov16shuffle16ghost.ipnyb (half-time shuffle with ghost snares)
 * Execute cells until things start happening.  :)
 
