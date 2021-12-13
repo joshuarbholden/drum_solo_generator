@@ -1,0 +1,25 @@
+X: 1
+T: Windows Drum Sounds Test
+M: 4/4
+L: 1/8
+Q:1/4=60
+K:none clef=perc
+%%flatbeams
+%%pos ornament up
+%%propagate-accidentals not
+[V:1 clef=perc, stem=up]     % activate abc2xml.py map
+%%voicemap drummap  % activate abcm2ps/abc2svg map
+%%MIDI channel 10   % activate abc2midi map
+%%MIDI program 48
+%%MIDI fermatafixed
+B,,,,C,,,^C,,,D,,,^D,,,E,,,F,,,^F,,,G,,,^G,,,A,,,^A,,,
+zzzz
+B,,,C,,^C,,D,,^D,,E,,F,,^F,,G,,^G,,A,,^A,,
+zzzz
+B,,C,^C,D,^D,E,F,^F,G,^G,A,^A,
+zzzz
+B,C^CD^DEF^FG^GA^A
+zzzz
+Bc^cd^de^ef^fg^ga^a
+zzzz
+bc'^c'd'^d'e'^e'f'^f'g'^g'a'^a'
