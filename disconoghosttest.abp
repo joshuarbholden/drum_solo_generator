@@ -1,0 +1,53 @@
+%%abc-include percussions-JBH.abh
+
+I:linebreak $
+
+#ifdef MIDI
+#define !>! "[I:volinc 50]"
+#define !Q! "[I:vol 20]" 
+                %%%ghost
+#define !U! "[I:volinc -20]" 
+                %%%unaccent
+#else
+#define !N! "\"^_\"" 
+                %%%tenuto
+#define !Q! !(.!!).! 
+                %%%ghost
+#define !U! !anti!  
+                %%%unaccent
+#endif
+
+X:1
+T:Computer-generated \`Etude for Solo Drum Kit
+C:#abcsolo8patinst16ghost#16
+O:2021-12-23T20:25:41.255
+M:4/4
+L:1/8
+Q:"Disco 16th feel" 1/4=80
+K:none clef=perc
+[V:1 clef=perc, stem=up]     % activate abc2xml.py map
+%%voicemap drummap  % activate abcm2ps/abc2svg map
+%%MIDI channel 10   % activate abc2midi map
+%%MIDI program 0
+%%flatbeams
+%%propagate-accidentals not
+%%pos ornament up
+%%ornament up
+%%MIDI fermatafixed
+|:!f![^eF]y[_e]/2[F/2][c^eF]y[_e]/2[F/2] [^eF]y[_e]/2[F/2][c^eF]y[_e]/2[F/2] |
+[^eF]y[_e]/2[F/2][c^eF]y[_e]y [^eF]/2[F/2][_e]/2[F/2][c^eF]y[_e]/2[F/2] |
+[^eF]y[_e]/2[F/2][c^eF]y[_e]y [^eF]y[_e]/2[F/2][c^eF]y[_e]y |
+[1c/2G/2A/2z/2 A/2F/2F/2G/2 F/2F/2z/2G/2 e/2e/2e/2A/2 :|2c/2G/2A/2z/2 A/2F/2F/2G/2 F/2F/2z/2G/2 !<(!e/2e/2!<)!e/2A/2 
+|:!p![gF]y[g]/2[F/2][cgF]y[g]/2[F/2] [gF]y[g]y[cgF]y[g]y |
+[gF]/2[F/2][g]y[cgF]y[g]/2[F/2] [gF]y[g]/2[F/2][cgF]y[g]y |
+[gF]/2[F/2][g]/2[F/2][cgF]y[g]/2[F/2] [gF]y[g]/2[F/2][cgF]y[g]/2[F/2] |
+[1c/2e/2e/2A/2 A/2c/2F/2c/2 A/2G/2e/2G/2 A/2z/2A/2z/2 :|2c/2e/2e/2A/2 A/2c/2F/2c/2 A/2G/2e/2G/2 !<(!A/2z/2!<)!A/2z/2 
+|:!mp![^eF]/2[F/2][_e]y[c^eF]y[_e]/2[F/2] [^eF]y[_e]y[c^eF]/2[F/2][_e]y |
+[^eF]/2[F/2][_e]y[c^eF]/2[F/2][_e]y [^eF]y[_e]/2[F/2][c^eF]y[_e]/2[F/2] |
+[^eF]y[_e]y[c^eF]/2[F/2][_e]y [^eF]/2[F/2][_e]/2[F/2][c^eF]y[_e]/2[F/2] |
+[1e/2A/2G/2A/2 A/2G/2G/2G/2 G/2e/2c/2e/2 e/2z/2F/2c/2 :|2e/2A/2G/2A/2 A/2G/2G/2G/2 G/2e/2c/2e/2 !>(!e/2z/2!>)!F/2c/2 
+|:!f![gF]/2[F/2]z/2[F/2][cgF]yz/2[F/2] [gF]yzy[cgF]yzy |
+[gF]yzy[cgF]yzy [gF]yzy[cgF]yz/2[F/2] |
+[gF]yzy[cgF]/2[F/2]zy [gF]/2[F/2]zy[cgF]yzy |
+[1e/2e/2z/2e/2 e/2A/2e/2c/2 F/2F/2c/2z/2 F/2F/2G/2F/2 :|2e/2e/2z/2e/2 e/2A/2e/2c/2 F/2F/2c/2z/2 !>(!F/2F/2!>)!G/2!fermata!F/2 
+|]
