@@ -16,13 +16,13 @@ Once you have all that:
 * Download the percussions-JBH.abh header file which the other abc files will import.
 * Pick a Jupyter notebook from the main repo directory.
     * Currently working and up to date: 
-         * markov8par_inst16ghost.ipnyb (8th note ride patterns, 16th note bass feel with or without ghost snares.  Rock and funk versions)
+         * markov8par_inst16ghost.ipnyb (8th note ride patterns, 16th note bass feel with or without ghost snares.  Rock, funk, and disco versions)
          * markov16par_inst16ghost.ipnyb (16th note ride patterns, 16th note bass feel with or without ghost snares.  Rock and funk versions)
+         * markov16latin16ghost-unisonfill.ipnyb ("Latin" feel, with unison fills instead of linear.  Ghost snares not implemented yet.)
     * Working but not up to date (may have compatibility issues):
         * markov8shuffle.ipnyb (6/8 shuffle)
         * markov16shuffle16bass.ipnyb (half-time shuffle)
     * In progress:    
-        * markov16latin16ghost-unisonfill.ipnyb ("Latin" feel, with unison fills instead of linear.  Ghost snares not implemented yet.)
         * markov16shuffle16ghost.ipnyb (half-time shuffle with ghost snares)
 * Execute cells until things start happening.  :)
 
@@ -32,10 +32,12 @@ TO DO:
      * also improve the notebook documentation!
 * translate into an open source language, like Julia  (mostly done now)
      * I'd be more than happy to have help from anyone!
-     * still need to do:  markovlatin-abc.mw, markovlatindouble-abc.mw
+     * still need to do:  markovlatin-abc.mw (may not be useful?)
 * Change the batch file into a Julia function?  (Done but needs to be propagated to shuffle notebooks)
 * separate 8th note from 16th note styles (done?)
 * re-organize ride patterns based on rhythm and on instrumentation (done?)
 * shuffle beats (in progress)
 * ghost notes (sounding pretty good!)
+* keep improving the "trash hat" sound
+* interpolation between styles
 * extensions

@@ -46,8 +46,10 @@ function makeppheader(title::String, composer::String, date::String, meter::Stri
     #define !>! \"[I:volinc 50]\"
     #define !Q! \"[I:vol 20]\" 
                     %%%ghost
-    #define !U! \"[I:volinc -20]\" 
+    #define !U! \"[I:vol 40]\" 
                     %%%unaccent
+    #define !N! "[I:volinc -25]" 
+                %%%tenuto for trash hat
     #else
     #define !N! "\\\"^_\\\"" 
                     %%%tenuto

@@ -1,0 +1,38 @@
+%%abc-include percussions-JBH.abh
+
+I:linebreak $
+  
+                %%%tenuto
+                %%%ghost
+                %%%unaccent
+
+X:1
+T:Computer-generated \`Etude for Solo Drum Kit
+C:#abcsolo8patinst16ghost#20
+O:2021-12-24T18:59:41.372
+M:4/4
+L:1/8
+Q:"Rock 16th feel" 1/4=80
+K:none clef=perc
+[V:1 clef=perc, stem=up]     % activate abc2xml.py map
+%%voicemap drummap  % activate abcm2ps/abc2svg map
+%%MIDI channel 10   % activate abc2midi map
+%%MIDI program 0
+%%flatbeams
+%%propagate-accidentals not
+%%pos ornament up
+%%ornament up
+%%MIDI fermatafixed
+|:!pp!!>![^eF]y!anti![^eF]y!>![^ecF]y!anti![^eF]y !>![^eF]/2[F/2]!anti![^e]y!>![^ecF]/2[F/2]!anti![^e]y |
+!>![^eF]/2[F/2]!anti![^e]y!>![^ecF]/2[F/2]!anti![^e]y !>![^e]y!anti![^eF]y!>![^ec]y!anti![^eF]y |
+!>![^eF]y!anti![^eF]/2[F/2]!>![^ec]y!anti![^eF]y !>![^eF]/2[F/2]!anti![^e]y!>![^ecF]y!anti![^eF]y |
+[1e/2A/2c/2e/2 e/2z/2z/2G/2 A/2c/2c/2e/2 e/2c/2c/2e/2 :|2e/2A/2c/2e/2 e/2z/2z/2G/2 A/2c/2c/2e/2 !>(!e/2c/2!>)!c/2e/2 
+|:!ff!!>![^eF]y!anti![^eF]y!>![^ecF]y!anti![^eF]y !>![^eF]/2[F/2]!anti![^e]y!>![^ecF]/2[F/2]!anti![^e]y |
+!>![^eF]/2[F/2]!anti![^e]y!>![^ecF]/2[F/2]!anti![^e]y !>![^e]y!anti![^eF]y!>![^ec]y!anti![^eF]y |
+!>![^eF]y!anti![^eF]/2[F/2]!>![^ec]y!anti![^eF]y !>![^eF]/2[F/2]!anti![^e]y!>![^ecF]y!anti![^eF]y |
+[1e/2A/2c/2e/2 e/2z/2z/2G/2 A/2c/2c/2e/2 e/2c/2c/2e/2 :|2e/2A/2c/2e/2 e/2z/2z/2G/2 A/2c/2c/2e/2 !>(!e/2c/2!>)!c/2e/2 
+|:!p![^gF]y[F]/2[F/2][c^g]/2[!(.!!).!c/2][F]/2[F/2] [^g]/2[!(.!!).!c/2]z/2[!(.!!).!c/2][c^gF]y[F]/2[F/2] |
+[^g]/2[!(.!!).!c/2][F]y[c^g]/2[!(.!!).!c/2][F]/2[F/2] [^g]y[F]/2[F/2][c^g]/2[!(.!!).!c/2][F]y |
+[^g]/2[!(.!!).!c/2][F]/2[F/2][c^g]/2[!(.!!).!c/2][F]y [^g]/2[!(.!!).!c/2][F]/2[F/2][c^g]y[F]/2[F/2] |
+[1A/2G/2G/2G/2 G/2G/2G/2G/2 z/2e/2e/2e/2 z/2c/2e/2e/2 :|2A/2G/2G/2G/2 G/2G/2G/2G/2 z/2e/2e/2e/2 !>(!z/2c/2!>)!e/2!fermata!e/2 
+|]

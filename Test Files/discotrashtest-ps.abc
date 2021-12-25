@@ -2,22 +2,9 @@
 
 I:linebreak $
   
-#ifdef MIDI
-#define !>! "[I:volinc 50]"
-#define !Q! "[I:vol 20]" 
-                %%%ghost
-#define !U! "[I:volinc -20]" 
-                %%%unaccent
-#define !N! "[I:volinc -40]" 
-                %%%tenuto for trash hat
-#else
-#define !N! "\"^_\"" 
                 %%%tenuto
-#define !Q! !(.!!).! 
                 %%%ghost
-#define !U! !anti!  
                 %%%unaccent
-#endif
 
 X:1
 T:Computer-generated \`Etude for Solo Drum Kit
@@ -40,13 +27,13 @@ K:none clef=perc
 [^eF]y[^e]y[c^eF]/2[F/2][^e]y [^eF]y[^e]y[c^eF]y[^e]y |
 [^eF]y[^e]y[c^eF]y[^e]/2[F/2] [^eF]y[^e]/2[F/2][c^eF]y[^e]y |
 [1A/2F/2F/2c/2 c/2c/2c/2c/2 e/2c/2F/2e/2 c/2e/2z/2F/2 :|2A/2F/2F/2c/2 c/2c/2c/2c/2 e/2c/2F/2e/2 !>(!c/2e/2!>)!z/2F/2 
-|:!pp![F]y[g]y[cF]/2[F/2][g]y [F]y[g]/2[F/2][cF]y[g]/2[F/2] |
-[F]y[g]/2[F/2][cF]y[g]y [F]y[g]/2[F/2][cF]y[g]/2[F/2] |
-[F]y[g]y[cF]/2[F/2][g]/2[F/2] [F]y[g]/2[F/2][cF]y[g]y |
-[1z/2F/2F/2A/2 F/2e/2e/2z/2 F/2c/2c/2c/2 F/2c/2c/2z/2 :|2z/2F/2F/2A/2 F/2e/2e/2z/2 F/2c/2c/2c/2 !<(!F/2c/2!<)!c/2z/2 
-|:!f!!N![_eF]yzy!N![c_eF]yzy !N![_eF]/2[F/2]z/2[F/2]!N![c_eF]yz/2[F/2] |
-!N![_eF]yzy!N![c_eF]yzy !N![_eF]/2[F/2]zy!N![c_eF]yzy |
-!N![_eF]yz/2[F/2]!N![c_eF]yzy !N![_eF]yzy!N![c_eF]yzy |
+|:!pp!"^_"[_eF]yzy"^_"[_ecF]yzy "^_"[_eF]/2[F/2]z/2[F/2]"^_"[_ecF]yz/2[F/2] |
+"^_"[_eF]yzy"^_"[_ecF]yzy "^_"[_eF]/2[F/2]zy"^_"[_ecF]yzy |
+"^_"[_eF]yz/2[F/2]"^_"[_ecF]yzy "^_"[_eF]yzy"^_"[_ecF]yzy |
+[1G/2F/2z/2G/2 A/2A/2e/2A/2 e/2A/2A/2c/2 e/2F/2F/2F/2 :|2G/2F/2z/2G/2 A/2A/2e/2A/2 e/2A/2A/2c/2 !>(!e/2F/2!>)!F/2F/2 
+|:!ff!"^_"[_eF]yzy"^_"[_ecF]yzy "^_"[_eF]/2[F/2]z/2[F/2]"^_"[_ecF]yz/2[F/2] |
+"^_"[_eF]yzy"^_"[_ecF]yzy "^_"[_eF]/2[F/2]zy"^_"[_ecF]yzy |
+"^_"[_eF]yz/2[F/2]"^_"[_ecF]yzy "^_"[_eF]yzy"^_"[_ecF]yzy |
 [1G/2F/2z/2G/2 A/2A/2e/2A/2 e/2A/2A/2c/2 e/2F/2F/2F/2 :|2G/2F/2z/2G/2 A/2A/2e/2A/2 e/2A/2A/2c/2 !>(!e/2F/2!>)!F/2F/2 
 |:!p![F]y[g]y[cF]/2[F/2][g]y [F]y[g]/2[F/2][cF]y[g]y |
 [F]/2[F/2][g]/2[F/2][cF]y[g]/2[F/2] [F]y[g]/2[F/2][cF]y[g]/2[F/2] |

@@ -1,0 +1,55 @@
+%%abc-include percussions-JBH.abh
+
+I:linebreak $
+  
+#ifdef MIDI
+#define !>! "[I:volinc 50]"
+#define !Q! "[I:vol 20]" 
+                %%%ghost
+#define !U! "[I:volinc -20]" 
+                %%%unaccent
+#define !N! "[I:volinc -40]" 
+                %%%tenuto for trash hat
+#else
+#define !N! "\"^_\"" 
+                %%%tenuto
+#define !Q! !(.!!).! 
+                %%%ghost
+#define !U! !anti!  
+                %%%unaccent
+#endif
+
+X:1
+T:Computer-generated \`Etude for Solo Drum Kit
+C:#abcsolo8patinst16ghost#20
+O:2021-12-24T19:35:10.998
+M:4/4
+L:1/8
+Q:"Disco 16th feel" 1/4=80
+K:none clef=perc
+[V:1 clef=perc, stem=up]     % activate abc2xml.py map
+%%voicemap drummap  % activate abcm2ps/abc2svg map
+%%MIDI channel 10   % activate abc2midi map
+%%MIDI program 0
+%%flatbeams
+%%propagate-accidentals not
+%%pos ornament up
+%%ornament up
+%%MIDI fermatafixed
+|:!mp![^gF]y[^g]y[^gcF]/2[!Q!c/2][^g]/2[F/2] [^gF]y[^g]/2[F/2][^gcF]y[^g]y |
+[^gF]y[^g]/2[!Q!c/2][^gcF]/2[F/2][^g]/2[!Q!c/2] [^gF]y[^g]/2[!Q!c/2][^gcF]/2[F/2][^g]/2[F/2] |
+[^gF]/2[!Q!c/2][^g]/2[!Q!c/2][^gcF]/2[!Q!c/2][^g]/2[F/2] [^gF]/2[!Q!c/2][^g]/2[!Q!c/2][^gcF]/2[F/2][^g]y |
+[1c/2e/2e/2A/2 A/2F/2F/2A/2 A/2z/2A/2A/2 e/2A/2z/2e/2 :|2c/2e/2e/2A/2 A/2F/2F/2A/2 A/2z/2A/2A/2 !>(!e/2A/2!>)!z/2e/2 
+|:!mf![gF]y[^g]/2[!Q!c/2][gcF]/2[!Q!c/2][^g]/2[!Q!c/2] [gF]/2[!Q!c/2][^g]/2[!Q!c/2][gcF]y[^g]/2[!Q!c/2] |
+[gF]/2[F/2][^g]/2[!Q!c/2][gcF]/2[!Q!c/2][^g]/2[!Q!c/2] [gF]/2[!Q!c/2][^g]/2[F/2][gcF]/2[!Q!c/2][^g]/2[!Q!c/2] |
+[gF]/2[F/2][^g]/2[!Q!c/2][gcF]/2[!Q!c/2][^g]/2[F/2] [gF]y[^g]/2[!Q!c/2][gcF]y[^g]/2[!Q!c/2] |
+[1F/2c/2F/2c/2 c/2z/2e/2A/2 e/2e/2e/2A/2 z/2A/2A/2G/2 :|2F/2c/2F/2c/2 c/2z/2e/2A/2 e/2e/2e/2A/2 !>(!z/2A/2!>)!A/2G/2 
+|:!f!!N![_eF]/2[F/2]z/2[!Q!c/2]!N![_ecF]yz/2[!Q!c/2] !N![_eF]/2[F/2]z/2[!Q!c/2]!N![_ecF]yz/2[!Q!c/2] |
+!N![_eF]yz/2[!Q!c/2]!N![_ecF]/2[!Q!c/2]z/2[F/2] !N![_eF]/2[!Q!c/2]z/2[F/2]!N![_ecF]yz/2[!Q!c/2] |
+!N![_eF]/2[!Q!c/2]z/2[F/2]!N![_ecF]yz/2[F/2] !N![_eF]/2[!Q!c/2]z/2[!Q!c/2]!N![_ecF]/2[!Q!c/2]z/2[!Q!c/2] |
+[1z/2A/2z/2c/2 F/2c/2e/2c/2 A/2G/2A/2G/2 e/2c/2A/2F/2 :|2z/2A/2z/2c/2 F/2c/2e/2c/2 A/2G/2A/2G/2 !>(!e/2c/2!>)!A/2F/2 
+|:!p![^gF]/2[!Q!c/2][^g^D]/2[F/2][^gcF]y[^g^D]/2[!Q!c/2] [^gF]/2[!Q!c/2][^g^D]/2[F/2][^gcF]/2[!Q!c/2][^g^D]/2[F/2] |
+[^gF]y[^g^D]/2[!Q!c/2][^gcF]/2[F/2][^g^D]/2[!Q!c/2] [^gF]y[^g^D]/2[!Q!c/2][^gcF]/2[F/2][^g^D]/2[!Q!c/2] |
+[^gF]/2[F/2][^g^D]y[^gcF]/2[!Q!c/2][^g^D]/2[F/2] [^gF]/2[!Q!c/2][^g^D]/2[!Q!c/2][^gcF]/2[!Q!c/2][^g^D]/2[F/2] |
+[1c/2z/2e/2A/2 e/2G/2G/2z/2 z/2G/2z/2A/2 G/2G/2A/2c/2 :|2c/2z/2e/2A/2 e/2G/2G/2z/2 z/2G/2z/2A/2 !<(!G/2G/2!<)!A/2!fermata!c/2 
+|]
