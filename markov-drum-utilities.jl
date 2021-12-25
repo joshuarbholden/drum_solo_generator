@@ -1,3 +1,33 @@
+#define some new stochastic structures and appropriate operators
+struct AugMatrix
+    mat::Matrix
+    init::Vector
+end
+
+struct AugDblMatrix
+    mat1::Matrix
+    mat2::Matrix
+    init::Vector
+end
+
+import Base.+
+function +(A::AugMatrix, B::AugMatrix)
+    return AugMatrix(A.mat + B.mat, A.init + B.init)
+end
+
+function +(A::AugDblMatrix, B::AugDblMatrix)
+    return AugDblMatrix(A.mat1 + B.mat1, A.mat2 + B.mat2, A.init + B.init)
+end
+
+import Base.*
+function *(c::Number, A::AugMatrix)
+    return AugMatrix(c*A.mat, c*A.init)
+end
+
+function *(c::Number, A::AugDblMatrix)
+    return AugDblMatrix(c*A.mat1, c*A.mat2, c*A.init)
+end
+
 #utility function, insert one string into another
 function insert(
     s::String,

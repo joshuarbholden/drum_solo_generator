@@ -2,6 +2,8 @@
  
 ~~Currently a messy bunch of Maple files.~~  Now a messy bunch of Julia files!
 
+If you have comments on the authenticity of the style choices I have made, I would be interested to hear them!
+
 What you will need:
 * A way of running [Jupyter](https://jupyter.org/)/iPython notebooks
 * A way of running [Julia](https://julialang.org/) code embedded in such notebooks
@@ -38,6 +40,6 @@ TO DO:
 * re-organize ride patterns based on rhythm and on instrumentation (done?)
 * shuffle beats (in progress)
 * ghost notes (sounding pretty good!)
-* keep improving the "trash hat" sound
-* interpolation between styles
+* keep improving the "trash hat" sound (in progress)
+* interpolation between styles (in progress)
 * extensions
