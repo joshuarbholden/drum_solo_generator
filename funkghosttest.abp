@@ -6,8 +6,10 @@ I:linebreak $
 #define !>! "[I:volinc 50]"
 #define !Q! "[I:vol 20]" 
                 %%%ghost
-#define !U! "[I:volinc -20]" 
+#define !U! "[I:vol 40]" 
                 %%%unaccent
+#define !N! "[I:volinc -25]" 
+            %%%tenuto for trash hat
 #else
 #define !N! "\"^_\"" 
                 %%%tenuto
@@ -19,8 +21,8 @@ I:linebreak $
 
 X:1
 T:Computer-generated \`Etude for Solo Drum Kit
-C:abcsolo16patinst16ghost
-O:2021-11-22T16:58:58.629
+C:#abcsolo16patinst16ghost#29/funk
+O:2021-12-31T17:56:33.722
 M:4/4
 L:1/8
 Q:"Funk 16th feel" 1/4=80
@@ -34,20 +36,20 @@ K:none clef=perc
 %%pos ornament up
 %%ornament up
 %%MIDI fermatafixed
-|:!p![^g]/2[^gF]/2[^g^DF]/2[^g!Q!c]/2 [c^g]/2[^gF]/2[^g^DF]/2[^g]/2 [^gF]/2[^g]/2[^g^DF]/2[^g!Q!c]/2 [c^gF]/2[^g]/2[^g^D]/2[^gF]/2 |
-[^g]/2[^g]/2[^g^D]/2[^g!Q!c]/2 [c^g]/2[^gF]/2[^g^D]/2[^g]/2 [^g]/2[^g]/2[^g^D]/2[^g!Q!c]/2 [c^gF]/2[^g]/2[^g^DF]/2[^gF]/2 |
-[^g]/2[^g]/2[^g^D]/2[^g]/2 [c^g]/2[^g!Q!c]/2[^g^DF]/2[^g]/2 [^g]/2[^gF]/2[^g^DF]/2[^g]/2 [c^gF]/2[^gF]/2[^g^D]/2[^g]/2 |
-[1F/2A/2A/2G/2 G/2F/2z/2z/2 G/2G/2A/2F/2 F/2G/2A/2G/2 :|2F/2A/2A/2G/2 G/2F/2z/2z/2 G/2G/2A/2F/2 !>(!F/2G/2!>)!A/2G/2 
-|:!pp![^gF]/2[^gF]/2[^g]/2[^g]/2 [c^g]/2[^gF]/2[^g]/2[^gF]/2 [^g]/2[^g!Q!c]/2[^g]/2[^g!Q!c]/2 [c^g]/2[^g!Q!c]/2[^g]/2[^gF]/2 |
-[^g]/2[^gF]/2[^g]/2[^gF]/2 [c^g]/2[^gF]/2[^gF]/2[^g!Q!c]/2 [^g]/2[^g!Q!c]/2[^gF]/2[^g!Q!c]/2 [c^g]/2[^g!Q!c]/2[^g]/2[^gF]/2 |
-[^gF]/2[^g!Q!c]/2[^gF]/2[^gF]/2 [c^g]/2[^gF]/2[^gF]/2[^g!Q!c]/2 [^g]/2[^g!Q!c]/2[^gF]/2[^g]/2 [c^gF]/2[^gF]/2[^g]/2[^g]/2 |
-[1c/2A/2G/2z/2 A/2F/2z/2A/2 A/2G/2c/2A/2 A/2F/2c/2e/2 :|2c/2A/2G/2z/2 A/2F/2z/2A/2 A/2G/2c/2A/2 !<(!A/2F/2!<)!c/2e/2 
-|:!mf![^D]/2[F]/2[g^D]/2[gF]/2 [c^D]/2[!Q!c]/2[g^DF]/2[gF]/2 [^D]/2z/2[g^D]/2[gF]/2 [c^D]/2[!Q!c]/2[g^D]/2[gF]/2 |
-[^D]/2[!Q!c]/2[g^DF]/2[g]/2 [c^D]/2[F]/2[g^DF]/2[g]/2 [^DF]/2[F]/2[g^D]/2[gF]/2 [c^D]/2[F]/2[g^D]/2[gF]/2 |
-[^DF]/2[!Q!c]/2[g^DF]/2[g]/2 [c^D]/2[F]/2[g^DF]/2[g]/2 [^DF]/2[!Q!c]/2[g^D]/2[gF]/2 [c^DF]/2[!Q!c]/2[g^D]/2[g!Q!c]/2 |
-[1c/2e/2e/2c/2 F/2G/2e/2F/2 G/2F/2c/2e/2 c/2c/2e/2G/2 :|2c/2e/2e/2c/2 F/2G/2e/2F/2 G/2F/2c/2e/2 !<(!c/2c/2!<)!e/2G/2 
-|:!ff![gF]/2[^g!Q!c]/2[gF]/2[^gF]/2 [cg]/2[^g]/2[g]/2[^g!Q!c]/2 [gF]/2[^g!Q!c]/2[gF]/2[^g!Q!c]/2 [cg]/2[^g!Q!c]/2[g]/2[^gF]/2 |
-[gF]/2[^g]/2[g]/2[^g]/2 [cg]/2[^g!Q!c]/2[gF]/2[^gF]/2 [g]/2[^g!Q!c]/2[gF]/2[^g]/2 [cg]/2[^gF]/2[gF]/2[^g!Q!c]/2 |
-[g]/2[^g!Q!c]/2[g]/2[^g!Q!c]/2 [cg]/2[^gF]/2[g]/2[^g]/2 [g]/2[^gF]/2[g]/2[^gF]/2 [cg]/2[^gF]/2[gF]/2[^g!Q!c]/2 |
-[1c/2e/2e/2F/2 c/2c/2c/2F/2 z/2e/2G/2e/2 z/2z/2G/2G/2 :|2c/2e/2e/2F/2 c/2c/2c/2F/2 z/2e/2G/2e/2 !>(!z/2z/2!>)!G/2!fermata!G/2 
+|:!mp![^e]/2[^eF]/2[^e]/2[_e!Q!c]/2 [^ec]/2[^eF]/2[^e]/2[^eF]/2 [^e]/2[^eF]/2[^e]/2[_eF]/2 [^ecF]/2[^e!Q!c]/2[^e]/2[^eF]/2 |
+[^eF]/2[^e!Q!c]/2[^eF]/2[_eF]/2 [^ec]/2[^e]/2[^e]/2[^eF]/2 [^e]/2[^e]/2[^e]/2[_e!Q!c]/2 [^ecF]/2[^e]/2[^e]/2[^eF]/2 |
+[^eF]/2[^e]/2[^e]/2[_eF]/2 [^ecF]/2[^e!Q!c]/2[^eF]/2[^e!Q!c]/2 [^eF]/2[^eF]/2[^e]/2[_e!Q!c]/2 [^ec]/2[^eF]/2[^eF]/2[^e!Q!c]/2 |
+[1c/2e/2c/2e/2 F/2c/2F/2e/2 e/2e/2e/2A/2 A/2G/2c/2G/2 :|2c/2e/2c/2e/2 F/2c/2F/2e/2 e/2e/2e/2A/2 !<(!A/2G/2!<)!c/2G/2 
+|:!p![g]/2!U![^gF]/2[g]/2!U![^gF]/2 [gc]/2!U![^g]/2[gF]/2!U![^g]/2 [gF]/2!U![^gF]/2[g]/2!U![^g!Q!c]/2 [gc]/2!U![^g!Q!c]/2[gF]/2!U![^g]/2 |
+[g]/2!U![^g]/2[g]/2!U![^g!Q!c]/2 [gc]/2!U![^gF]/2[g]/2!U![^g]/2 [g]/2!U![^gF]/2[g]/2!U![^g]/2 [gc]/2!U![^g]/2[gF]/2!U![^gF]/2 |
+[g]/2!U![^g!Q!c]/2[gF]/2!U![^g!Q!c]/2 [gc]/2!U![^g!Q!c]/2[gF]/2!U![^g]/2 [gF]/2!U![^gF]/2[g]/2!U![^g]/2 [gcF]/2!U![^gF]/2[g]/2!U![^g!Q!c]/2 |
+[1e/2A/2z/2z/2 G/2A/2A/2z/2 e/2F/2c/2G/2 F/2c/2F/2c/2 :|2e/2A/2z/2z/2 G/2A/2A/2z/2 e/2F/2c/2G/2 !<(!F/2c/2!<)!F/2c/2 
+|:!f!!N![_eF]/2[F]/2!N![_e]/2[F]/2 !N![_ec]/2[!Q!c]/2!N![_e]/2[!Q!c]/2 !N![_eF]/2[!Q!c]/2!N![_e]/2[F]/2 !N![_ec]/2z/2!N![_eF]/2[F]/2 |
+!N![_e]/2[!Q!c]/2!N![_e]/2[!Q!c]/2 !N![_ecF]/2z/2!N![_e]/2[F]/2 !N![_e]/2z/2!N![_e]/2[!Q!c]/2 !N![_ecF]/2[!Q!c]/2!N![_eF]/2z/2 |
+!N![_e]/2[F]/2!N![_e]/2[F]/2 !N![_ec]/2[F]/2!N![_eF]/2z/2 !N![_e]/2[F]/2!N![_eF]/2[!Q!c]/2 !N![_ec]/2[!Q!c]/2!N![_eF]/2[F]/2 |
+[1c/2A/2z/2F/2 F/2z/2G/2e/2 z/2c/2F/2c/2 A/2A/2F/2e/2 :|2c/2A/2z/2F/2 F/2z/2G/2e/2 z/2c/2F/2c/2 !>(!A/2A/2!>)!F/2e/2 
+|:!ff![g^DF]/2[gF]/2[^D]/2z/2 [g^Dc]/2[gF]/2[^DF]/2z/2 [g^DF]/2[gF]/2[^D]/2[!Q!c]/2 [g^DcF]/2[g!Q!c]/2[^DF]/2z/2 |
+[g^DF]/2[g]/2[^D]/2[F]/2 [g^Dc]/2[g!Q!c]/2[^DF]/2[!Q!c]/2 [g^D]/2[gF]/2[^D]/2[F]/2 [g^Dc]/2[g!Q!c]/2[^DF]/2[!Q!c]/2 |
+[g^DF]/2[g]/2[^DF]/2[F]/2 [g^Dc]/2[gF]/2[^D]/2[F]/2 [g^D]/2[gF]/2[^D]/2[F]/2 [g^DcF]/2[g]/2[^D]/2[F]/2 |
+[1e/2e/2e/2A/2 e/2A/2z/2c/2 c/2e/2e/2A/2 A/2F/2c/2c/2 :|2e/2e/2e/2A/2 e/2A/2z/2c/2 c/2e/2e/2A/2 !>(!A/2F/2!>)!c/2!fermata!c/2 
 |]

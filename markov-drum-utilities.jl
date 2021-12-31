@@ -28,6 +28,15 @@ function *(c::Number, A::AugDblMatrix)
     return AugDblMatrix(c*A.mat1, c*A.mat2, c*A.init)
 end
 
+import Base.show
+function show(io::IO, ::MIME"text/plain", A::AugMatrix)
+     print(io, repr("text/plain", A.mat) * "\n" * repr("text/plain", A.init))
+end
+
+function show(io::IO, ::MIME"text/plain", A::AugDblMatrix)
+     print(io, repr("text/plain", A.mat1) * "\n" * repr("text/plain", A.mat2) * "\n" * repr("text/plain", A.init))
+end
+
 #utility function, insert one string into another
 function insert(
     s::String,
