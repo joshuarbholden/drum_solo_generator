@@ -1,0 +1,55 @@
+%%abc-include percussions-JBH.abh
+
+I:linebreak $
+
+#ifdef MIDI
+#define !>! "[I:volinc 50]"
+#define !Q! "[I:vol 20]" 
+                %%%ghost
+#define !U! "[I:vol 40]" 
+                %%%unaccent
+#define !N! "[I:volinc -25]" 
+            %%%tenuto for trash hat
+#else
+#define !N! "\"^_\"" 
+                %%%tenuto
+#define !Q! !(.!!).! 
+                %%%ghost
+#define !U! !anti!  
+                %%%unaccent
+#endif
+
+X:1
+T:Computer-generated \`Etude for Solo Drum Kit
+C:#abcsolo_multitime_ghost#101/rock
+O:2022-01-01T20:20:51.644
+M:4/4
+L:1/8
+Q:"Shuffle feel" 1/4=80
+K:none clef=perc
+[V:1 clef=perc, stem=up]     % activate abc2xml.py map
+%%voicemap drummap  % activate abcm2ps/abc2svg map
+%%MIDI channel 10   % activate abc2midi map
+%%MIDI program 0
+%%flatbeams
+%%propagate-accidentals not
+%%pos ornament up
+%%ornament up
+%%MIDI fermatafixed
+|:!mf!(3:2!>![^eF]yz!U![^eF]y (3:2!>![^ecF]yz!U![^eF]y (3:2!>![^e]yz!U![^e]y (3:2!>![^ecF]yz!U![^eF]y |
+(3:2!>![^eF]yz!U![^eF]y (3:2!>![^ecF]yz!U![^e]y (3:2!>![^eF]yz!U![^e]y (3:2!>![^ecF]yz!U![^eF]y |
+(3:2!>![^eF]yz!U![^eF]y (3:2!>![^ecF]yz!U![^eF]y (3:2!>![^e]yz!U![^eF]y (3:2!>![^ecF]yz!U![^eF]y |
+[1(3:2AGe (3:2Aee (3:2Fce (3:2GAG :|2(3:2AGe (3:2Aee (3:2Fc!>(!e (3:2G!>)!AG 
+|:!f!(3:2[^D]yzzy (3:2[^DcF]yz[F]y (3:2[^DF]yzzy (3:2[^DcF]yz[F]y |
+(3:2[^DF]yz[F]y (3:2[^DcF]yz[F]y (3:2[^DF]yz[F]y (3:2[^DcF]yz[F]y |
+(3:2[^DF]yzzy (3:2[^DcF]yzzy (3:2[^DF]yzzy (3:2[^DcF]yz[F]y |
+[1(3:2eee (3:2eFc (3:2zcc (3:2ecG :|2(3:2eee (3:2eFc (3:2zc!>(!c (3:2e!>)!cG 
+|:!p!(3:2[gF]yz[gF]y (3:2[gcF]yz[gF]y (3:2[gF]yz[gF]y (3:2[gc]yz[gF]y |
+(3:2[gF]yz[g]y (3:2[gcF]yz[gF]y (3:2[g]yz[gF]y (3:2[gc]yz[gF]y |
+(3:2[g]yz[gF]y (3:2[gcF]yz[g]y (3:2[gF]yz[gF]y (3:2[gcF]yz[g]y |
+[1(3:2ezz (3:2AcA (3:2eAe (3:2cFc :|2(3:2ezz (3:2AcA (3:2eA!>(!e (3:2c!>)!Fc 
+|:!pp!(3:2[^gF]yz[^g^DF]y (3:2[^gcF]yz[^g^DF]y (3:2[^gF]yz[^g^DF]y (3:2[^gc]yz[^g^DF]y |
+(3:2[^gF]yz[^g^D]y (3:2[^gcF]yz[^g^DF]y (3:2[^gF]yz[^g^D]y (3:2[^gc]yz[^g^DF]y |
+(3:2[^gF]yz[^g^D]y (3:2[^gcF]yz[^g^DF]y (3:2[^gF]yz[^g^D]y (3:2[^gcF]yz[^g^DF]y |
+[1(3:2eAA (3:2cFc (3:2AGG (3:2zzc :|2(3:2eAA (3:2cFc (3:2AG!<(!G (3:2z!<)!z!fermata!c 
+|]
