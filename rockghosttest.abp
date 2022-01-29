@@ -1,0 +1,55 @@
+%%abc-include percussions-JBH.abh
+
+I:linebreak $
+
+#ifdef MIDI
+#define !>! "[I:volinc 50]"
+#define !Q! "[I:vol 20]" 
+                %%%ghost
+#define !U! "[I:vol 40]" 
+                %%%unaccent
+#define !N! "[I:volinc -25]" 
+            %%%tenuto for trash hat
+#else
+#define !N! "\"^_\"" 
+                %%%tenuto
+#define !Q! !(.!!).! 
+                %%%ghost
+#define !U! !anti!  
+                %%%unaccent
+#endif
+
+X:1
+T:Computer-generated \`Etude for Solo Drum Kit
+C:#abcsolo_multitime_displace#26/rock
+O:2022-01-28T20:14:36.879
+M:4/4
+L:1/8
+Q:"Rock 8th feel" 1/4=80
+K:none clef=perc
+[V:1 clef=perc, stem=up]     % activate abc2xml.py map
+%%voicemap drummap  % activate abcm2ps/abc2svg map
+%%MIDI channel 10   % activate abc2midi map
+%%MIDI program 0
+%%flatbeams
+%%propagate-accidentals not
+%%pos ornament up
+%%ornament up
+%%MIDI fermatafixed
+|:!mp![^e]y[^eF]y[^e][^eF]y [^eF]y[^e]y[^ecF]/2[F/2][^e]y |
+[^eF]/2[F/2][^e]y[^ecF]y[^eF]/2[F/2] [^e]/2[!Q!c/2][^eF]y[^ecF]y[^eF]/2[F/2] |
+[^e]/2[!Q!c/2][^eF]/2[F/2][^e][^eF]y [^eF]/2[F/2][^e]y[^ecF]y[^eF]y |
+[1e/2A/2G/2z/2 z/2G/2e/2F/2 c/2A/2A/2G/2 G/2F/2c/2e/2 :|2e/2A/2G/2z/2 z/2G/2e/2F/2 c/2A/2A/2G/2 !>(!G/2F/2!>)!c/2e/2 
+|:!mf![gF]y[^gF]/2[F/2][g][^g]y [gF]y[^gF]y[gcF]/2[F/2][^g]y |
+[gF]/2[F/2][^g]y[gcF]/2[F/2][^g]/2[!Q!c/2] [gF]y[^gF]y[gcF]/2[F/2][^g]/2[!Q!c/2] |
+[gF]y[^g]/2[!Q!c/2][gcF]/2[F/2][^g]y [gF]y[^gF]y[g][^gF]/2[F/2] |
+[1e/2z/2z/2F/2 e/2A/2z/2e/2 G/2e/2z/2F/2 c/2e/2z/2A/2 :|2e/2z/2z/2F/2 e/2A/2z/2e/2 G/2e/2z/2F/2 !<(!c/2e/2!<)!z/2A/2 
+|:!f![g]/2[!Q!c/2][gF]/2[F/2][g][gF]/2[F/2] [g]/2[!Q!c/2][gF]/2[F/2][g][gF]/2[F/2] |
+[g]y[gF]/2[F/2][g][gF]/2[F/2] [g]/2[!Q!c/2][gF]/2[F/2][g][gF]y |
+[gF]/2[F/2][g]y[gcF]/2[F/2][g]/2[!Q!c/2] [gF]/2[F/2][g]y[gcF]y[gF]/2[F/2] |
+[1e/2e/2c/2c/2 c/2e/2e/2A/2 A/2A/2A/2G/2 G/2z/2z/2F/2 :|2e/2e/2c/2c/2 c/2e/2e/2A/2 A/2A/2A/2G/2 !<(!G/2z/2!<)!z/2F/2 
+|:!pp![^D]y[F]/2[F/2][^D][F]/2[F/2] [^D]y[F]y[^DcF]yz/2[!Q!c/2] |
+[^DF]/2[F/2]zy[^DcF]y[F]y [^D]/2[!Q!c/2][F]y[^DcF]/2[F/2]z/2[!Q!c/2] |
+[^DF]/2[F/2]zy[^DcF]/2[F/2]z/2[!Q!c/2] [^DF]yz/2[!Q!c/2][^DcF]y[F]/2[F/2] |
+[1c/2c/2F/2z/2 z/2A/2F/2z/2 z/2e/2z/2c/2 c/2c/2c/2e/2 :|2c/2c/2F/2z/2 z/2A/2F/2z/2 z/2e/2z/2c/2 !>(!c/2c/2!>)!c/2!fermata!e/2 
+|]
