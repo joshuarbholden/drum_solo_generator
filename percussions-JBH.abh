@@ -65,8 +65,8 @@
 %%map drummap g    print=g heads=diamond   % ride bell
 %%map drummap _e    print=_e   % open hi-hat
 %%map drummap ^e   print=e heads=x_head   % closed hi-hat
-%%map drummap _g    print=_g 		  % crash cymbal 1
-%%map drummap ^a   print=a heads=triangle % open triangle
+%%map drummap ^a    print=_a 		  % crash cymbal 1
+%%map drummap a   print=a heads=triangle % open triangle
 
 % abc2xml.py (v. 80+) percussion maps
 
@@ -92,8 +92,8 @@
 %%percmap g ride-bell   diamond
 %%percmap _e  open-hi-hat   
 %%percmap ^e closed-hi-hat x
-%%percmap _g  crash-cym-1   x
-%%percmap ^a open-tri      triangle
+%%percmap ^a  crash-cym-1   x
+%%percmap a open-tri      triangle
 
 % MIDI channel 10 maps
 
@@ -119,8 +119,8 @@
 %%MIDI drummap g   53 % ride bell
 %%MIDI drummap _e   46 % open hi-hat
 %%MIDI drummap ^e  42 % closed hi-hat
-%%MIDI drummap _g   49 % crash cymbal 1
-%%MIDI drummap ^a  81 % open triangle
+%%MIDI drummap ^a   49 % crash cymbal 1
+%%MIDI drummap a  81 % open triangle
 
 %%propagate-accidentals not
 %%pos ornament up
